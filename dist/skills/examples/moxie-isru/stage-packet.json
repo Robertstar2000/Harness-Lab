@@ -1,0 +1,45 @@
+{
+  "packet_version": "1.0",
+  "objective": "Assess what MOXIE demonstrated and what remains before crew-scale oxygen production",
+  "stage": "verify",
+  "producer": "ground-truth-gatekeeper",
+  "claims": [
+    {
+      "claim": "MOXIE completed 16 oxygen-producing runs",
+      "evidence_class": "Observed",
+      "source": "NASA mission report",
+      "status": "verified"
+    },
+    {
+      "claim": "Total oxygen produced was 122 g",
+      "evidence_class": "Observed",
+      "source": "NASA mission report",
+      "status": "verified"
+    },
+    {
+      "claim": "Peak production reached 12 g/h at at least 98% purity",
+      "evidence_class": "Observed",
+      "source": "NASA mission report",
+      "status": "verified"
+    },
+    {
+      "claim": "A crew-scale plant is flight-ready",
+      "evidence_class": "Unknown",
+      "source": null,
+      "status": "blocked"
+    }
+  ],
+  "acceptance_tests": [
+    "Independent source trace",
+    "Unit consistency",
+    "Scale-up assumptions separated from observations"
+  ],
+  "validation": {
+    "status": "conditional_pass",
+    "reason": "Demonstration facts verified; scale-up remains an engineering program"
+  },
+  "approvals": [],
+  "owner": "ISRU program lead",
+  "next_action": "Create scale-up requirements and integrated storage/liquefaction trade study",
+  "memory_write": true
+}
