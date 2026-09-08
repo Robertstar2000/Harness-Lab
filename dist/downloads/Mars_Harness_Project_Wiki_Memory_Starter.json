@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0.0",
+  "memory_id": "mars-harness-lab-v5-wiki",
+  "title": "Mars Harness Lab Version 5 Project Memory",
+  "description": "Starter knowledge graph and wiki-style memory for the Intelligence Layer for Mars presentation, application-derived skills, documentation, and scaled MOXIE case study.",
+  "created_utc": "2026-09-08T00:00:00Z",
+  "updated_utc": "2026-09-08T00:00:00Z",
+  "governance": {
+    "owner": "Bob J Mills",
+    "write_policy": "append_version_then_supersede",
+    "deletion_policy": "tombstone_only",
+    "required_evidence_classes": ["Observed", "Derived", "Assumed", "Unknown"],
+    "critical_claim_rule": "A critical claim cannot be approved solely from Assumed or Unknown evidence.",
+    "approval_rule": "Physical, safety-critical, financial, regulated, production, credential, publication, and external actions require explicit human authority.",
+    "status_values": ["draft", "in_review", "approved", "conditional", "blocked", "superseded", "retired"]
+  },
+  "namespaces": [
+    {"id": "project", "purpose": "Mission, presentation, scope, and releases"},
+    {"id": "science", "purpose": "Questions, evidence, hypotheses, studies, data, and findings"},
+    {"id": "engineering", "purpose": "Requirements, architectures, interfaces, analyses, configurations, and verification"},
+    {"id": "program", "purpose": "Charters, WBS, schedule, resources, costs, risks, changes, and closure"},
+    {"id": "operations", "purpose": "Operational observations, maintenance, anomalies, and lessons"},
+    {"id": "governance", "purpose": "Approvals, policies, authorities, provenance, and audit records"}
+  ],
+  "entities": [
+    {
+      "id": "project:mars-society-2026-intelligence-layer",
+      "type": "project",
+      "title": "The Intelligence Layer for Mars",
+      "summary": "Mars Society 2026 presentation and supporting package on staged, evidence-controlled agentic harnesses for Mars science, engineering, and project execution.",
+      "status": "approved",
+      "tags": ["Mars", "agentic AI", "systems engineering", "mission memory"]
+    },
+    {
+      "id": "project:presentation-v5",
+      "type": "presentation",
+      "title": "Mars Society 2026 — The Intelligence Layer for Mars — Version 5",
+      "summary": "Twenty-three-slide presentation with aligned speaker notes, a scaled MOXIE case study, the research-engineering feedback loop, and conclusions for science, engineering, and project management.",
+      "status": "approved",
+      "attributes": {"slide_count": 23, "target_runtime_minutes": 30}
+    },
+    {
+      "id": "science:hypatia-pro",
+      "type": "application",
+      "title": "Hypatia Pro",
+      "summary": "Scientific discovery SaaS pattern using ten phases from research-question framing through publication and engineering handoff.",
+      "status": "approved",
+      "phases": ["research_question", "evidence_discovery", "competing_hypotheses", "study_design", "analysis_plan", "data_acquisition", "analysis", "interpretation_and_robustness", "peer_review", "publication_and_handoff"]
+    },
+    {
+      "id": "engineering:intelligent-engineer-pro",
+      "type": "application",
+      "title": "Intelligent Engineer Pro",
+      "summary": "Phase-gated engineering SaaS pattern that turns approved evidence into requirements, alternatives, controlled designs, verification, release, and operational learning.",
+      "status": "approved",
+      "phases": ["evidence_readiness", "conops", "requirements", "architecture", "preliminary_design", "critical_design_sprints", "critical_design_baseline", "build_and_verification_planning", "verification_validation_qualification", "release_and_learning"]
+    },
+    {
+      "id": "program:pm-accelerator",
+      "type": "application",
+      "title": "HMAP Project Management Accelerator",
+      "summary": "Project-management SaaS pattern with Plan, Execute, and Change agent loops covering intake through evidence-based closure.",
+      "status": "approved",
+      "phases": ["intake", "proposal_and_charter", "integrated_planning", "work_authorization", "agentic_execution", "monitoring_and_control", "change_management", "review_readiness", "closure_and_learning"]
+    },
+    {
+      "id": "project:research-engineering-loop",
+      "type": "process",
+      "title": "Research → Engineer → Research Issues → Engineer to Completion",
+      "summary": "Iterative digital thread that sends precise design blockers back to science and uses approved evidence to update linked engineering and program baselines.",
+      "status": "approved"
+    },
+    {
+      "id": "science:moxie-observed-baseline",
+      "type": "evidence_set",
+      "title": "NASA MOXIE Observed Demonstration Baseline",
+      "summary": "Observed starting facts used by the presentation case study.",
+      "status": "approved"
+    },
+    {
+      "id": "engineering:ares-soe-modeled-scenario",
+      "type": "scenario",
+      "title": "Project ARES-SOE Scaled Oxygen Scenario",
+      "summary": "Illustrative solid-oxide carbon-dioxide electrolysis scale-up used to demonstrate the harness workflow; it is not a flight-qualified design.",
+      "status": "conditional"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:moxie-runs",
+      "subject_id": "science:moxie-observed-baseline",
+      "statement": "MOXIE completed 16 oxygen-producing runs on Mars.",
+      "evidence_class": "Observed",
+      "value": 16,
+      "unit": "runs",
+      "status": "approved",
+      "source_ids": ["source:nasa-moxie-completion"]
+    },
+    {
+      "id": "claim:moxie-total-oxygen",
+      "subject_id": "science:moxie-observed-baseline",
+      "statement": "MOXIE produced 122 grams of oxygen in total.",
+      "evidence_class": "Observed",
+      "value": 122,
+      "unit": "g O2",
+      "status": "approved",
+      "source_ids": ["source:nasa-moxie-completion"]
+    },
+    {
+      "id": "claim:moxie-peak-rate",
+      "subject_id": "science:moxie-observed-baseline",
+      "statement": "MOXIE demonstrated a peak oxygen-production rate of 12 grams per hour.",
+      "evidence_class": "Observed",
+      "value": 12,
+      "unit": "g O2/h",
+      "status": "approved",
+      "source_ids": ["source:nasa-moxie-completion"]
+    },
+    {
+      "id": "claim:moxie-purity",
+      "subject_id": "science:moxie-observed-baseline",
+      "statement": "MOXIE produced oxygen at no less than 98 percent purity.",
+      "evidence_class": "Observed",
+      "value": 98,
+      "unit": "% purity minimum",
+      "status": "approved",
+      "source_ids": ["source:nasa-moxie-completion"]
+    },
+    {
+      "id": "claim:modeled-power",
+      "subject_id": "engineering:ares-soe-modeled-scenario",
+      "statement": "The case-study scenario uses a modeled 304 kWe power value.",
+      "evidence_class": "Derived",
+      "value": 304,
+      "unit": "kWe",
+      "status": "conditional",
+      "calculation_ref": "calc:ares-soe-power-v1"
+    },
+    {
+      "id": "claim:modeled-production-rate",
+      "subject_id": "engineering:ares-soe-modeled-scenario",
+      "statement": "The case-study scenario targets a modeled oxygen-production rate of 33.8 kilograms per hour.",
+      "evidence_class": "Derived",
+      "value": 33.8,
+      "unit": "kg O2/h",
+      "status": "conditional",
+      "calculation_ref": "calc:ares-soe-rate-v1"
+    },
+    {
+      "id": "claim:concept-package-hours",
+      "subject_id": "project:research-engineering-loop",
+      "statement": "The linked harnesses can create an integrated first-pass concept package in hours; testing and qualification still require substantial time.",
+      "evidence_class": "Assumed",
+      "status": "conditional",
+      "limitations": ["Not a claim of flight readiness", "Not a substitute for physical testing", "Measure against actual project telemetry before approval"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source:nasa-moxie-completion",
+      "type": "web",
+      "title": "NASA's Oxygen-Generating Experiment MOXIE Completes Mars Mission",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/",
+      "authority": "primary",
+      "accessed_utc": "2026-09-08T00:00:00Z"
+    },
+    {
+      "id": "source:github-hypatia-pro",
+      "type": "repository",
+      "title": "Hypatia Pro",
+      "url": "https://github.com/Robertstar2000/Hypatia-Pro",
+      "authority": "application_source"
+    },
+    {
+      "id": "source:github-intelligent-engineer",
+      "type": "repository",
+      "title": "Intelligent Engineer",
+      "url": "https://github.com/Robertstar2000/Intelligent-Engineer",
+      "authority": "application_source"
+    },
+    {
+      "id": "source:github-pm-accelerator",
+      "type": "repository",
+      "title": "HMAP Project Accelerator",
+      "url": "https://github.com/Robertstar2000/project-management-accelerator--production-version",
+      "authority": "application_source"
+    }
+  ],
+  "requirements": [],
+  "hypotheses": [],
+  "studies": [],
+  "datasets": [],
+  "calculations": [
+    {"id": "calc:ares-soe-power-v1", "status": "needs_full_equation_record", "inputs": [], "equations": [], "outputs": [{"value": 304, "unit": "kWe"}], "review": "required"},
+    {"id": "calc:ares-soe-rate-v1", "status": "needs_full_equation_record", "inputs": [], "equations": [], "outputs": [{"value": 33.8, "unit": "kg O2/h"}], "review": "required"}
+  ],
+  "configurations": [],
+  "interfaces": [],
+  "verification_records": [],
+  "wbs_items": [],
+  "schedule_activities": [],
+  "resources": [],
+  "cost_records": [],
+  "risks": [
+    {"id": "risk:modeled-values-misread-as-observed", "statement": "Readers may interpret scenario outputs as measured performance.", "likelihood": "medium", "consequence": "high", "mitigation": "Label every scenario value as modeled and link its calculation record.", "owner": "presentation_owner", "status": "open"},
+    {"id": "risk:concept-misread-as-qualified", "statement": "Rapid AI concept generation may be mistaken for testing or qualification.", "likelihood": "medium", "consequence": "high", "mitigation": "Repeat the physical testing and qualification boundary at every release gate.", "owner": "engineering_authority", "status": "open"}
+  ],
+  "issues": [],
+  "decisions": [
+    {"id": "decision:three-harness-thread", "statement": "Use Hypatia Pro, Intelligent Engineer Pro, and PM Accelerator as the core linked application sequence.", "status": "approved", "decided_utc": "2026-09-08T00:00:00Z", "owner": "project_owner"}
+  ],
+  "actions": [],
+  "approvals": [],
+  "lessons": [],
+  "artifacts": [
+    {"id": "artifact:presentation-pptx", "title": "Version 5 PowerPoint", "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pptx", "status": "approved"},
+    {"id": "artifact:speaker-notes", "title": "Presentation Transcript and Speaker Notes", "path": "downloads/markdown/02_Presentation_Transcript_and_Speaker_Notes_Version_5.md", "status": "approved"},
+    {"id": "artifact:case-study", "title": "Scaled MOXIE Case Study", "path": "downloads/markdown/17_Scaled_MOXIE_Case_Study_Version_5.md", "status": "approved"},
+    {"id": "artifact:mind-map", "type": "visual_artifact", "title": "Interactive Knowledge Map", "path": "mind-map/index.html", "status": "approved", "derived_from_ids": ["project:mars-society-2026-intelligence-layer"], "artifact_metadata": {"format": "html", "data_date": "2026-09-08", "baseline_version": "v5"}}
+  ],
+  "relationships": [
+    {"from": "project:presentation-v5", "type": "part_of", "to": "project:mars-society-2026-intelligence-layer"},
+    {"from": "science:hypatia-pro", "type": "produces_evidence_for", "to": "engineering:intelligent-engineer-pro"},
+    {"from": "engineering:intelligent-engineer-pro", "type": "returns_research_requests_to", "to": "science:hypatia-pro"},
+    {"from": "engineering:intelligent-engineer-pro", "type": "produces_baseline_for", "to": "program:pm-accelerator"},
+    {"from": "program:pm-accelerator", "type": "controls_execution_of", "to": "engineering:intelligent-engineer-pro"},
+    {"from": "science:moxie-observed-baseline", "type": "informs", "to": "engineering:ares-soe-modeled-scenario"},
+    {"from": "project:research-engineering-loop", "type": "orchestrates", "to": "science:hypatia-pro"},
+    {"from": "project:research-engineering-loop", "type": "orchestrates", "to": "engineering:intelligent-engineer-pro"},
+    {"from": "project:research-engineering-loop", "type": "orchestrates", "to": "program:pm-accelerator"}
+  ],
+  "revision_log": [
+    {"revision": 1, "timestamp_utc": "2026-09-08T00:00:00Z", "author": "project_owner", "reason": "Initial wiki-memory starter", "supersedes_revision": null}
+  ],
+  "templates": {
+    "new_record": {"id": "namespace:unique-id", "type": "record_type", "title": "", "summary": "", "status": "draft", "owner": "", "source_ids": [], "tags": [], "created_utc": "", "updated_utc": "", "supersedes": null},
+    "research_request": {"id": "science:rrp-0001", "linked_requirement_ids": [], "decision": "", "question": "", "candidate_mechanisms": [], "variables": [], "boundary_conditions": [], "acceptance_limit": "", "due_utc": "", "owner": "", "status": "draft"},
+    "change_request": {"id": "program:cr-0001", "trigger": "", "requester": "", "affected_ids": [], "impact": {"scope": "", "cost": "", "schedule": "", "risk": "", "verification": ""}, "decision": "pending", "approver": "", "status": "draft"},
+    "report": {"id": "artifact:report-0001", "type": "report", "title": "", "purpose": "", "phase": "", "baseline_id": "", "source_record_ids": [], "sections": [], "findings": [], "limitations": [], "approval_id": "", "status": "draft", "artifact_metadata": {"format": "md", "created_utc": "", "data_date": "", "baseline_version": ""}},
+    "visual_artifact": {"id": "artifact:visual-0001", "type": "visual_artifact", "title": "", "visual_type": "chart|diagram|matrix|dashboard|map|model_view", "purpose": "", "phase": "", "baseline_id": "", "source_record_ids": [], "units": [], "transformations": [], "evidence_classes": [], "uncertainty_display": "", "status": "draft", "artifact_metadata": {"format": "svg|png|html|pptx", "created_utc": "", "data_date": "", "baseline_version": ""}}
+  }
+}

@@ -11,11 +11,23 @@ Route a mission objective through staged specialist harnesses, enforce work-prod
 
 ## Decision loop
 
-1. Frame the objective, decision owner, risk tier, and definition of done.
-2. Select the smallest sequence of specialist skills that can produce admissible evidence.
-3. Pass a typed stage packet; never rely on hidden conversational state.
-4. Run the ground-truth gate before promotion to the next stage.
-5. Record the decision, evidence, dissent, owner, and next review in durable memory.
+1. Frame the objective, decision owner, risk tier, definition of done, and permitted actions.
+2. Route discovery through Hypatia phases 1–10 until an Engineering Evidence Package is approved or blocked.
+3. Route the package through Intelligent Engineer phases 0–9 using locked phase baselines and review gates.
+4. Return design-blocking uncertainty to Hypatia as a typed Research Request Package; update only linked baseline items after evidence approval.
+5. Route the approved technical baseline through PM Accelerator phases 1–9 for planning, authorization, execution, change control, and closure.
+6. Run the ground-truth gate at every promotion and after every consequential change.
+7. Pass typed packets between skills; never rely on hidden conversational state.
+8. Record evidence, requirements, configurations, plans, decisions, dissent, owners, and review dates in wiki-style memory.
+
+## Promotion gates
+
+- Science → engineering: approved evidence, bounded uncertainty, reproducibility record, and explicit open research.
+- Engineering phase → next phase: traceability, required analyses, resolved blocking findings, configuration snapshot, and named approval.
+- Engineering → execution: approved baseline, WBS-ready deliverables, verification criteria, risks, dependencies, and authorities.
+- Project phase → next phase: accepted work products, actuals, approved changes, and closure evidence.
+
+Continue independent branches when one branch is safely blocked. Record the dependency. Never promote an entire mission package because one attractive artifact appears complete.
 
 ## Inputs
 
