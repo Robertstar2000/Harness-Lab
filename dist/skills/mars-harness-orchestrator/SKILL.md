@@ -20,6 +20,10 @@ Route a mission objective through staged specialist harnesses, enforce work-prod
 7. Pass typed packets between skills; never rely on hidden conversational state.
 8. Record evidence, requirements, configurations, plans, decisions, dissent, owners, and review dates in wiki-style memory.
 
+## Specialist-agent routing
+
+Appoint one accountable science, engineering, or PM director through the Ethical Specialist Agent Network. Issue bounded spawn contracts to narrower specialists only when needed. Every descendant inherits ethics, permissions, evidence standards, budget, and stop conditions. Default maximum depth is three. Ethics, Ground Truth, and Mission Memory remain independent; no author approves its own mission-critical output.
+
 ## Promotion gates
 
 - Science → engineering: approved evidence, bounded uncertainty, reproducibility record, and explicit open research.

@@ -25,6 +25,8 @@ Reproduce the Project Management Accelerator pattern: convert an approved techni
 
 ## Decision loop
 
+The PM Accelerator Program Director may assign Charter/Stakeholder/Governance, WBS/Schedule/Critical Path, Cost/Resource/Procurement, Risk/Issue/Change Control, Execution, QA/Testing, Status/Dashboard/Communications, and Closure/Lessons agents. Use the Ethical Specialist Agent Network spawn contract. Children inherit authorization, budget, data, ethics, change-control, and stop limits; they cannot authorize their own work or conceal adverse status.
+
 Plan or revise → validate dependencies and authority → execute bounded work → test acceptance criteria → repair or escalate → approve → persist. Status must be derived from work-product evidence rather than optimism.
 
 ## Application phases

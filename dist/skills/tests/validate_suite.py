@@ -5,7 +5,8 @@ ROOT=Path(__file__).resolve().parents[1]
 EXPECTED={
  'mars-harness-orchestrator','hypatia-science-harness','hyperia-research-synthesis',
  'intelligent-engineer-harness','vibe-engineering-collaboration',
- 'ground-truth-gatekeeper','pm-accelerator-harness','mission-memory-steward'
+ 'ground-truth-gatekeeper','pm-accelerator-harness','mission-memory-steward',
+ 'ethical-specialist-agent-network'
 }
 errors=[]
 found={p.parent.name for p in ROOT.glob('*/SKILL.md')}
@@ -41,6 +42,10 @@ for claim in wiki.get('claims',[]):
 for rel in wiki.get('relationships',[]):
     if rel.get('from') not in entity_ids or rel.get('to') not in entity_ids:
         errors.append(f'invalid wiki relationship: {rel}')
+for key in ['agents','agent_runs','spawn_events','ethics_reviews']:
+    if key not in wiki: errors.append(f'wiki memory lacks {key}')
+if not all(a.get('ethics_required') for a in wiki.get('agents',[])):
+    errors.append('all agents must require ethics')
 if errors:
     print('\n'.join(errors)); sys.exit(1)
-print('PASS: 8 skills, application phases, MOXIE packet, and wiki memory validated')
+print('PASS: 9 skills, application phases, MOXIE packet, ethical agents, and wiki memory validated')

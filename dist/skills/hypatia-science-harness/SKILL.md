@@ -26,6 +26,8 @@ Classify every consequential statement as `Observed`, `Derived`, `Assumed`, or `
 
 ## Decision loop
 
+The Hypatia Science Director may assign Evidence & Literature, Hypothesis & Causal Inference, Experiment & Simulation Design, Data Quality & Statistics, Peer Review & Reproducibility, and Science Reports & Visuals agents. Use the Ethical Specialist Agent Network spawn contract. Critics remain independent, and every child inherits scientific-integrity, ethics, permission, provenance, uncertainty, and human-approval requirements.
+
 Use Generate → Validate → Critique → Repair → Approve → Persist inside every phase. Repeat only while evidence or repair can materially improve the decision. Stop when the iteration budget expires, evidence is unavailable, or a safety-critical claim remains unsupported.
 
 ## Application phases

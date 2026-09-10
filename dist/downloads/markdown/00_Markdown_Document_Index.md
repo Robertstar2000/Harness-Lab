@@ -25,6 +25,7 @@ All files are separate, non-zipped Markdown documents.
 - `17_Scaled_MOXIE_Case_Study_Version_5.md`
 - `18_Presentation_Improvement_Review_Updated_Version_5.md`
 - `19_Recursive_Specialized_Agent_Operating_Model.md`
+- `20_Ethical_Specialist_Agent_Architecture_Version_5.md`
 
 ## Corrected knowledge spine
 

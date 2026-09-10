@@ -23,6 +23,8 @@ Create a separate workspace and baseline for each phase. Lock an approved phase.
 
 ## Decision loop
 
+The Intelligent Engineer Systems Director may assign Requirements & Traceability, Architecture & Trades, Mechanical & Structural, Electrical/Power/Thermal, Software/Controls/Autonomy, Reliability/Safety/FMEA, Verification/Validation/Qualification, and Engineering Reports & Visuals agents. Use the Ethical Specialist Agent Network spawn contract. Children inherit the approved baseline, configuration, permissions, ethics, and stop conditions; the director remains accountable for integration.
+
 Within each phase: establish baseline → analyze → cross-discipline critique → verify → approve or return → persist. Send missing scientific knowledge to Hypatia as a Research Request Package instead of guessing.
 
 ## Application phases

@@ -37,3 +37,12 @@
 .control-strip span{padding:15px;border-right:1px solid var(--line);color:var(--muted);font-size:11px;font-weight:800;text-align:center;letter-spacing:.08em}
 @media(max-width:900px){.domain-grid{grid-template-columns:1fr}.spawn-contract{grid-template-columns:1fr}.control-strip{grid-template-columns:repeat(2,1fr)}.command-line{align-items:flex-start;flex-direction:column}.command-line b{transform:rotate(90deg)}}
 @media(max-width:560px){.control-strip{grid-template-columns:1fr}}
+.agent-network{background:#07151e}
+.agent-controls{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);background:var(--line);gap:1px;margin-bottom:18px}
+.agent-controls div{background:#0e202b;padding:20px}.agent-controls b{display:block;color:var(--cyan);font-size:13px;letter-spacing:.08em}.agent-controls span{display:block;margin-top:7px;color:#afc0c6;font-size:14px;line-height:1.45}
+.agent-directors{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.agent-directors article{position:relative;padding:28px;background:linear-gradient(145deg,#112833,#0b1b25);border:1px solid #27414d;border-top:4px solid var(--mars)}
+.agent-directors article:after{content:'SPAWN ↓';position:absolute;right:18px;top:18px;color:#66818b;font-size:11px;font-weight:800;letter-spacing:.08em}.agent-directors span{color:var(--mars);font-size:12px;font-weight:800;letter-spacing:.12em}.agent-directors h3{margin:8px 0;font:700 26px Space Grotesk}.agent-directors p{color:#d2dee1}.agent-directors small{display:block;color:#91a8b0;line-height:1.5}
+.spawn-flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:18px 0}.spawn-flow>*{padding:9px 12px;border:1px solid #31505e;background:#10242e;font-size:12px}.spawn-flow b{color:var(--cyan)}
+.ethics-charter{padding:24px;border-left:4px solid var(--cyan);background:#102a31}.ethics-charter strong{color:var(--cyan);text-transform:uppercase;letter-spacing:.08em}.ethics-charter p{margin:8px 0 0;color:#cedbdd;max-width:1100px}
+@media(max-width:900px){.agent-controls{grid-template-columns:repeat(2,1fr)}.agent-directors{grid-template-columns:1fr}}
+@media(max-width:560px){.agent-controls{grid-template-columns:1fr}}

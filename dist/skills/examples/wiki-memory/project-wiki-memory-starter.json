@@ -230,14 +230,29 @@
     {"from": "project:research-engineering-loop", "type": "orchestrates", "to": "engineering:intelligent-engineer-pro"},
     {"from": "project:research-engineering-loop", "type": "orchestrates", "to": "program:pm-accelerator"}
   ],
+  "agents": [
+    {"id":"agent:mission-orchestrator","title":"Mission Orchestrator","domain":"integration","parent_id":null,"skill":"mars-harness-orchestrator","ethics_required":true,"may_spawn":true,"max_depth":3},
+    {"id":"agent:ethics-council","title":"Ethics, Safety, and Human Authority Council","domain":"governance","parent_id":null,"skill":"ethical-specialist-agent-network","ethics_required":true,"may_spawn":false,"independent":true},
+    {"id":"agent:science-director","title":"Hypatia Science Director","domain":"science","parent_id":"agent:mission-orchestrator","skill":"hypatia-science-harness","ethics_required":true,"may_spawn":true,"specialties":["evidence","hypotheses","experiments","statistics","peer_review","reports_and_visuals"]},
+    {"id":"agent:engineering-director","title":"Intelligent Engineer Systems Director","domain":"engineering","parent_id":"agent:mission-orchestrator","skill":"intelligent-engineer-harness","ethics_required":true,"may_spawn":true,"specialties":["requirements","architecture","mechanical","power_thermal","software_controls","reliability_safety","verification","reports_and_visuals"]},
+    {"id":"agent:pm-director","title":"PM Accelerator Program Director","domain":"program","parent_id":"agent:mission-orchestrator","skill":"pm-accelerator-harness","ethics_required":true,"may_spawn":true,"specialties":["governance","wbs_schedule","cost_resources","risk_change","execution","qa_testing","status_dashboard","closure_lessons"]}
+  ],
+  "agent_runs": [],
+  "spawn_events": [],
+  "ethics_reviews": [],
   "revision_log": [
-    {"revision": 1, "timestamp_utc": "2026-09-08T00:00:00Z", "author": "project_owner", "reason": "Initial wiki-memory starter", "supersedes_revision": null}
+    {"revision": 1, "timestamp_utc": "2026-09-08T00:00:00Z", "author": "project_owner", "reason": "Initial wiki-memory starter", "supersedes_revision": null},
+    {"revision": 2, "timestamp_utc": "2026-09-10T00:00:00Z", "author": "project_owner", "reason": "Added ethical recursive specialist-agent architecture", "supersedes_revision": 1}
   ],
   "templates": {
     "new_record": {"id": "namespace:unique-id", "type": "record_type", "title": "", "summary": "", "status": "draft", "owner": "", "source_ids": [], "tags": [], "created_utc": "", "updated_utc": "", "supersedes": null},
     "research_request": {"id": "science:rrp-0001", "linked_requirement_ids": [], "decision": "", "question": "", "candidate_mechanisms": [], "variables": [], "boundary_conditions": [], "acceptance_limit": "", "due_utc": "", "owner": "", "status": "draft"},
     "change_request": {"id": "program:cr-0001", "trigger": "", "requester": "", "affected_ids": [], "impact": {"scope": "", "cost": "", "schedule": "", "risk": "", "verification": ""}, "decision": "pending", "approver": "", "status": "draft"},
     "report": {"id": "artifact:report-0001", "type": "report", "title": "", "purpose": "", "phase": "", "baseline_id": "", "source_record_ids": [], "sections": [], "findings": [], "limitations": [], "approval_id": "", "status": "draft", "artifact_metadata": {"format": "md", "created_utc": "", "data_date": "", "baseline_version": ""}},
-    "visual_artifact": {"id": "artifact:visual-0001", "type": "visual_artifact", "title": "", "visual_type": "chart|diagram|matrix|dashboard|map|model_view", "purpose": "", "phase": "", "baseline_id": "", "source_record_ids": [], "units": [], "transformations": [], "evidence_classes": [], "uncertainty_display": "", "status": "draft", "artifact_metadata": {"format": "svg|png|html|pptx", "created_utc": "", "data_date": "", "baseline_version": ""}}
+    "visual_artifact": {"id": "artifact:visual-0001", "type": "visual_artifact", "title": "", "visual_type": "chart|diagram|matrix|dashboard|map|model_view", "purpose": "", "phase": "", "baseline_id": "", "source_record_ids": [], "units": [], "transformations": [], "evidence_classes": [], "uncertainty_display": "", "status": "draft", "artifact_metadata": {"format": "svg|png|html|pptx", "created_utc": "", "data_date": "", "baseline_version": ""}},
+    "agent_definition": {"id":"agent:specialist-0001","title":"","domain":"science|engineering|program|governance","parent_id":"","skill":"","scope":[],"exclusions":[],"permissions":[],"ethics_required":true,"may_spawn":false,"max_depth":0,"owner":"","status":"draft"},
+    "spawn_contract": {"id":"spawn:0001","parent_agent_id":"","child_agent_id":"","objective":"","decision_link":"","inputs":[],"scope":[],"exclusions":[],"tools":[],"permissions":[],"evidence_standard":"","deliverables":[],"reports":[],"visual_artifacts":[],"acceptance_tests":[],"risk_tier":"","budget":{},"max_depth":0,"reviewer_agent_id":"","return_condition":"","memory_destination":"","status":"draft"},
+    "agent_run": {"id":"run:0001","spawn_contract_id":"","started_utc":"","ended_utc":"","outputs":[],"validation_status":"","ethics_review_id":"","dissent":[],"residual_risk":[],"return_status":"","retirement_record":""},
+    "ethics_review": {"id":"ethics:0001","agent_run_id":"","principles_tested":[],"affected_parties":[],"findings":[],"mitigations":[],"residual_risk":[],"human_approval_id":"","reviewer":"","disposition":"pass|conditional|block"}
   }
 }
