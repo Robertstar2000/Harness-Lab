@@ -16,7 +16,7 @@ Turn an approved mission objective into an accountable team of domain agents. Us
 - Ground Truth Gatekeeper: evidence, calculations, acceptance criteria, and claim status.
 - Mission Memory Steward: agents, delegations, decisions, provenance, dissent, and supersession.
 - Hypatia Science Director: Evidence & Literature; Hypothesis & Causal Inference; Experiment & Simulation Design; Data Quality & Statistics; Peer Review & Reproducibility; Science Reports & Visuals.
-- Intelligent Engineer Systems Director: Requirements & Traceability; Architecture & Trades; Mechanical & Structural; Electrical/Power/Thermal; Software/Controls/Autonomy; Reliability/Safety/FMEA; Verification/Validation/Qualification; Engineering Reports & Visuals.
+- Intelligent Engineer Systems Director: eleven lifecycle agents plus the 34-role discipline bench defined in `../docs/ENGINEERING_DISCIPLINE_AGENT_CATALOG.md`. It spans the major physical, digital, biological, infrastructure, manufacturing, operations, test, safety, and human-centered engineering fields needed for Mars and terrestrial projects.
 - PM Accelerator Program Director: Charter/Stakeholder/Governance; WBS/Schedule/Critical Path; Cost/Resource/Procurement; Risk/Issue/Change Control; Execution; QA/Testing; Status/Dashboard/Communications; Closure/Lessons.
 
 ## Decision loop

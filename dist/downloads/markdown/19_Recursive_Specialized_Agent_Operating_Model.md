@@ -46,7 +46,44 @@ Owns the controlled technical baseline from ConOps through verification and rele
 10. Configuration and Release Agent.
 11. Independent Design Review Agent.
 
-The Discipline Engineering Coordinator creates mechanical, electrical, software, controls, thermal, structures, power, communications, human-factors, or ISRU children as required. When evidence is insufficient, the Engineering Lead creates a Research Request Package for Science. It may not convert an unknown into an assumed requirement without recorded human approval.
+The Discipline Engineering Coordinator maintains the following broad engineering bench and activates only the roles required by the work:
+
+12. Systems Engineering Agent — owns technical decomposition, interfaces, budgets, traceability, integration logic, and lifecycle balance.
+13. Aerospace and Flight Mechanics Agent — covers aerodynamics, trajectories, flight loads, stability, entry/descent/landing, and atmospheric operations.
+14. Propulsion Engineering Agent — covers chemical, electric, nuclear-thermal, fluid-feed, combustion, thrust, performance, and propulsion hazards.
+15. Mechanical Engineering Agent — covers mechanisms, machine design, tribology, packaging, tolerances, dynamics, and maintainability.
+16. Structural Engineering Agent — covers load paths, stress, fatigue, fracture, vibration, buckling, and structural margins.
+17. Civil, Geotechnical, and Construction Agent — covers sites, foundations, regolith mechanics, excavation, roads, structures, utilities, and construction sequencing.
+18. Electrical Power Engineering Agent — covers generation, storage, conversion, distribution, protection, grounding, power quality, and load budgets.
+19. Electronics and Hardware Engineering Agent — covers analog/digital circuits, boards, components, radiation tolerance, electromagnetic compatibility, and hardware qualification.
+20. Embedded Systems and Firmware Agent — covers real-time computing, device drivers, timing, buses, fault handling, and hardware-software integration.
+21. RF and Communications Engineering Agent — covers links, antennas, spectrum, networks, latency, coding, navigation signals, and communications reliability.
+22. Software, Data, and AI Engineering Agent — covers architecture, data pipelines, models, cybersecurity-aware software, testing, deployment, observability, and model governance.
+23. Controls, Guidance, Navigation, and Robotics Agent — covers estimation, control laws, autonomy, motion planning, actuators, sensors, and stability.
+24. Thermal Engineering Agent — covers heat loads, conduction, radiation, insulation, thermal control, cryogenics, and operating envelopes.
+25. Chemical and Process Engineering Agent — covers reactions, separations, fluids, process control, mass balances, scale-up, ISRU, and chemical hazards.
+26. Materials and Metallurgical Engineering Agent — covers material selection, processing, corrosion, wear, radiation effects, degradation, joining, and coupons.
+27. Biomedical and Bioengineering Agent — covers physiology, medical devices, biosensors, biomechanics, life support interfaces, biocompatibility, and clinical constraints.
+28. Environmental and Life-Support Engineering Agent — covers atmosphere, water, waste, contamination, habitability, closed loops, planetary protection, and environmental monitoring.
+29. Nuclear and Radiation Engineering Agent — covers shielding, source terms, dose, reactor interfaces, criticality boundaries, activation, and radiation assurance.
+30. Optical, Photonics, and Sensor Engineering Agent — covers imaging, lidar, spectroscopy, illumination, calibration, optical links, and sensor error budgets.
+31. Manufacturing and Industrial Engineering Agent — covers process planning, tooling, automation, producibility, capacity, workflow, quality systems, and local manufacturing.
+32. Quality, Metrology, and Nondestructive Evaluation Agent — covers inspection, calibration, measurement uncertainty, defects, sampling, NDE, and conformity evidence.
+33. Reliability, Maintainability, and Logistics Agent — covers reliability allocation, sparing, repair, prognostics, maintainability demonstrations, and lifecycle support.
+34. Safety, Cybersecurity, and Mission Assurance Agent — covers hazards, fault containment, secure architecture, assurance cases, misuse, resilience, and independent risk closure.
+35. Human Factors and Habitability Agent — covers workload, ergonomics, displays, procedures, accessibility, team interaction, and human-system validation.
+36. Agricultural, Food, and Bioprocess Engineering Agent — covers controlled-environment agriculture, food processing, storage, nutrient loops, and food safety.
+37. Mining, Mineral, and Resource Engineering Agent — covers prospecting, excavation, beneficiation, handling, dust, and resource recovery.
+38. Petroleum, Drilling, and Subsurface Engineering Agent — covers drilling, wells, subsurface fluids, pressure control, sealing, and geothermal interfaces.
+39. Geological, Geospatial, and Survey Engineering Agent — covers terrain models, geodesy, positioning, mapping, remote sensing, and site control.
+40. Architectural, Habitat, and Building Systems Engineering Agent — covers habitable layouts, envelopes, egress, utilities, maintainability, and modular construction.
+41. Fire Protection Engineering Agent — covers detection, suppression, smoke control, evacuation, and oxygen-enriched hazards.
+42. Acoustics and Vibration Engineering Agent — covers noise, vibration, isolation, structural-borne sound, and crew exposure.
+43. Marine, Hydraulics, and Fluid Systems Engineering Agent — covers pumps, piping, valves, pressure vessels, fluid networks, and leak control.
+44. Mechatronics and Automation Engineering Agent — covers integrated mechanics, electronics, sensing, actuation, robotics cells, and automated commissioning.
+45. Test, Instrumentation, and Measurement Engineering Agent — covers sensors, data acquisition, calibration, test rigs, telemetry, and measurement uncertainty.
+
+Each discipline agent produces its applicable design inputs, models, calculations, drawings or interface definitions, assumptions, margins, hazards, verification methods, test evidence, technical report, and visual artifacts. Cross-disciplinary conflicts go to the Systems Engineering Agent and Engineering Domain Lead. When evidence is insufficient, the Engineering Lead creates a Research Request Package for Science. It may not convert an unknown into an assumed requirement without recorded human approval.
 
 ## Project Management domain
 
@@ -98,4 +135,3 @@ Program agents coordinate work but cannot approve scientific truth, technical ad
 ## Core flow
 
 Mission Authority → Mission Harness Director → Science Evidence Package → Engineering Controlled Baseline → Program Execution Baseline → Verification and Acceptance → Operations Evidence → Science or Engineering update.
-

@@ -24,7 +24,7 @@ flowchart TB
 | Domain | Standing specialists | Core artifacts |
 |---|---|---|
 | Science | Evidence & Literature; Hypothesis & Causal Inference; Experiment & Simulation Design; Data Quality & Statistics; Peer Review & Reproducibility; Reports & Visuals | Evidence ledger, causal graph, protocol, analysis, uncertainty visuals, Engineering Evidence Package |
-| Engineering | Requirements & Traceability; Architecture & Trades; Mechanical & Structural; Electrical/Power/Thermal; Software/Controls/Autonomy; Reliability/Safety/FMEA; V&V/Qualification; Reports & Visuals | Requirements baseline, architecture, trade study, discipline analyses, FMEA, V&V matrix, technical baseline |
+| Engineering | Eleven lifecycle specialists plus a 34-role discipline bench covering systems, aerospace, propulsion, mechanical, structural, civil, electrical, electronics, embedded, communications, software/AI, controls/robotics, thermal, chemical/process, materials, biomedical, life support, nuclear/radiation, optics/sensors, manufacturing, quality/metrology, reliability/logistics, safety/cybersecurity, human factors, agriculture/food, mining/resources, drilling/subsurface, geospatial/survey, habitat/buildings, fire protection, acoustics/vibration, hydraulics/fluids, mechatronics/automation, and test/instrumentation | Requirements baseline, architecture, trade study, discipline analyses, models, drawings, interface definitions, FMEA, V&V matrix, technical baseline |
 | PM | Charter/Stakeholder/Governance; WBS/Schedule/Critical Path; Cost/Resource/Procurement; Risk/Issue/Change; Execution; QA/Testing; Status/Dashboard/Communications; Closure/Lessons | Charter, RACI, WBS, schedule, cost baseline, RAID/change log, test record, dashboard, closure report |
 
 ## Spawn contract

@@ -23,7 +23,9 @@ Create a separate workspace and baseline for each phase. Lock an approved phase.
 
 ## Decision loop
 
-The Intelligent Engineer Systems Director may assign Requirements & Traceability, Architecture & Trades, Mechanical & Structural, Electrical/Power/Thermal, Software/Controls/Autonomy, Reliability/Safety/FMEA, Verification/Validation/Qualification, and Engineering Reports & Visuals agents. Use the Ethical Specialist Agent Network spawn contract. Children inherit the approved baseline, configuration, permissions, ethics, and stop conditions; the director remains accountable for integration.
+The Intelligent Engineer Systems Director may assign lifecycle agents for requirements, architecture, trades, modeling, safety, verification, manufacturing, configuration, review, reports, and visuals. Its 34-role discipline bench covers the major physical, digital, biological, infrastructure, manufacturing, resource, operations, test, safety, and human-centered engineering fields listed in the Engineering Discipline Agent Catalog. Use the Ethical Specialist Agent Network spawn contract. Children inherit the approved baseline, configuration, permissions, ethics, and stop conditions; the director remains accountable for integration.
+
+Read `../docs/ENGINEERING_DISCIPLINE_AGENT_CATALOG.md` before selecting discipline agents or defining their outputs.
 
 Within each phase: establish baseline → analyze → cross-discipline critique → verify → approve or return → persist. Send missing scientific knowledge to Hypatia as a Research Request Package instead of guessing.
 

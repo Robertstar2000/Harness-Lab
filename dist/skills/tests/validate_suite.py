@@ -46,6 +46,11 @@ for key in ['agents','agent_runs','spawn_events','ethics_reviews']:
     if key not in wiki: errors.append(f'wiki memory lacks {key}')
 if not all(a.get('ethics_required') for a in wiki.get('agents',[])):
     errors.append('all agents must require ethics')
+engineering=next((a for a in wiki.get('agents',[]) if a.get('id')=='agent:engineering-director'),{})
+if engineering.get('discipline_agent_count',0) < 30:
+    errors.append('engineering agent bench is not multidisciplinary enough')
+if len(engineering.get('specialties',[])) != engineering.get('discipline_agent_count'):
+    errors.append('engineering discipline count does not match specialties')
 if errors:
     print('\n'.join(errors)); sys.exit(1)
 print('PASS: 9 skills, application phases, MOXIE packet, ethical agents, and wiki memory validated')
