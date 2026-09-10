@@ -20,3 +20,20 @@
 .conclusion-grid li{margin:12px 0;color:#42565f}
 @media(max-width:900px){.loop-grid,.conclusion-grid{grid-template-columns:repeat(2,1fr)}.loop-grid article:after{display:none}}
 @media(max-width:560px){.loop-grid,.conclusion-grid{grid-template-columns:1fr}.loop-note{grid-template-columns:1fr}}
+.agent-teams{background:linear-gradient(180deg,#08141d,#0b1d28)}
+.command-line{display:flex;align-items:center;justify-content:center;gap:18px;padding:20px;border:1px solid var(--line);background:#071018;color:var(--muted);font-size:12px;letter-spacing:.1em}
+.command-line strong{color:var(--cyan)}.command-line b{color:var(--mars)}
+.domain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0}
+.domain-card{padding:28px;border:1px solid var(--line);background:var(--panel)}
+.domain-card>span{font-size:11px;font-weight:800;letter-spacing:.14em;color:var(--cyan)}
+.domain-card.engineering>span{color:var(--mars)}.domain-card.program>span{color:var(--mint)}
+.domain-card h3{font:700 24px/1.1 Space Grotesk;margin:10px 0}
+.domain-card p,.domain-card li,.domain-card small{color:var(--muted);font-size:14px}
+.domain-card ul{padding-left:19px}.domain-card li{margin:7px 0}
+.domain-card small{display:block;border-top:1px solid var(--line);padding-top:14px;margin-top:18px}
+.spawn-contract{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;padding:32px;margin-top:18px;background:#eef3f2;color:#12242d}
+.spawn-contract h3{font:700 28px/1.1 Space Grotesk;margin:10px 0}.spawn-contract ol{margin:0;padding-left:22px}.spawn-contract li{margin:8px 0;color:#53656d}.spawn-contract .eyebrow{color:#c44325}
+.control-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-top:0}
+.control-strip span{padding:15px;border-right:1px solid var(--line);color:var(--muted);font-size:11px;font-weight:800;text-align:center;letter-spacing:.08em}
+@media(max-width:900px){.domain-grid{grid-template-columns:1fr}.spawn-contract{grid-template-columns:1fr}.control-strip{grid-template-columns:repeat(2,1fr)}.command-line{align-items:flex-start;flex-direction:column}.command-line b{transform:rotate(90deg)}}
+@media(max-width:560px){.control-strip{grid-template-columns:1fr}}

@@ -1,11 +1,14 @@
 {
   "release": "Mars Harness Lab Version 5",
-  "date": "2026-09-04",
+  "updated": "2026-09-10",
   "presentation": {
-    "slides": 20,
+    "slides": 23,
     "timing_seconds": 1800
   },
   "skills": 8,
+  "domain_leads": 3,
+  "core_specialists": 31,
+  "recursive_spawn_depth": 3,
   "runtimes": [
     "Codex",
     "Claude Cowork",
@@ -15,8 +18,8 @@
   "files": [
     {
       "path": "app.js",
-      "bytes": 1925,
-      "sha256": "04eb08f8dd4e01e11b222f13cb0b00e54ca942e52802e0e8eba9fe2fde1c1249"
+      "bytes": 4268,
+      "sha256": "c4eabbefba4b2b79f1d46314c2e412b5894a9b75700cd331c5e889ce65ace818"
     },
     {
       "path": "assets/mars-settlement.png",
@@ -35,63 +38,293 @@
     },
     {
       "path": "assets/version-5-montage.png",
-      "bytes": 1511335,
-      "sha256": "521ebed47a21b16f922ec43d7444096577677c8e342e11ebcb32fce0f912409b"
+      "bytes": 1904355,
+      "sha256": "eaed1d5acf066d291d181c1126acb6ccf8d654e26e02c3592dac5f6cab8c7a4c"
+    },
+    {
+      "path": "downloads/Mars_Harness_Project_Wiki_Memory_Starter.json",
+      "bytes": 14261,
+      "sha256": "0a9ce4d03e31934fbf49817c4398ae4607043e6853c7eae6b31f6470e94b5a97"
+    },
+    {
+      "path": "downloads/Mars_Harness_Recursive_Agent_Manifest.json",
+      "bytes": 2943,
+      "sha256": "e62a0601b733e2779b7af49d79580fc05502eb22150737803ed8db9ac8023520"
     },
     {
       "path": "downloads/Mars_Harness_Skills_V5_Complete.zip",
-      "bytes": 12336,
-      "sha256": "3d24e8dca376c261fd30061cfbfa2343fa0e2be5af252fbf745a2b5fab49d336"
+      "bytes": 33981,
+      "sha256": "a32e99dc2430d6adb813423ac08ffb5798504c71bc7b832a164cc168603a582a"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-1.png",
+      "bytes": 1186348,
+      "sha256": "d1c984dafccc27448fe5b93bd4540301b15e9996c5039bdab6bf78a3a3900bc5"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-10.png",
+      "bytes": 161671,
+      "sha256": "a91e2e5e811f0c64b27022448709bcf7e5aca41197904a7562046e1dc120951e"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-11.png",
+      "bytes": 131151,
+      "sha256": "102726df202986e3e4211896fa032508bf0a5e72071853147b92f99014fe9086"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-12.png",
+      "bytes": 128635,
+      "sha256": "8be4bc97b6d46b483f066a022eddb84acfa2fb715bffd8cf0c0e1614b591a06b"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-13.png",
+      "bytes": 217975,
+      "sha256": "637a567f60c1280a5c64bedac7f842cb4e7f65995002b1aa41ddd9ec541917fd"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-14.png",
+      "bytes": 1920881,
+      "sha256": "e5ece8e140ba2a56b0dd40add8c16200b1b60feffe1f58c6b143d63f71dcb6ea"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-15.png",
+      "bytes": 527066,
+      "sha256": "997b371e2128da5902dc6fa2db838bf07708fe6770196b781b7cef264f589f66"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-16.png",
+      "bytes": 639618,
+      "sha256": "56de9d39aa462be4640aca781c04d620dff8ce87de45ae3bd04e44114e39036f"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-17.png",
+      "bytes": 490890,
+      "sha256": "c353324b38b1009f6c67f6b4b8e65fe3b40bdc256f57e6ef1f288c43878325ad"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-18.png",
+      "bytes": 237272,
+      "sha256": "4e4f427ce9045ed4976305068e235b16a0785032d9d35d5c8b861fe1cef0f733"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-19.png",
+      "bytes": 187911,
+      "sha256": "88f41e2580ddae7858a1f8b7cbcaf0e8e2accb830c17eaf77c25ca7cc1dafeeb"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-2.png",
+      "bytes": 1310693,
+      "sha256": "ce0d4f33ecec6b876db6bba7757b74ca400e3c607099016e8ce1c54c1a1a561f"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-20.png",
+      "bytes": 1723277,
+      "sha256": "d428cad9b7c8b9e12ca909d3a7e6ea96c2758f5842da6917c42299e4f30fd973"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-21.png",
+      "bytes": 241439,
+      "sha256": "164a94e11f6ff4a7b24f1b59b3bda61c76eb99027e2c2d4ec58e891fbf86d947"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-22.png",
+      "bytes": 1592072,
+      "sha256": "45c431feff15efe7566d174542e734f30e5ce29a9229aba556c97a68c20e46c6"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-23.png",
+      "bytes": 1457694,
+      "sha256": "60d090dcf91fc859d94ea3a56d2a6ded085ac76ce93d300306b4025d30870ee0"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-3.png",
+      "bytes": 160912,
+      "sha256": "74d5cc9b746416e5666842e35335ad1af3ea28d425b1e9d38d9c660dab8c758d"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-4.png",
+      "bytes": 206261,
+      "sha256": "81489d642f5f9effce60ab97300e784c6e89c117fcc3421e8b4c7bf48499d49d"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-5.png",
+      "bytes": 212702,
+      "sha256": "60147dcab14a566a43b17a349a257bf03648ea27f56a1d379735eb1e3517172e"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-6.png",
+      "bytes": 1231663,
+      "sha256": "c069d8a557457bab972a7f13c9c637397480f52b069908c3f9e29cc1bd4ee913"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-7.png",
+      "bytes": 127436,
+      "sha256": "239b8c5c46f27580f68008c8cad5861d710f0c3f44be930fa67a27ff15b670fe"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-8.png",
+      "bytes": 1343067,
+      "sha256": "af9a3002e1224b6ea514c4aa1740ae56e1fb5e3ea992930151257ec0e09fb863"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-9.png",
+      "bytes": 157068,
+      "sha256": "3a5b14b571854858426c92f6fdeefbae52f7fa8a7a53ac27c453c4d02ab53d2b"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pdf",
-      "bytes": 2784901,
-      "sha256": "71fb771497e02beb44e7fe9eb643b76ccf4168ecf1c546b27cca2cfd1d02a684"
+      "bytes": 3678685,
+      "sha256": "3d6c55ff9516af9ecef74dae1676e66635f7f9977e79c6c6ddcebf5791b64d05"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pptx",
-      "bytes": 15978008,
-      "sha256": "dd745a78bbfa036ed97b68582963d35d344b600f4b9744f56e8dd4d1b90ffad7"
+      "bytes": 18881155,
+      "sha256": "4459d3ef12c3458530da4f794d0b61fc2a2885380a41cd16586e36f6c88f36fe"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5_Complete_Package.zip",
+      "bytes": 18981309,
+      "sha256": "963819faf29bfa8fbf42f536b3b6a7be43e4c483588cea227202fceefd9f06a6"
     },
     {
       "path": "downloads/README.txt",
-      "bytes": 338,
-      "sha256": "d8d9684920da8defb82a5cbee5ec98ed52a7bfe684de99d56c88161b0430b2ef"
+      "bytes": 446,
+      "sha256": "87726098b03fd3d8bab83e6f5a0c6eb78d8cf5dd525675de0976790f8242174f"
     },
     {
       "path": "downloads/ground-truth-gatekeeper.zip",
-      "bytes": 1011,
-      "sha256": "735806af462e06559dc5f97301194e27b1465d9b01b4dcee8eb5b5ece4b391f8"
+      "bytes": 1239,
+      "sha256": "a23eb8983803697c5b90e1e236fb5a58ff90110d99d6ad732ddf392e7532d881"
     },
     {
       "path": "downloads/hypatia-science-harness.zip",
-      "bytes": 1024,
-      "sha256": "c05639ee70786a8229ee4f42c832b059b58afe86ee1354703f4cc1ef843be2b4"
+      "bytes": 3894,
+      "sha256": "3de0edc629ea4f3236a481515f2bc47e1eeb258f4608d77f0e0609c39093977d"
     },
     {
       "path": "downloads/hyperia-research-synthesis.zip",
-      "bytes": 1039,
-      "sha256": "bd6bc1a94dca9700dede7edee6c4886db96d4ad8272de11ec6a5cfe98ec4784c"
+      "bytes": 1273,
+      "sha256": "b640aa4d8131fac468c26cba9b54c6ba1511e76d0024106a7b77fce64831d9e9"
     },
     {
       "path": "downloads/intelligent-engineer-harness.zip",
-      "bytes": 1026,
-      "sha256": "d9b9f3bf0c18a22f27316fa178e3eba0dfb76da902d3681673bc7a203576c55a"
+      "bytes": 3970,
+      "sha256": "6ea592dcf86ddc29877e41021f356c7c7c8678a86c0a71057d6a34e1f458dbfb"
+    },
+    {
+      "path": "downloads/markdown/00_Markdown_Document_Index.md",
+      "bytes": 1545,
+      "sha256": "b4320ead58ba4546bce5409fc758f232b08e4cb463c759286831a38209a8327d"
+    },
+    {
+      "path": "downloads/markdown/01_Package_README_Version_5.md",
+      "bytes": 4639,
+      "sha256": "72487965d71afae9fedd0b3af8a0e990187984bf9cfc623926732677209cb9cb"
+    },
+    {
+      "path": "downloads/markdown/02_Presentation_Transcript_and_Speaker_Notes_Version_5.md",
+      "bytes": 48283,
+      "sha256": "ed6fa3cda79091197cf7f798a22fdbb6c765b2aef0bad142b5d9d899f2ec5500"
+    },
+    {
+      "path": "downloads/markdown/03_Abstract_and_Conference_Description_Version_5.md",
+      "bytes": 3511,
+      "sha256": "311040ae128280a4a786d6194b98d4fc39a5e461b27e034d8bd42b912fa68cb4"
+    },
+    {
+      "path": "downloads/markdown/04_Speaker_Run_of_Show_30_Minutes_Version_5.md",
+      "bytes": 5084,
+      "sha256": "7c694487acc05c9221472f3e94ef0d876354f50b6262a912ab8fceaa9e6d1a8b"
+    },
+    {
+      "path": "downloads/markdown/05_Hypatia_Intelligent_Engineer_Demo_Package_Version_5.md",
+      "bytes": 6474,
+      "sha256": "2a03da9e9853c178ab869dbf2f818c1c87a206d45ed80f52e927ab0bea2a749e"
+    },
+    {
+      "path": "downloads/markdown/06_Sources_Claims_and_Replacement_Ledger_Version_5.md",
+      "bytes": 4832,
+      "sha256": "1f444655bb8995547bf66f5f22dc48b2a7bc3f82db85fa265bc407fd94d7eac0"
+    },
+    {
+      "path": "downloads/markdown/07_Version_5_Change_Log.md",
+      "bytes": 5687,
+      "sha256": "d1fb7320cb17fee023d18a5cb853f561b333ff9301169d755efa9939b802bc42"
+    },
+    {
+      "path": "downloads/markdown/08_Slide_Montage_Visual_Index_Version_5.md",
+      "bytes": 3916,
+      "sha256": "b6774c6aba71945f8eab932f778250e475e5bd34f6da5aa7dd52d50cb3cf7d89"
+    },
+    {
+      "path": "downloads/markdown/09_Image_Asset_Mars_Networked_Settlement.md",
+      "bytes": 1440,
+      "sha256": "68259b9b6addb4f20b76338a7d1ec7afec7d62293747c41f515e873d0f392d82"
+    },
+    {
+      "path": "downloads/markdown/10_Image_Asset_Futuristic_Engineering_Digital_Twin.md",
+      "bytes": 1455,
+      "sha256": "4444790ccd3b182a88504cd0a817981b5c88db855fbeb3808db61bae20877df9"
+    },
+    {
+      "path": "downloads/markdown/11_Image_Asset_Mars_Research_Control_Room.md",
+      "bytes": 1387,
+      "sha256": "d4c8b6300b7c96a2314d41d5309d727071dc274bea53b0addfa96f1c539f823c"
+    },
+    {
+      "path": "downloads/markdown/12_Image_Asset_Mars_Habitat_Sunrise.md",
+      "bytes": 1334,
+      "sha256": "eaf7e2e60a4f0c01b40d39b6be3f8ad1eebb7312b3897533dc3b96fe42d23ede"
+    },
+    {
+      "path": "downloads/markdown/13_Detailed_Initial_Chat_Summary_and_Restored_Concepts.md",
+      "bytes": 19115,
+      "sha256": "508be0ebe202014e675010ceae59a5d2d3fed21f49f79c72bf009a712ec19916"
+    },
+    {
+      "path": "downloads/markdown/14_Source_Integration_The_AI_Path_to_Mars.md",
+      "bytes": 4662,
+      "sha256": "af9bd26c91947dd5246c8bdb0bf01a5db886ca47cf1130b04e97cb3d2d3b3b65"
+    },
+    {
+      "path": "downloads/markdown/15_Eight_Portable_Mars_Harness_Skills.md",
+      "bytes": 5398,
+      "sha256": "b474fc8e6a9488fd5005c143113998416ba2b3063089f785d5bf86d81bed3672"
+    },
+    {
+      "path": "downloads/markdown/16_Knowledge_and_Documentation_Mind_Map_Version_5.md",
+      "bytes": 2741,
+      "sha256": "f03a4c85c45bec22fa1a070bfa92ae3049a4a09db353ed1d24cef7f553edc577"
+    },
+    {
+      "path": "downloads/markdown/17_Scaled_MOXIE_Case_Study_Version_5.md",
+      "bytes": 5895,
+      "sha256": "8a1bf6d45b875e5c6c1fb2f271eaae058411bb6aec69593bb0099cf102d085c8"
+    },
+    {
+      "path": "downloads/markdown/18_Presentation_Improvement_Review_Updated_Version_5.md",
+      "bytes": 2689,
+      "sha256": "3def02eaf51791d8f6298183ef19010dd3091ec469616b6f43af0be4f7c1c76e"
+    },
+    {
+      "path": "downloads/markdown/19_Recursive_Specialized_Agent_Operating_Model.md",
+      "bytes": 6538,
+      "sha256": "26a35866e91794826ecd4c7af320d0b16faa3c1e26682d45737a01ee2a3082a2"
     },
     {
       "path": "downloads/mars-harness-orchestrator.zip",
-      "bytes": 1006,
-      "sha256": "d2daff4c1c097ca63e16f70d1cdb73e52ebb186c23b28b360973a73ac2ea9aeb"
+      "bytes": 1784,
+      "sha256": "38b89b80c2f9487c05149c6f6afa46dab6565ea57390c75d95982c9bfc8c1726"
     },
     {
       "path": "downloads/mission-memory-steward.zip",
-      "bytes": 1004,
-      "sha256": "628ab7a4ca9eb75af65c59114a09a0265f9ed6189c8705446f7a7b4b16aecfc7"
+      "bytes": 1433,
+      "sha256": "bc1fb009e9af61e4994076679d51b3c535513ce54fe8bfc8c65e274c90518fe1"
     },
     {
       "path": "downloads/pm-accelerator-harness.zip",
-      "bytes": 1006,
-      "sha256": "67237f5ea592044a78d413a74fe0b7a00c210a08f07069c2b4b5a633d41b972a"
+      "bytes": 3674,
+      "sha256": "f1b2d9860509780d52c802e6d32bda817fa210228e3fa71ddaaf11bc8176a71b"
     },
     {
       "path": "downloads/support/01_Mars_Harness_Architecture_Guide_V5.pdf",
@@ -125,13 +358,23 @@
     },
     {
       "path": "downloads/vibe-engineering-collaboration.zip",
-      "bytes": 1031,
-      "sha256": "a340fa72d0a9aaf48b3b85c9f72f165861458e002de78885910d2acf6b608f87"
+      "bytes": 1273,
+      "sha256": "f454ab167e3ed78ff065b697e6ce6207fc5ec72afabb214d5a1b0cc99fbac9a8"
+    },
+    {
+      "path": "downloads/ziQWN8dx",
+      "bytes": 70084175,
+      "sha256": "3cb1a1ed09d1fd166c0d94dc027fa71dcea59f8aab53859aef7fa847f813a879"
     },
     {
       "path": "index.html",
-      "bytes": 13435,
-      "sha256": "af7fb0fdfd66ad0ec1c11b403ae651d4e92c19634749c2e680013b3208ab00cd"
+      "bytes": 21175,
+      "sha256": "7b4685b6f15d1dfb6843ae183bc41e64c7eac92c9f2663af97b291b8c17306c3"
+    },
+    {
+      "path": "mind-map/index.html",
+      "bytes": 47613,
+      "sha256": "0fc2b40f4143ccc31151767445a7dac256d3255705f225eed1574e23f9a3586b"
     },
     {
       "path": "skills/README.md",
@@ -159,14 +402,19 @@
       "sha256": "45f42dad7363b3d3865fb91fb156c15331c9375fa36f02e1c182cbf12564f1d6"
     },
     {
+      "path": "skills/examples/wiki-memory/project-wiki-memory-starter.json",
+      "bytes": 14261,
+      "sha256": "0a9ce4d03e31934fbf49817c4398ae4607043e6853c7eae6b31f6470e94b5a97"
+    },
+    {
       "path": "skills/ground-truth-gatekeeper/SKILL.md",
       "bytes": 1703,
       "sha256": "785678a04b744d68d26edbaf6c5b25535821a622f465ed9b770975d69b94e1b8"
     },
     {
       "path": "skills/hypatia-science-harness/SKILL.md",
-      "bytes": 1671,
-      "sha256": "ac93eb7dfe8d0afbdb220dc9ed7dd10f799893af208af4db7f66b10ca9876ff1"
+      "bytes": 8459,
+      "sha256": "98f0eac83227f7a30d7b9edc5e5345c14e57fac1fe01de9eb48957d5a033dba1"
     },
     {
       "path": "skills/hyperia-research-synthesis/SKILL.md",
@@ -175,28 +423,28 @@
     },
     {
       "path": "skills/intelligent-engineer-harness/SKILL.md",
-      "bytes": 1755,
-      "sha256": "2bbd80980bdee936743adb3d3340f8c8a08fcde93358d78bd25a5c8cfd4f747c"
+      "bytes": 9076,
+      "sha256": "a7f7c783340a7991b4d9b515df8899ece01baed462136cce2d856c6e960b59e4"
     },
     {
       "path": "skills/mars-harness-orchestrator/SKILL.md",
-      "bytes": 1760,
-      "sha256": "81bb4252b8e868bdbd9b1f58efcf161571de2bb2af0d64b5dfd506a31d268c38"
+      "bytes": 2966,
+      "sha256": "41a06bfddc08969fab11d572511b5d07c0b2612dd345ad5ec4ba7241b52b560f"
     },
     {
       "path": "skills/mission-memory-steward/SKILL.md",
-      "bytes": 1712,
-      "sha256": "b1cd82d1a79d064cc2ee9e3ec805e20a6b79ab030eba79e242cd4a874105cbfc"
+      "bytes": 2136,
+      "sha256": "10d90e14d139d08f3cc3f949687a59ca99b3bb4b35175fbec658f2594ad9170a"
     },
     {
       "path": "skills/pm-accelerator-harness/SKILL.md",
-      "bytes": 1708,
-      "sha256": "d7e18ebec0068532dc11669d3dc0463783dee90820621251c1e4df1bee885f1b"
+      "bytes": 8264,
+      "sha256": "ccf44cb68298525095993a3fa050896c892e7409a7d941e70e4a455baf6d3787"
     },
     {
       "path": "skills/tests/validate_suite.py",
-      "bytes": 1398,
-      "sha256": "bd13ef43c5d3e3aea72cdac0288bd81c56467f39562ff6957b36e79eebf18be3"
+      "bytes": 2656,
+      "sha256": "94955d3be2199903b6467ee349c048061a4445f5759b6dde3d1c462f5a9d9cbc"
     },
     {
       "path": "skills/vibe-engineering-collaboration/SKILL.md",
@@ -207,6 +455,11 @@
       "path": "styles.css",
       "bytes": 7245,
       "sha256": "7267b09867be23f159facdd24b0ef7ae153ae3f2510c7306ccb449694b11806f"
+    },
+    {
+      "path": "updates.css",
+      "bytes": 3714,
+      "sha256": "437977f21db8f359bc390a6aeceef366c55eb3153d8a86cda81318113bfe08ab"
     }
   ]
 }
