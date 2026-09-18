@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
 # Version 5 Slide Montage — Markdown Visual Index
 
 Purpose: provide a text-accessible index to the revised 21-slide visual sequence.

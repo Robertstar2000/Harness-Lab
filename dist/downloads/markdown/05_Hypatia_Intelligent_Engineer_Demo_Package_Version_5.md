@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
 # Version 5 Demonstration Package for Slides 15–17
 
 Purpose: run a traceable MOXIE scale-up demonstration without confusing proven feasibility with habitat-scale readiness.

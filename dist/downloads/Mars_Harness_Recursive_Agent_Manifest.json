@@ -3,14 +3,181 @@
   "title": "Mars Harness Recursive Specialized Agent Manifest",
   "updated_utc": "2026-09-10T00:00:00Z",
   "principle": "Skills are durable; agents are bounded assignments.",
-  "spawn_policy": {"maximum_descendant_depth": 3, "maximum_active_children": 5, "single_accountable_parent": true, "authority_may_only_narrow": true, "independent_review_required": true, "human_approval_for_consequential_action": true},
-  "executive_agents": [{"id": "mission-authority", "name": "Human Mission Authority", "may_spawn": false}, {"id": "mission-harness-director", "name": "Mission Harness Director", "may_spawn": true, "children": ["science-lead", "engineering-lead", "program-lead", "ground-truth", "memory-steward", "safety-governor", "integration-broker"]}],
-  "domains": {
-    "science": {"lead": "Science Domain Lead", "agents": ["Research Question and Scope", "Literature and Source Intelligence", "Hypothesis and Causal Model", "Experiment Design", "Simulation and Scientific Modeling", "Data Steward and Statistics", "Scientific Visualization", "Independent Scientific Reviewer", "Science Synthesis and Handoff"], "conditional_specialists": ["Planetary Geology", "Atmospheric Chemistry", "Materials Science", "Radiation", "Life Sciences", "Instrumentation", "Replication"]},
-    "engineering": {"lead": "Engineering Domain Lead", "lifecycle_agents": ["ConOps and Stakeholder Needs", "Requirements and Traceability", "Systems Architecture and Interface", "Trade Study and Decision Analysis", "Discipline Engineering Coordinator", "Modeling Simulation and Digital Twin", "Safety Reliability and FMEA", "Verification and Validation", "Manufacturing Integration and Operations", "Configuration and Release", "Independent Design Review"], "discipline_agents": ["Systems Engineering", "Aerospace and Flight Mechanics", "Propulsion Engineering", "Mechanical Engineering", "Structural Engineering", "Civil Geotechnical and Construction", "Electrical Power Engineering", "Electronics and Hardware Engineering", "Embedded Systems and Firmware", "RF and Communications Engineering", "Software Data and AI Engineering", "Controls Guidance Navigation and Robotics", "Thermal Engineering", "Chemical and Process Engineering", "Materials and Metallurgical Engineering", "Biomedical and Bioengineering", "Environmental and Life Support Engineering", "Nuclear and Radiation Engineering", "Optical Photonics and Sensor Engineering", "Manufacturing and Industrial Engineering", "Quality Metrology and NDE", "Reliability Maintainability and Logistics", "Safety Cybersecurity and Mission Assurance", "Human Factors and Habitability", "Agricultural Food and Bioprocess Engineering", "Mining Mineral and Resource Engineering", "Petroleum Drilling and Subsurface Engineering", "Geological Geospatial and Survey Engineering", "Architectural Habitat and Building Systems Engineering", "Fire Protection Engineering", "Acoustics and Vibration Engineering", "Marine Hydraulics and Fluid Systems Engineering", "Mechatronics and Automation Engineering", "Test Instrumentation and Measurement Engineering"], "conditional_specialists": ["Planetary Environment", "Mars ISRU", "Cryogenics", "Microgravity", "Radiation Effects", "Regolith Construction", "Autonomous Field Robotics", "Closed-Loop Habitats"]},
-    "program_management": {"lead": "Program Domain Lead", "agents": ["Charter Scope and Governance", "WBS and Deliverables", "Schedule and Critical Path", "Resource and Capacity", "Cost and Earned Value", "Risk and Opportunity", "Quality and Acceptance", "Change and Configuration Coordination", "Communications and Status", "Procurement and Partner", "Closure and Lessons"]}
+  "spawn_policy": {
+    "maximum_descendant_depth": 3,
+    "maximum_active_children": 5,
+    "single_accountable_parent": true,
+    "authority_may_only_narrow": true,
+    "independent_review_required": true,
+    "human_approval_for_consequential_action": true
   },
-  "control_agents": ["Ground Truth Gatekeeper", "Mission Memory Steward", "Safety and Ethics Governor", "Integration and Dependency Broker"],
-  "required_task_packet_fields": ["task_id", "parent_id", "scope", "exclusions", "authoritative_inputs", "tools", "output_contract", "evidence_rules", "resource_limits", "approval_boundary", "stop_conditions"],
-  "required_output_fields": ["artifact_id", "version", "mission_id", "task_id", "owner", "status", "evidence_class", "provenance", "assumptions", "unknowns", "method", "results", "uncertainty", "risks", "acceptance_criteria", "verification", "dependencies", "decisions_requested", "supersedes"]
+  "executive_agents": [
+    {
+      "id": "mission-authority",
+      "name": "Human Mission Authority",
+      "may_spawn": false
+    },
+    {
+      "id": "mission-harness-director",
+      "name": "Mission Harness Director",
+      "may_spawn": true,
+      "children": [
+        "science-lead",
+        "engineering-lead",
+        "program-lead",
+        "ground-truth",
+        "memory-steward",
+        "safety-governor",
+        "integration-broker"
+      ]
+    }
+  ],
+  "domains": {
+    "science": {
+      "lead": "Science Domain Lead",
+      "agents": [
+        "Research Question and Scope",
+        "Literature and Source Intelligence",
+        "Hypothesis and Causal Model",
+        "Experiment Design",
+        "Simulation and Scientific Modeling",
+        "Data Steward and Statistics",
+        "Scientific Visualization",
+        "Independent Scientific Reviewer",
+        "Science Synthesis and Handoff"
+      ],
+      "conditional_specialists": [
+        "Planetary Geology",
+        "Atmospheric Chemistry",
+        "Materials Science",
+        "Radiation",
+        "Life Sciences",
+        "Instrumentation",
+        "Replication"
+      ]
+    },
+    "engineering": {
+      "lead": "Engineering Domain Lead",
+      "lifecycle_agents": [
+        "ConOps and Stakeholder Needs",
+        "Requirements and Traceability",
+        "Systems Architecture and Interface",
+        "Trade Study and Decision Analysis",
+        "Discipline Engineering Coordinator",
+        "Modeling Simulation and Digital Twin",
+        "Safety Reliability and FMEA",
+        "Verification and Validation",
+        "Manufacturing Integration and Operations",
+        "Configuration and Release",
+        "Independent Design Review"
+      ],
+      "discipline_agents": [
+        "Systems Engineering",
+        "Aerospace and Flight Mechanics",
+        "Propulsion Engineering",
+        "Mechanical Engineering",
+        "Structural Engineering",
+        "Civil Geotechnical and Construction",
+        "Electrical Power Engineering",
+        "Electronics and Hardware Engineering",
+        "Embedded Systems and Firmware",
+        "RF and Communications Engineering",
+        "Software Data and AI Engineering",
+        "Controls Guidance Navigation and Robotics",
+        "Thermal Engineering",
+        "Chemical and Process Engineering",
+        "Materials and Metallurgical Engineering",
+        "Biomedical and Bioengineering",
+        "Environmental and Life Support Engineering",
+        "Nuclear and Radiation Engineering",
+        "Optical Photonics and Sensor Engineering",
+        "Manufacturing and Industrial Engineering",
+        "Quality Metrology and NDE",
+        "Reliability Maintainability and Logistics",
+        "Safety Cybersecurity and Mission Assurance",
+        "Human Factors and Habitability",
+        "Agricultural Food and Bioprocess Engineering",
+        "Mining Mineral and Resource Engineering",
+        "Petroleum Drilling and Subsurface Engineering",
+        "Geological Geospatial and Survey Engineering",
+        "Architectural Habitat and Building Systems Engineering",
+        "Fire Protection Engineering",
+        "Acoustics and Vibration Engineering",
+        "Marine Hydraulics and Fluid Systems Engineering",
+        "Mechatronics and Automation Engineering",
+        "Test Instrumentation and Measurement Engineering"
+      ],
+      "conditional_specialists": [
+        "Planetary Environment",
+        "Mars ISRU",
+        "Cryogenics",
+        "Microgravity",
+        "Radiation Effects",
+        "Regolith Construction",
+        "Autonomous Field Robotics",
+        "Closed-Loop Habitats"
+      ]
+    },
+    "program_management": {
+      "lead": "Program Domain Lead",
+      "agents": [
+        "Charter Scope and Governance",
+        "WBS and Deliverables",
+        "Schedule and Critical Path",
+        "Resource and Capacity",
+        "Cost and Earned Value",
+        "Risk and Opportunity",
+        "Quality and Acceptance",
+        "Change and Configuration Coordination",
+        "Communications and Status",
+        "Procurement and Partner",
+        "Closure and Lessons"
+      ]
+    }
+  },
+  "control_agents": [
+    "Ground Truth Gatekeeper",
+    "Mission Memory Steward",
+    "Safety and Ethics Governor",
+    "Integration and Dependency Broker"
+  ],
+  "required_task_packet_fields": [
+    "task_id",
+    "parent_id",
+    "scope",
+    "exclusions",
+    "authoritative_inputs",
+    "tools",
+    "output_contract",
+    "evidence_rules",
+    "resource_limits",
+    "approval_boundary",
+    "stop_conditions"
+  ],
+  "required_output_fields": [
+    "artifact_id",
+    "version",
+    "mission_id",
+    "task_id",
+    "owner",
+    "status",
+    "evidence_class",
+    "provenance",
+    "assumptions",
+    "unknowns",
+    "method",
+    "results",
+    "uncertainty",
+    "risks",
+    "acceptance_criteria",
+    "verification",
+    "dependencies",
+    "decisions_requested",
+    "supersedes"
+  ],
+  "license": {
+    "spdx_id": "Apache-2.0",
+    "copyright": "Copyright 2026 Mars Harness Lab contributors",
+    "full_text_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/"
+  }
 }

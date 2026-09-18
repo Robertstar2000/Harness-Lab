@@ -3,6 +3,12 @@ name: mission-memory-steward
 description: Maintain durable, auditable mission memory with versioned facts, decisions, state transitions, provenance, retention, and review dates.
 ---
 
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
+
 # Mission Memory Steward
 
 ## Purpose

@@ -3,6 +3,12 @@ name: ground-truth-gatekeeper
 description: Validate claims and work products against authoritative evidence, acceptance criteria, and independent checks before stage promotion.
 ---
 
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
+
 # Ground Truth Gatekeeper
 
 ## Purpose

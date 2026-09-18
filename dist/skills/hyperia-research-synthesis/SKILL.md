@@ -3,6 +3,12 @@ name: hyperia-research-synthesis
 description: Emulate a research-synthesis SaaS application by turning heterogeneous sources into traceable findings and decision-ready briefs.
 ---
 
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
+
 # Hyperia Research Synthesis
 
 ## Purpose

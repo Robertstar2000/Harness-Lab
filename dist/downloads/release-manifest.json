@@ -1,11 +1,18 @@
 {
   "release": "Mars Harness Lab Version 5",
-  "updated": "2026-09-10",
+  "updated": "2026-09-18",
+  "license": {
+    "spdx_id": "Apache-2.0",
+    "copyright": "Copyright 2026 Mars Harness Lab contributors",
+    "license_file": "downloads/LICENSE.txt",
+    "notice_file": "downloads/NOTICE.txt",
+    "site_page": "license/index.html"
+  },
   "presentation": {
     "slides": 23,
     "timing_seconds": 1800
   },
-  "skills": 8,
+  "skills": 9,
   "domain_leads": 3,
   "core_specialists": 31,
   "recursive_spawn_depth": 3,
@@ -15,11 +22,12 @@
     "Hermes",
     "Grok"
   ],
+  "manifest_scope": "All published files except this manifest, SHA256SUMS.txt, and the self-containing complete release archive.",
   "files": [
     {
       "path": "app.js",
-      "bytes": 4268,
-      "sha256": "c4eabbefba4b2b79f1d46314c2e412b5894a9b75700cd331c5e889ce65ace818"
+      "bytes": 7636,
+      "sha256": "f974c8ac92a6d2c2e949da39c573831139c5ceb370eaf79d46b360de92eddb9b"
     },
     {
       "path": "assets/mars-settlement.png",
@@ -42,424 +50,474 @@
       "sha256": "eaed1d5acf066d291d181c1126acb6ccf8d654e26e02c3592dac5f6cab8c7a4c"
     },
     {
+      "path": "downloads/LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
       "path": "downloads/Mars_Harness_Project_Wiki_Memory_Starter.json",
-      "bytes": 14261,
-      "sha256": "0a9ce4d03e31934fbf49817c4398ae4607043e6853c7eae6b31f6470e94b5a97"
+      "bytes": 21257,
+      "sha256": "75a13b0a21905c31af45bdd21eef510fb4b80bdeb8cf5eb49a9f477b66ce634d"
     },
     {
       "path": "downloads/Mars_Harness_Recursive_Agent_Manifest.json",
-      "bytes": 2943,
-      "sha256": "e62a0601b733e2779b7af49d79580fc05502eb22150737803ed8db9ac8023520"
+      "bytes": 5604,
+      "sha256": "1018feb1eeb868c30b482a5c9e14d268279e4ae252d2b4a3cf5634da85d1e397"
     },
     {
       "path": "downloads/Mars_Harness_Skills_V5_Complete.zip",
-      "bytes": 33981,
-      "sha256": "a32e99dc2430d6adb813423ac08ffb5798504c71bc7b832a164cc168603a582a"
+      "bytes": 42540,
+      "sha256": "c6874d5e7565790c610d3a036382d2a21e4abc89a8a157731b7022bf44b9c388"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-1.png",
-      "bytes": 1186348,
-      "sha256": "d1c984dafccc27448fe5b93bd4540301b15e9996c5039bdab6bf78a3a3900bc5"
+      "bytes": 1208923,
+      "sha256": "7d75b123895de769f624b41d93d82e068a57d077600964c4e18c000f01f7b6fe"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-10.png",
-      "bytes": 161671,
-      "sha256": "a91e2e5e811f0c64b27022448709bcf7e5aca41197904a7562046e1dc120951e"
+      "bytes": 173161,
+      "sha256": "cacf3fdb7d97129536528f82cba0987f118f644664d3380b52776a59c4908554"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-11.png",
-      "bytes": 131151,
-      "sha256": "102726df202986e3e4211896fa032508bf0a5e72071853147b92f99014fe9086"
+      "bytes": 142752,
+      "sha256": "2d13ec8c346f185c76d5d87e962bdd3cfd609072b98b8dc92e27080325003bea"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-12.png",
-      "bytes": 128635,
-      "sha256": "8be4bc97b6d46b483f066a022eddb84acfa2fb715bffd8cf0c0e1614b591a06b"
+      "bytes": 140071,
+      "sha256": "e27219d28aa41004076693ea5c2e230fb1a6657a3b35c8a5ef71094cd7c8a87e"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-13.png",
-      "bytes": 217975,
-      "sha256": "637a567f60c1280a5c64bedac7f842cb4e7f65995002b1aa41ddd9ec541917fd"
+      "bytes": 229101,
+      "sha256": "c50a3419101984031ae595ba509479ff6f5d858ec59e6b99a4f4078609b32ccc"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-14.png",
-      "bytes": 1920881,
-      "sha256": "e5ece8e140ba2a56b0dd40add8c16200b1b60feffe1f58c6b143d63f71dcb6ea"
+      "bytes": 1947668,
+      "sha256": "0f4c812a4e9cb59ff64fcf732299151e2f37ead977fba3d99e73c3b09e07002d"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-15.png",
-      "bytes": 527066,
-      "sha256": "997b371e2128da5902dc6fa2db838bf07708fe6770196b781b7cef264f589f66"
+      "bytes": 539022,
+      "sha256": "0abe717dbeff117178460a0b37d17b2d265ff22e010a886ea08f4a60efeaeb23"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-16.png",
-      "bytes": 639618,
-      "sha256": "56de9d39aa462be4640aca781c04d620dff8ce87de45ae3bd04e44114e39036f"
+      "bytes": 651458,
+      "sha256": "274618b012a2df92817d395eb8010cd2c10e590c3d273c53b1058dc387eaa981"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-17.png",
-      "bytes": 490890,
-      "sha256": "c353324b38b1009f6c67f6b4b8e65fe3b40bdc256f57e6ef1f288c43878325ad"
+      "bytes": 503086,
+      "sha256": "9c08d50178ca449b5303c45a759f82e5c7b23c5bf9223dd8eb03c9ef6dc24cc5"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-18.png",
-      "bytes": 237272,
-      "sha256": "4e4f427ce9045ed4976305068e235b16a0785032d9d35d5c8b861fe1cef0f733"
+      "bytes": 248865,
+      "sha256": "65c2d6843e5d27e201705887263f3543d7727d6fec80f0127da2ba552fe6f715"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-19.png",
-      "bytes": 187911,
-      "sha256": "88f41e2580ddae7858a1f8b7cbcaf0e8e2accb830c17eaf77c25ca7cc1dafeeb"
+      "bytes": 199585,
+      "sha256": "abfee39a1b003045d319be46672bc8a2fead54dbb8c6292f1c632e5e18f1fd95"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-2.png",
-      "bytes": 1310693,
-      "sha256": "ce0d4f33ecec6b876db6bba7757b74ca400e3c607099016e8ce1c54c1a1a561f"
+      "bytes": 1339832,
+      "sha256": "2276c15b95e4674b290733d900fe27c5aa55f60661976e887b7d7bad77f2f1a6"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-20.png",
-      "bytes": 1723277,
-      "sha256": "d428cad9b7c8b9e12ca909d3a7e6ea96c2758f5842da6917c42299e4f30fd973"
+      "bytes": 1745677,
+      "sha256": "8da99f6030c4f1e90833db27f280f69b4d57813c6a2d8afc1fd7d3d506456eb2"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-21.png",
-      "bytes": 241439,
-      "sha256": "164a94e11f6ff4a7b24f1b59b3bda61c76eb99027e2c2d4ec58e891fbf86d947"
+      "bytes": 253045,
+      "sha256": "f50caa95bf5c0b30e0f303618372d966b46ce0fc43d5e24832f07535801a53a4"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-22.png",
-      "bytes": 1592072,
-      "sha256": "45c431feff15efe7566d174542e734f30e5ce29a9229aba556c97a68c20e46c6"
+      "bytes": 1625136,
+      "sha256": "4d79b607eb58c6809357921303c61f9a869d531f861758682fba392e0660790d"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-23.png",
-      "bytes": 1457694,
-      "sha256": "60d090dcf91fc859d94ea3a56d2a6ded085ac76ce93d300306b4025d30870ee0"
+      "bytes": 1492903,
+      "sha256": "e62e0505deddec4e553d561dfa6a3b4eef5c0e34f0f0b6c155571a6c1c8ec5dc"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-3.png",
-      "bytes": 160912,
-      "sha256": "74d5cc9b746416e5666842e35335ad1af3ea28d425b1e9d38d9c660dab8c758d"
+      "bytes": 172444,
+      "sha256": "39ba444b6dc831e95be3c530041055a79390ee7da7443e9651aa92278bc0e9b8"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-4.png",
-      "bytes": 206261,
-      "sha256": "81489d642f5f9effce60ab97300e784c6e89c117fcc3421e8b4c7bf48499d49d"
+      "bytes": 217422,
+      "sha256": "c48096b74bcdb1a4e37f2adaa3582d5181c13e9716709581b3d75059e62a1fc3"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-5.png",
-      "bytes": 212702,
-      "sha256": "60147dcab14a566a43b17a349a257bf03648ea27f56a1d379735eb1e3517172e"
+      "bytes": 224275,
+      "sha256": "1284b8b05a07b79f1033cb8900278a900a5f69bcf969cb72f7aa0c19809d216b"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-6.png",
-      "bytes": 1231663,
-      "sha256": "c069d8a557457bab972a7f13c9c637397480f52b069908c3f9e29cc1bd4ee913"
+      "bytes": 1254024,
+      "sha256": "d13c403df839efffa4b62fae59f402bcd216ca13294ec53483aaab48c75d189f"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-7.png",
-      "bytes": 127436,
-      "sha256": "239b8c5c46f27580f68008c8cad5861d710f0c3f44be930fa67a27ff15b670fe"
+      "bytes": 138840,
+      "sha256": "6b84151b088b59ffe8baa3cf34ee6828246b0823d8b59f08075035270fda2751"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-8.png",
-      "bytes": 1343067,
-      "sha256": "af9a3002e1224b6ea514c4aa1740ae56e1fb5e3ea992930151257ec0e09fb863"
+      "bytes": 1366079,
+      "sha256": "665164b520c35d5cde702a239e923da46b442b6e91cc0cfb0f9af391ff49411b"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-9.png",
-      "bytes": 157068,
-      "sha256": "3a5b14b571854858426c92f6fdeefbae52f7fa8a7a53ac27c453c4d02ab53d2b"
+      "bytes": 168369,
+      "sha256": "4780042160496d3107e00db1061e621d6044ebf29971da00e1262b32c4f446ff"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pdf",
-      "bytes": 3678685,
-      "sha256": "3d6c55ff9516af9ecef74dae1676e66635f7f9977e79c6c6ddcebf5791b64d05"
+      "bytes": 3691614,
+      "sha256": "9e3aabf813e6737786f97c0d3a533ec586ed01284a632567c650e8473b79e785"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pptx",
-      "bytes": 18881155,
-      "sha256": "4459d3ef12c3458530da4f794d0b61fc2a2885380a41cd16586e36f6c88f36fe"
+      "bytes": 18876087,
+      "sha256": "095d3970a1caa34b0c97788a1c675e0112db184e87298d1b8352d22705a78640"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5_Complete_Package.zip",
-      "bytes": 18981309,
-      "sha256": "963819faf29bfa8fbf42f536b3b6a7be43e4c483588cea227202fceefd9f06a6"
+      "bytes": 19033105,
+      "sha256": "464f3dbc5af757ef6a28a9b722ce10d191a8aa204149b58af8459b17c2ab360c"
+    },
+    {
+      "path": "downloads/NOTICE.txt",
+      "bytes": 451,
+      "sha256": "30473d8bfeba5ae53c9bfe13e5bbf96d21d60cb806941b850372d584baf7fab6"
     },
     {
       "path": "downloads/README.txt",
-      "bytes": 446,
-      "sha256": "87726098b03fd3d8bab83e6f5a0c6eb78d8cf5dd525675de0976790f8242174f"
+      "bytes": 681,
+      "sha256": "7e822f24e1bf21372abbdd2ac12d3c6e59bf2f80f70a83ee259db827cc4670f5"
+    },
+    {
+      "path": "downloads/ethical-specialist-agent-network.zip",
+      "bytes": 12400,
+      "sha256": "0eee0f54c2ee7fba3d3928902f74d734b7d119f8863fec105dd227a5e79d6227"
     },
     {
       "path": "downloads/ground-truth-gatekeeper.zip",
-      "bytes": 1239,
-      "sha256": "a23eb8983803697c5b90e1e236fb5a58ff90110d99d6ad732ddf392e7532d881"
+      "bytes": 5646,
+      "sha256": "a377b74ac614916f7edf3822e544f0634ffcffdce095c4f561faff0b5ca3b5ff"
     },
     {
       "path": "downloads/hypatia-science-harness.zip",
-      "bytes": 3894,
-      "sha256": "3de0edc629ea4f3236a481515f2bc47e1eeb258f4608d77f0e0609c39093977d"
+      "bytes": 8372,
+      "sha256": "31896e5654a20474daf5c27b59f9235d0f7a18ab010eb9c29fb121ddb776c5b7"
     },
     {
       "path": "downloads/hyperia-research-synthesis.zip",
-      "bytes": 1273,
-      "sha256": "b640aa4d8131fac468c26cba9b54c6ba1511e76d0024106a7b77fce64831d9e9"
+      "bytes": 5573,
+      "sha256": "6e24b9319c6f6f54fce9aa4da7e9ac07942e5670a9d1d8bd902af64182f3f08d"
     },
     {
       "path": "downloads/intelligent-engineer-harness.zip",
-      "bytes": 3970,
-      "sha256": "6ea592dcf86ddc29877e41021f356c7c7c8678a86c0a71057d6a34e1f458dbfb"
+      "bytes": 8574,
+      "sha256": "e0304618792a8936bc2f0d8672d0961ab1becafddd8ec350bc87cac0e44eed9e"
     },
     {
       "path": "downloads/markdown/00_Markdown_Document_Index.md",
-      "bytes": 1545,
-      "sha256": "b4320ead58ba4546bce5409fc758f232b08e4cb463c759286831a38209a8327d"
+      "bytes": 1784,
+      "sha256": "541ad5a8843ff01d05ef5f6fc7c57eb00b9e14c7d8425e7d1c171779d860ffd9"
     },
     {
       "path": "downloads/markdown/01_Package_README_Version_5.md",
-      "bytes": 4639,
-      "sha256": "72487965d71afae9fedd0b3af8a0e990187984bf9cfc623926732677209cb9cb"
+      "bytes": 4820,
+      "sha256": "8790fc80caf4a1bedd3ac2cac6f1c7ddd1793daaf2f53420d6432a19cab0d9cb"
     },
     {
       "path": "downloads/markdown/02_Presentation_Transcript_and_Speaker_Notes_Version_5.md",
-      "bytes": 48283,
-      "sha256": "ed6fa3cda79091197cf7f798a22fdbb6c765b2aef0bad142b5d9d899f2ec5500"
+      "bytes": 48464,
+      "sha256": "5b40d670e39879369c5fe4fa78b7f6ce918039b9a2ccea61133042f0f9efb9ea"
     },
     {
       "path": "downloads/markdown/03_Abstract_and_Conference_Description_Version_5.md",
-      "bytes": 3511,
-      "sha256": "311040ae128280a4a786d6194b98d4fc39a5e461b27e034d8bd42b912fa68cb4"
+      "bytes": 3692,
+      "sha256": "ee499c05b386a9415a7377182a520d1e166d8be43f4b5082651222db13c6c24e"
     },
     {
       "path": "downloads/markdown/04_Speaker_Run_of_Show_30_Minutes_Version_5.md",
-      "bytes": 5084,
-      "sha256": "7c694487acc05c9221472f3e94ef0d876354f50b6262a912ab8fceaa9e6d1a8b"
+      "bytes": 5265,
+      "sha256": "8ef4f791a04ef7092d39c7728ee46d41eae24fe1560502eab241c8a04a8a3899"
     },
     {
       "path": "downloads/markdown/05_Hypatia_Intelligent_Engineer_Demo_Package_Version_5.md",
-      "bytes": 6474,
-      "sha256": "2a03da9e9853c178ab869dbf2f818c1c87a206d45ed80f52e927ab0bea2a749e"
+      "bytes": 6655,
+      "sha256": "6092ab28a02aa1f95faa05fe278f96b7529c31ba201011bb025b24490ac3b595"
     },
     {
       "path": "downloads/markdown/06_Sources_Claims_and_Replacement_Ledger_Version_5.md",
-      "bytes": 4832,
-      "sha256": "1f444655bb8995547bf66f5f22dc48b2a7bc3f82db85fa265bc407fd94d7eac0"
+      "bytes": 5013,
+      "sha256": "79718a4f7d29223e3f5cc1b1980f3bb8067ed8558294a041fb9005a71b5500d4"
     },
     {
       "path": "downloads/markdown/07_Version_5_Change_Log.md",
-      "bytes": 5687,
-      "sha256": "d1fb7320cb17fee023d18a5cb853f561b333ff9301169d755efa9939b802bc42"
+      "bytes": 5868,
+      "sha256": "b382661d25a6090453dc1b9a97cb9ccc7dd3638d44a86d96a16a392ee79e63f5"
     },
     {
       "path": "downloads/markdown/08_Slide_Montage_Visual_Index_Version_5.md",
-      "bytes": 3916,
-      "sha256": "b6774c6aba71945f8eab932f778250e475e5bd34f6da5aa7dd52d50cb3cf7d89"
+      "bytes": 4097,
+      "sha256": "d7f0c259e743b03b43d45131c4b7d23676e494dc7597aa56b32d3fca956bdabb"
     },
     {
       "path": "downloads/markdown/09_Image_Asset_Mars_Networked_Settlement.md",
-      "bytes": 1440,
-      "sha256": "68259b9b6addb4f20b76338a7d1ec7afec7d62293747c41f515e873d0f392d82"
+      "bytes": 1621,
+      "sha256": "f9972607ba3c4195e9caf241ec67c8017369f703e2888ce7158770743e1b4bf5"
     },
     {
       "path": "downloads/markdown/10_Image_Asset_Futuristic_Engineering_Digital_Twin.md",
-      "bytes": 1455,
-      "sha256": "4444790ccd3b182a88504cd0a817981b5c88db855fbeb3808db61bae20877df9"
+      "bytes": 1636,
+      "sha256": "993cc0ed8f5fe9d47e4c0f68577a273189e10e90ef891e3b3b8bb91c8ab1af51"
     },
     {
       "path": "downloads/markdown/11_Image_Asset_Mars_Research_Control_Room.md",
-      "bytes": 1387,
-      "sha256": "d4c8b6300b7c96a2314d41d5309d727071dc274bea53b0addfa96f1c539f823c"
+      "bytes": 1568,
+      "sha256": "a791be05ed2ad533e319b4d774030b8ffac2d04e0cc72217c142d531e548fe9b"
     },
     {
       "path": "downloads/markdown/12_Image_Asset_Mars_Habitat_Sunrise.md",
-      "bytes": 1334,
-      "sha256": "eaf7e2e60a4f0c01b40d39b6be3f8ad1eebb7312b3897533dc3b96fe42d23ede"
+      "bytes": 1515,
+      "sha256": "a03d1fb54c99124bddaf8d25d066a8803ee3240ade2ad3cd8f9187ee6b9a9e11"
     },
     {
       "path": "downloads/markdown/13_Detailed_Initial_Chat_Summary_and_Restored_Concepts.md",
-      "bytes": 19115,
-      "sha256": "508be0ebe202014e675010ceae59a5d2d3fed21f49f79c72bf009a712ec19916"
+      "bytes": 19296,
+      "sha256": "5f3c5ccb4aacdf6b4e1708ec0cf35863f623fd321ebb44b9387b38b0b29d6c94"
     },
     {
       "path": "downloads/markdown/14_Source_Integration_The_AI_Path_to_Mars.md",
-      "bytes": 4662,
-      "sha256": "af9bd26c91947dd5246c8bdb0bf01a5db886ca47cf1130b04e97cb3d2d3b3b65"
+      "bytes": 4843,
+      "sha256": "cf46abf8c3dab53af092c54ee2e96d60b518235ed05320e32b223d1a38b264bd"
     },
     {
       "path": "downloads/markdown/15_Eight_Portable_Mars_Harness_Skills.md",
-      "bytes": 5398,
-      "sha256": "b474fc8e6a9488fd5005c143113998416ba2b3063089f785d5bf86d81bed3672"
+      "bytes": 5579,
+      "sha256": "583e4cf6c0c46115a4eac1ed695f8f191dd8f82e5f4f52a04de08c5fd8c41d35"
     },
     {
       "path": "downloads/markdown/16_Knowledge_and_Documentation_Mind_Map_Version_5.md",
-      "bytes": 2741,
-      "sha256": "f03a4c85c45bec22fa1a070bfa92ae3049a4a09db353ed1d24cef7f553edc577"
+      "bytes": 2922,
+      "sha256": "f68f03f6c131e472f6dfeca7e7ca59fedbfc259004bae19fa959fe5a4521517b"
     },
     {
       "path": "downloads/markdown/17_Scaled_MOXIE_Case_Study_Version_5.md",
-      "bytes": 5895,
-      "sha256": "8a1bf6d45b875e5c6c1fb2f271eaae058411bb6aec69593bb0099cf102d085c8"
+      "bytes": 6076,
+      "sha256": "31eddd9f891cc2cd1bec47ed3bbc5d856e0d5595bdd58493f6397230e07c0c1b"
     },
     {
       "path": "downloads/markdown/18_Presentation_Improvement_Review_Updated_Version_5.md",
-      "bytes": 2689,
-      "sha256": "3def02eaf51791d8f6298183ef19010dd3091ec469616b6f43af0be4f7c1c76e"
+      "bytes": 2870,
+      "sha256": "eadc6c4e1b2843f57ea307e252567b36f88b73c4c5a9aad23a7494a20510ef12"
     },
     {
       "path": "downloads/markdown/19_Recursive_Specialized_Agent_Operating_Model.md",
-      "bytes": 6538,
-      "sha256": "26a35866e91794826ecd4c7af320d0b16faa3c1e26682d45737a01ee2a3082a2"
+      "bytes": 12391,
+      "sha256": "08475f2b57bec0408993165dfcf03269411e199e4ed8c1270c044b8706eec669"
+    },
+    {
+      "path": "downloads/markdown/20_Ethical_Specialist_Agent_Architecture_Version_5.md",
+      "bytes": 2385,
+      "sha256": "c8e651a2927f50f14c2c0ff08963f1456428cd917f49e09783f8607cd1c6a50e"
     },
     {
       "path": "downloads/mars-harness-orchestrator.zip",
-      "bytes": 1784,
-      "sha256": "38b89b80c2f9487c05149c6f6afa46dab6565ea57390c75d95982c9bfc8c1726"
+      "bytes": 6283,
+      "sha256": "85013fc91b1d5e563b2bd5497e0005cd625bbae8b9e8adff68dcf7b21ceeb010"
     },
     {
       "path": "downloads/mission-memory-steward.zip",
-      "bytes": 1433,
-      "sha256": "bc1fb009e9af61e4994076679d51b3c535513ce54fe8bfc8c65e274c90518fe1"
+      "bytes": 5845,
+      "sha256": "04d271c0351264a6e3859e8ed37182cb63a3681893198840a72e9a578163818f"
     },
     {
       "path": "downloads/pm-accelerator-harness.zip",
-      "bytes": 3674,
-      "sha256": "f1b2d9860509780d52c802e6d32bda817fa210228e3fa71ddaaf11bc8176a71b"
+      "bytes": 8181,
+      "sha256": "936e257bff740ec98df741af81e4afb3c7b9aae58291d254beda748e48ff5747"
     },
     {
       "path": "downloads/support/01_Mars_Harness_Architecture_Guide_V5.pdf",
-      "bytes": 6143,
-      "sha256": "70a1fee3cc3cb400867dd4a648999dd9c5c09f1cab8f2138dd371e86dafb9959"
+      "bytes": 15202,
+      "sha256": "27dfeea1ee036f600a0b2abb90f2250528a7639528c691827e50f0c546c822b1"
     },
     {
       "path": "downloads/support/02_Presentation_Transcript_and_Speaker_Notes_V5.pdf",
-      "bytes": 22105,
-      "sha256": "2725c7fc99ad6086b91244c31a201af9d215a5484c5c659844f673b9cc636e6c"
+      "bytes": 31163,
+      "sha256": "097d11c2c71085cb8cc4916b12aed6349d2d6201d8cce80e899678597bb2f985"
     },
     {
       "path": "downloads/support/03_Abstract_and_Run_of_Show_V5.pdf",
-      "bytes": 4539,
-      "sha256": "632357ca39fb92065253ad5a84c81953077d36558c759623afb55496ca94a552"
+      "bytes": 13601,
+      "sha256": "e42bd30abd3f6f45d63c9b6d3e58213012f189df11dd9c2c849742d177a3e670"
     },
     {
       "path": "downloads/support/04_MOXIE_Demo_and_Ground_Truth_Package_V5.pdf",
-      "bytes": 4214,
-      "sha256": "7693f56d38377b2cd8ec55d75b10c12096de01131660302e06c79699e8f9bd3a"
+      "bytes": 13285,
+      "sha256": "912033f180dadf793751009df85b0d4d63ccd05cd1a2db14ae9bb02ebd43b352"
     },
     {
       "path": "downloads/support/05_Portable_Skills_and_Runtime_Adapters_V5.pdf",
-      "bytes": 4823,
-      "sha256": "dfe39a3233663a42d1c95950268453939b9fedfcf676bc8becb9c02acbd8be63"
+      "bytes": 13903,
+      "sha256": "5a9f95d38ddcbae35711f7f6c8f560c037c66c8786466c5d46f09da40cc9bbe3"
     },
     {
       "path": "downloads/support/06_Sources_Claims_and_Validation_Ledger_V5.pdf",
-      "bytes": 4979,
-      "sha256": "a00ebebe083c0a22822130b5b54e9e9d46f402daa757ccd9ba19caadcd3a5f16"
+      "bytes": 14050,
+      "sha256": "6a062d0506fcbf3f3d77e0604604f2b782eff4707e6db16b9d9c7df61b97e527"
     },
     {
       "path": "downloads/vibe-engineering-collaboration.zip",
-      "bytes": 1273,
-      "sha256": "f454ab167e3ed78ff065b697e6ce6207fc5ec72afabb214d5a1b0cc99fbac9a8"
-    },
-    {
-      "path": "downloads/ziQWN8dx",
-      "bytes": 70084175,
-      "sha256": "3cb1a1ed09d1fd166c0d94dc027fa71dcea59f8aab53859aef7fa847f813a879"
+      "bytes": 5568,
+      "sha256": "68dc6aba535fd0675dd71a8d640f777425125f2a039d364d2fb251326340f857"
     },
     {
       "path": "index.html",
-      "bytes": 21175,
-      "sha256": "7b4685b6f15d1dfb6843ae183bc41e64c7eac92c9f2663af97b291b8c17306c3"
+      "bytes": 22772,
+      "sha256": "9ef8f481b9d4ce171b57b8369f1e463c4e2acc2f46f6193b995a4edc4f812207"
+    },
+    {
+      "path": "license/index.html",
+      "bytes": 13298,
+      "sha256": "3643286e33edac6110d436be33099a793bccb32692895fda1aa442349a359d4b"
+    },
+    {
+      "path": "mifeco/index.html",
+      "bytes": 5164,
+      "sha256": "d70dab8a5040fdd0ce0046cebdde5d69a9c72fd9f7f073a52c5e6cc39a7c05f7"
     },
     {
       "path": "mind-map/index.html",
-      "bytes": 47613,
-      "sha256": "0fc2b40f4143ccc31151767445a7dac256d3255705f225eed1574e23f9a3586b"
+      "bytes": 48015,
+      "sha256": "9f1efbd46a6e586d2fa38713e33c08a4487597d6b8134ad8f220499773cf9324"
+    },
+    {
+      "path": "saas/index.html",
+      "bytes": 6658,
+      "sha256": "7f30c80a13910e6029db1460087b1272e75caee5d54e53c516a0464f79a71ce9"
     },
     {
       "path": "skills/README.md",
-      "bytes": 630,
-      "sha256": "d071f0c164770897bd487605b8fb785881d9f02d254cdf562d7562b594fb2e9f"
+      "bytes": 869,
+      "sha256": "bbb7071e14e178e475e77aeeaf66055a5a2ca7c67cacaf669431eb8b02e2efab"
+    },
+    {
+      "path": "skills/docs/ENGINEERING_DISCIPLINE_AGENT_CATALOG.md",
+      "bytes": 6616,
+      "sha256": "3b722a34777040e543b4adbc3af3a706283fcd0ac8c6d54e4db995a71a4e809e"
+    },
+    {
+      "path": "skills/docs/ETHICAL_SPECIALIST_AGENT_ARCHITECTURE.md",
+      "bytes": 3832,
+      "sha256": "1809607c09f14bf30de06b2163aeec99b6c7f57aa30e2b82fc95966a71886806"
     },
     {
       "path": "skills/docs/MATURITY_MODEL.md",
-      "bytes": 513,
-      "sha256": "2453cdb0f85436bb8e43990892e6460d08bc2f3e478a01641163909447888d73"
+      "bytes": 694,
+      "sha256": "2f6a9bf581fa95267a700e0354f59c75ffec17bc1dc9e586d5baa432e66ab622"
     },
     {
       "path": "skills/docs/PLATFORM_ADAPTERS.md",
-      "bytes": 1112,
-      "sha256": "5cb0fb78df57ea5e93d22ce34153d5d3b8b2d755f7c551dc35695722cbfe9016"
+      "bytes": 1293,
+      "sha256": "f54d2bb6f2d4c2736b1d31458dc8f1bae782a1332abc921542e8c6ec4f192806"
     },
     {
       "path": "skills/docs/WORK_PRODUCT_CONTRACTS.md",
-      "bytes": 556,
-      "sha256": "1e24f9f4cc2640a34c08778a899ac9d83b35111ccb88eea50bd14aa5dcec1d5d"
+      "bytes": 737,
+      "sha256": "b45c41b3898d1dfb9a790eb36833152da9e191bb58711b6eb4aa97e269cb9715"
+    },
+    {
+      "path": "skills/ethical-specialist-agent-network/SKILL.md",
+      "bytes": 5692,
+      "sha256": "41d8c5554ef90ecc4d2cd42d46295c56cf3c594f7ad80af30bcd7f70af20fd08"
     },
     {
       "path": "skills/examples/moxie-isru/stage-packet.json",
-      "bytes": 1341,
-      "sha256": "45f42dad7363b3d3865fb91fb156c15331c9375fa36f02e1c182cbf12564f1d6"
+      "bytes": 1547,
+      "sha256": "2d188580e1445052386cd86bad5289bfd358804495b264294d19cb47b5d873c1"
     },
     {
       "path": "skills/examples/wiki-memory/project-wiki-memory-starter.json",
-      "bytes": 14261,
-      "sha256": "0a9ce4d03e31934fbf49817c4398ae4607043e6853c7eae6b31f6470e94b5a97"
+      "bytes": 21257,
+      "sha256": "75a13b0a21905c31af45bdd21eef510fb4b80bdeb8cf5eb49a9f477b66ce634d"
     },
     {
       "path": "skills/ground-truth-gatekeeper/SKILL.md",
-      "bytes": 1703,
-      "sha256": "785678a04b744d68d26edbaf6c5b25535821a622f465ed9b770975d69b94e1b8"
+      "bytes": 2150,
+      "sha256": "2ccb7f40d397df8a953dcff37ffa443f3d208fa791390cddfeb3d738c163251e"
     },
     {
       "path": "skills/hypatia-science-harness/SKILL.md",
-      "bytes": 8459,
-      "sha256": "98f0eac83227f7a30d7b9edc5e5345c14e57fac1fe01de9eb48957d5a033dba1"
+      "bytes": 9074,
+      "sha256": "38b6ac12b69b7780bc10c065c8d067205fe019a06fb713d4c70d24633ac336fa"
     },
     {
       "path": "skills/hyperia-research-synthesis/SKILL.md",
-      "bytes": 1712,
-      "sha256": "40c3aae2eba14027df0834e08bf551d22d5088f99a50ac92653b6d88077c9c77"
+      "bytes": 1894,
+      "sha256": "bea2df1634b9685695da861f08cdbac295c9e69c012bc65e33682c7248d6fec2"
     },
     {
       "path": "skills/intelligent-engineer-harness/SKILL.md",
-      "bytes": 9076,
-      "sha256": "a7f7c783340a7991b4d9b515df8899ece01baed462136cce2d856c6e960b59e4"
+      "bytes": 10017,
+      "sha256": "125ffd74cba29f6fe8925271bfcab5bffdfc94a54aaa9ab6bb8c4c68a8bcd143"
     },
     {
       "path": "skills/mars-harness-orchestrator/SKILL.md",
-      "bytes": 2966,
-      "sha256": "41a06bfddc08969fab11d572511b5d07c0b2612dd345ad5ec4ba7241b52b560f"
+      "bytes": 3598,
+      "sha256": "a41b64f6e2429d00bc70fb602e03de88119bf7c521dcee763aedd5b4597e4ec7"
     },
     {
       "path": "skills/mission-memory-steward/SKILL.md",
-      "bytes": 2136,
-      "sha256": "10d90e14d139d08f3cc3f949687a59ca99b3bb4b35175fbec658f2594ad9170a"
+      "bytes": 2554,
+      "sha256": "d807a00aad6f2409436325868ce4cafbc31b4b2adcf28441ee96f10b151d923a"
     },
     {
       "path": "skills/pm-accelerator-harness/SKILL.md",
-      "bytes": 8264,
-      "sha256": "ccf44cb68298525095993a3fa050896c892e7409a7d941e70e4a455baf6d3787"
+      "bytes": 8900,
+      "sha256": "22fa249ff705302a40c91fc5766b0a8ab8085c67da1795954e9cc0356c7f409a"
     },
     {
       "path": "skills/tests/validate_suite.py",
-      "bytes": 2656,
-      "sha256": "94955d3be2199903b6467ee349c048061a4445f5759b6dde3d1c462f5a9d9cbc"
+      "bytes": 3446,
+      "sha256": "3ee75f4ef2f6f10fbcacc6909099c898792cd0d104c59334e52ed2f528f0e556"
     },
     {
       "path": "skills/vibe-engineering-collaboration/SKILL.md",
-      "bytes": 1684,
-      "sha256": "8073c384db93e4585cb526bd9b3760ef235414d9cd9b631a0e81e75cda2a94f3"
+      "bytes": 1866,
+      "sha256": "1927148902f40aa846a3038f93880f12714d3b41e028c5c6c49e5c983b387dc6"
     },
     {
       "path": "styles.css",
-      "bytes": 7245,
-      "sha256": "7267b09867be23f159facdd24b0ef7ae153ae3f2510c7306ccb449694b11806f"
+      "bytes": 8302,
+      "sha256": "0c84b3014b4459e08a858a2a51effe45faa38691712ae02987c8cccf03f97923"
+    },
+    {
+      "path": "subpages.css",
+      "bytes": 2708,
+      "sha256": "0c2d90f8514247d18eb5140008ef316c9cb13ca8e8ac9484a3dabfb8a929f92a"
     },
     {
       "path": "updates.css",
-      "bytes": 3714,
-      "sha256": "437977f21db8f359bc390a6aeceef366c55eb3153d8a86cda81318113bfe08ab"
+      "bytes": 5406,
+      "sha256": "197afdba4fc3b1153a8f57a1f4953c2d7530632be652bd378832bee39ee6553b"
     }
   ]
 }

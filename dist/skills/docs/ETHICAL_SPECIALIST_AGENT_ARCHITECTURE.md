@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
 # Ethical Specialist Agent Architecture
 
 The Mars Harness Lab uses a recursive but bounded organization. The Mission Orchestrator appoints one accountable domain director while independent ethics, evidence, and memory controls span every branch.

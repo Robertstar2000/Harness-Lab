@@ -3,6 +3,12 @@ name: hypatia-science-harness
 description: Run a phase-gated scientific discovery workflow from research-question framing through evidence discovery, competing hypotheses, study design, analysis, peer critique, and an approved engineering evidence package.
 ---
 
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
+
 # Hypatia Science Harness
 
 ## Purpose

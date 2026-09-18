@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
 # Engineering Discipline Agent Catalog
 
 Use this catalog to select the smallest multidisciplinary team that can cover the approved scope. The Systems Engineering Agent maintains the integrated technical baseline; discipline agents own their analyses but do not unilaterally change cross-domain requirements or interfaces.

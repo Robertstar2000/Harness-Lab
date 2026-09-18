@@ -1,0 +1,9 @@
+Mars Harness Lab - Version 5
+Copyright 2026 Mars Harness Lab contributors
+
+This distribution includes original Mars Harness Lab materials licensed under
+the Apache License, Version 2.0. See LICENSE.txt for the complete terms.
+
+Names, marks, third-party source materials, and linked resources remain subject
+to their respective owners' rights. The Apache License does not grant rights to
+use third-party trademarks except as allowed by applicable law.

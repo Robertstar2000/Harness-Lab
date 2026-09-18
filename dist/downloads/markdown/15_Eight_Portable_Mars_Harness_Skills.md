@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
 # Eight Portable Mars Harness Skills
 
 Purpose: define platform-neutral work-product contracts that turn model intelligence into governed mission capability.

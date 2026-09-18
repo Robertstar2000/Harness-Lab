@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
 # Presentation Transcript and Speaker Notes — Version 5
 
 **Authoritative presentation:** `Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pptx`

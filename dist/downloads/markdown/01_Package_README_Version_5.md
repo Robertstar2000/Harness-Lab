@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
 # Mars Society 2026 — Version 5 Package
 
 Purpose: provide the complete conference deck, speaking materials, evidence controls and reusable harness-skill blueprints.

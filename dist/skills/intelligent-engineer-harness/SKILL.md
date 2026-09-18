@@ -3,6 +3,12 @@ name: intelligent-engineer-harness
 description: Run evidence-controlled systems engineering through concept, requirements, architecture, preliminary design, critical design, integration, verification, release, and operational feedback phases.
 ---
 
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
+
 # Intelligent Engineer Harness
 
 ## Purpose

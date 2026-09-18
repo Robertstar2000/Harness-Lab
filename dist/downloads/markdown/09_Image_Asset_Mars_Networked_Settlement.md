@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
 # Image Asset — Networked Mars Settlement
 
 Original file: `a_wide_cinematic_sci_fi_landscape_scene_on_a_reddi.png`

@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
 # Source Integration — The AI Path to Mars
 
 Purpose: show exactly how the supplied source message changed Version 5 of the documentation and presentation.

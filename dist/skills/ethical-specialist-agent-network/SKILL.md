@@ -3,6 +3,12 @@ name: ethical-specialist-agent-network
 description: Define, spawn, supervise, and retire bounded specialist agents for science, engineering, and project management while enforcing inherited ethics, human authority, evidence, and audit requirements.
 ---
 
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
+
 # Ethical Specialist Agent Network
 
 ## Purpose

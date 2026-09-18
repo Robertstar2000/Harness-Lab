@@ -41,5 +41,10 @@
   "approvals": [],
   "owner": "ISRU program lead",
   "next_action": "Create scale-up requirements and integrated storage/liquefaction trade study",
-  "memory_write": true
+  "memory_write": true,
+  "license": {
+    "spdx_id": "Apache-2.0",
+    "copyright": "Copyright 2026 Mars Harness Lab contributors",
+    "full_text_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/"
+  }
 }

@@ -9,18 +9,49 @@
     "owner": "Bob J Mills",
     "write_policy": "append_version_then_supersede",
     "deletion_policy": "tombstone_only",
-    "required_evidence_classes": ["Observed", "Derived", "Assumed", "Unknown"],
+    "required_evidence_classes": [
+      "Observed",
+      "Derived",
+      "Assumed",
+      "Unknown"
+    ],
     "critical_claim_rule": "A critical claim cannot be approved solely from Assumed or Unknown evidence.",
     "approval_rule": "Physical, safety-critical, financial, regulated, production, credential, publication, and external actions require explicit human authority.",
-    "status_values": ["draft", "in_review", "approved", "conditional", "blocked", "superseded", "retired"]
+    "status_values": [
+      "draft",
+      "in_review",
+      "approved",
+      "conditional",
+      "blocked",
+      "superseded",
+      "retired"
+    ]
   },
   "namespaces": [
-    {"id": "project", "purpose": "Mission, presentation, scope, and releases"},
-    {"id": "science", "purpose": "Questions, evidence, hypotheses, studies, data, and findings"},
-    {"id": "engineering", "purpose": "Requirements, architectures, interfaces, analyses, configurations, and verification"},
-    {"id": "program", "purpose": "Charters, WBS, schedule, resources, costs, risks, changes, and closure"},
-    {"id": "operations", "purpose": "Operational observations, maintenance, anomalies, and lessons"},
-    {"id": "governance", "purpose": "Approvals, policies, authorities, provenance, and audit records"}
+    {
+      "id": "project",
+      "purpose": "Mission, presentation, scope, and releases"
+    },
+    {
+      "id": "science",
+      "purpose": "Questions, evidence, hypotheses, studies, data, and findings"
+    },
+    {
+      "id": "engineering",
+      "purpose": "Requirements, architectures, interfaces, analyses, configurations, and verification"
+    },
+    {
+      "id": "program",
+      "purpose": "Charters, WBS, schedule, resources, costs, risks, changes, and closure"
+    },
+    {
+      "id": "operations",
+      "purpose": "Operational observations, maintenance, anomalies, and lessons"
+    },
+    {
+      "id": "governance",
+      "purpose": "Approvals, policies, authorities, provenance, and audit records"
+    }
   ],
   "entities": [
     {
@@ -29,7 +60,12 @@
       "title": "The Intelligence Layer for Mars",
       "summary": "Mars Society 2026 presentation and supporting package on staged, evidence-controlled agentic harnesses for Mars science, engineering, and project execution.",
       "status": "approved",
-      "tags": ["Mars", "agentic AI", "systems engineering", "mission memory"]
+      "tags": [
+        "Mars",
+        "agentic AI",
+        "systems engineering",
+        "mission memory"
+      ]
     },
     {
       "id": "project:presentation-v5",
@@ -37,7 +73,10 @@
       "title": "Mars Society 2026 — The Intelligence Layer for Mars — Version 5",
       "summary": "Twenty-three-slide presentation with aligned speaker notes, a scaled MOXIE case study, the research-engineering feedback loop, and conclusions for science, engineering, and project management.",
       "status": "approved",
-      "attributes": {"slide_count": 23, "target_runtime_minutes": 30}
+      "attributes": {
+        "slide_count": 23,
+        "target_runtime_minutes": 30
+      }
     },
     {
       "id": "science:hypatia-pro",
@@ -45,7 +84,18 @@
       "title": "Hypatia Pro",
       "summary": "Scientific discovery SaaS pattern using ten phases from research-question framing through publication and engineering handoff.",
       "status": "approved",
-      "phases": ["research_question", "evidence_discovery", "competing_hypotheses", "study_design", "analysis_plan", "data_acquisition", "analysis", "interpretation_and_robustness", "peer_review", "publication_and_handoff"]
+      "phases": [
+        "research_question",
+        "evidence_discovery",
+        "competing_hypotheses",
+        "study_design",
+        "analysis_plan",
+        "data_acquisition",
+        "analysis",
+        "interpretation_and_robustness",
+        "peer_review",
+        "publication_and_handoff"
+      ]
     },
     {
       "id": "engineering:intelligent-engineer-pro",
@@ -53,7 +103,18 @@
       "title": "Intelligent Engineer Pro",
       "summary": "Phase-gated engineering SaaS pattern that turns approved evidence into requirements, alternatives, controlled designs, verification, release, and operational learning.",
       "status": "approved",
-      "phases": ["evidence_readiness", "conops", "requirements", "architecture", "preliminary_design", "critical_design_sprints", "critical_design_baseline", "build_and_verification_planning", "verification_validation_qualification", "release_and_learning"]
+      "phases": [
+        "evidence_readiness",
+        "conops",
+        "requirements",
+        "architecture",
+        "preliminary_design",
+        "critical_design_sprints",
+        "critical_design_baseline",
+        "build_and_verification_planning",
+        "verification_validation_qualification",
+        "release_and_learning"
+      ]
     },
     {
       "id": "program:pm-accelerator",
@@ -61,7 +122,17 @@
       "title": "HMAP Project Management Accelerator",
       "summary": "Project-management SaaS pattern with Plan, Execute, and Change agent loops covering intake through evidence-based closure.",
       "status": "approved",
-      "phases": ["intake", "proposal_and_charter", "integrated_planning", "work_authorization", "agentic_execution", "monitoring_and_control", "change_management", "review_readiness", "closure_and_learning"]
+      "phases": [
+        "intake",
+        "proposal_and_charter",
+        "integrated_planning",
+        "work_authorization",
+        "agentic_execution",
+        "monitoring_and_control",
+        "change_management",
+        "review_readiness",
+        "closure_and_learning"
+      ]
     },
     {
       "id": "project:research-engineering-loop",
@@ -94,7 +165,9 @@
       "value": 16,
       "unit": "runs",
       "status": "approved",
-      "source_ids": ["source:nasa-moxie-completion"]
+      "source_ids": [
+        "source:nasa-moxie-completion"
+      ]
     },
     {
       "id": "claim:moxie-total-oxygen",
@@ -104,7 +177,9 @@
       "value": 122,
       "unit": "g O2",
       "status": "approved",
-      "source_ids": ["source:nasa-moxie-completion"]
+      "source_ids": [
+        "source:nasa-moxie-completion"
+      ]
     },
     {
       "id": "claim:moxie-peak-rate",
@@ -114,7 +189,9 @@
       "value": 12,
       "unit": "g O2/h",
       "status": "approved",
-      "source_ids": ["source:nasa-moxie-completion"]
+      "source_ids": [
+        "source:nasa-moxie-completion"
+      ]
     },
     {
       "id": "claim:moxie-purity",
@@ -124,7 +201,9 @@
       "value": 98,
       "unit": "% purity minimum",
       "status": "approved",
-      "source_ids": ["source:nasa-moxie-completion"]
+      "source_ids": [
+        "source:nasa-moxie-completion"
+      ]
     },
     {
       "id": "claim:modeled-power",
@@ -152,7 +231,11 @@
       "statement": "The linked harnesses can create an integrated first-pass concept package in hours; testing and qualification still require substantial time.",
       "evidence_class": "Assumed",
       "status": "conditional",
-      "limitations": ["Not a claim of flight readiness", "Not a substitute for physical testing", "Measure against actual project telemetry before approval"]
+      "limitations": [
+        "Not a claim of flight readiness",
+        "Not a substitute for physical testing",
+        "Measure against actual project telemetry before approval"
+      ]
     }
   ],
   "sources": [
@@ -192,8 +275,32 @@
   "studies": [],
   "datasets": [],
   "calculations": [
-    {"id": "calc:ares-soe-power-v1", "status": "needs_full_equation_record", "inputs": [], "equations": [], "outputs": [{"value": 304, "unit": "kWe"}], "review": "required"},
-    {"id": "calc:ares-soe-rate-v1", "status": "needs_full_equation_record", "inputs": [], "equations": [], "outputs": [{"value": 33.8, "unit": "kg O2/h"}], "review": "required"}
+    {
+      "id": "calc:ares-soe-power-v1",
+      "status": "needs_full_equation_record",
+      "inputs": [],
+      "equations": [],
+      "outputs": [
+        {
+          "value": 304,
+          "unit": "kWe"
+        }
+      ],
+      "review": "required"
+    },
+    {
+      "id": "calc:ares-soe-rate-v1",
+      "status": "needs_full_equation_record",
+      "inputs": [],
+      "equations": [],
+      "outputs": [
+        {
+          "value": 33.8,
+          "unit": "kg O2/h"
+        }
+      ],
+      "review": "required"
+    }
   ],
   "configurations": [],
   "interfaces": [],
@@ -203,56 +310,396 @@
   "resources": [],
   "cost_records": [],
   "risks": [
-    {"id": "risk:modeled-values-misread-as-observed", "statement": "Readers may interpret scenario outputs as measured performance.", "likelihood": "medium", "consequence": "high", "mitigation": "Label every scenario value as modeled and link its calculation record.", "owner": "presentation_owner", "status": "open"},
-    {"id": "risk:concept-misread-as-qualified", "statement": "Rapid AI concept generation may be mistaken for testing or qualification.", "likelihood": "medium", "consequence": "high", "mitigation": "Repeat the physical testing and qualification boundary at every release gate.", "owner": "engineering_authority", "status": "open"}
+    {
+      "id": "risk:modeled-values-misread-as-observed",
+      "statement": "Readers may interpret scenario outputs as measured performance.",
+      "likelihood": "medium",
+      "consequence": "high",
+      "mitigation": "Label every scenario value as modeled and link its calculation record.",
+      "owner": "presentation_owner",
+      "status": "open"
+    },
+    {
+      "id": "risk:concept-misread-as-qualified",
+      "statement": "Rapid AI concept generation may be mistaken for testing or qualification.",
+      "likelihood": "medium",
+      "consequence": "high",
+      "mitigation": "Repeat the physical testing and qualification boundary at every release gate.",
+      "owner": "engineering_authority",
+      "status": "open"
+    }
   ],
   "issues": [],
   "decisions": [
-    {"id": "decision:three-harness-thread", "statement": "Use Hypatia Pro, Intelligent Engineer Pro, and PM Accelerator as the core linked application sequence.", "status": "approved", "decided_utc": "2026-09-08T00:00:00Z", "owner": "project_owner"}
+    {
+      "id": "decision:three-harness-thread",
+      "statement": "Use Hypatia Pro, Intelligent Engineer Pro, and PM Accelerator as the core linked application sequence.",
+      "status": "approved",
+      "decided_utc": "2026-09-08T00:00:00Z",
+      "owner": "project_owner"
+    }
   ],
   "actions": [],
   "approvals": [],
   "lessons": [],
   "artifacts": [
-    {"id": "artifact:presentation-pptx", "title": "Version 5 PowerPoint", "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pptx", "status": "approved"},
-    {"id": "artifact:speaker-notes", "title": "Presentation Transcript and Speaker Notes", "path": "downloads/markdown/02_Presentation_Transcript_and_Speaker_Notes_Version_5.md", "status": "approved"},
-    {"id": "artifact:case-study", "title": "Scaled MOXIE Case Study", "path": "downloads/markdown/17_Scaled_MOXIE_Case_Study_Version_5.md", "status": "approved"},
-    {"id": "artifact:mind-map", "type": "visual_artifact", "title": "Interactive Knowledge Map", "path": "mind-map/index.html", "status": "approved", "derived_from_ids": ["project:mars-society-2026-intelligence-layer"], "artifact_metadata": {"format": "html", "data_date": "2026-09-08", "baseline_version": "v5"}}
+    {
+      "id": "artifact:presentation-pptx",
+      "title": "Version 5 PowerPoint",
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pptx",
+      "status": "approved"
+    },
+    {
+      "id": "artifact:speaker-notes",
+      "title": "Presentation Transcript and Speaker Notes",
+      "path": "downloads/markdown/02_Presentation_Transcript_and_Speaker_Notes_Version_5.md",
+      "status": "approved"
+    },
+    {
+      "id": "artifact:case-study",
+      "title": "Scaled MOXIE Case Study",
+      "path": "downloads/markdown/17_Scaled_MOXIE_Case_Study_Version_5.md",
+      "status": "approved"
+    },
+    {
+      "id": "artifact:mind-map",
+      "type": "visual_artifact",
+      "title": "Interactive Knowledge Map",
+      "path": "mind-map/index.html",
+      "status": "approved",
+      "derived_from_ids": [
+        "project:mars-society-2026-intelligence-layer"
+      ],
+      "artifact_metadata": {
+        "format": "html",
+        "data_date": "2026-09-08",
+        "baseline_version": "v5"
+      }
+    }
   ],
   "relationships": [
-    {"from": "project:presentation-v5", "type": "part_of", "to": "project:mars-society-2026-intelligence-layer"},
-    {"from": "science:hypatia-pro", "type": "produces_evidence_for", "to": "engineering:intelligent-engineer-pro"},
-    {"from": "engineering:intelligent-engineer-pro", "type": "returns_research_requests_to", "to": "science:hypatia-pro"},
-    {"from": "engineering:intelligent-engineer-pro", "type": "produces_baseline_for", "to": "program:pm-accelerator"},
-    {"from": "program:pm-accelerator", "type": "controls_execution_of", "to": "engineering:intelligent-engineer-pro"},
-    {"from": "science:moxie-observed-baseline", "type": "informs", "to": "engineering:ares-soe-modeled-scenario"},
-    {"from": "project:research-engineering-loop", "type": "orchestrates", "to": "science:hypatia-pro"},
-    {"from": "project:research-engineering-loop", "type": "orchestrates", "to": "engineering:intelligent-engineer-pro"},
-    {"from": "project:research-engineering-loop", "type": "orchestrates", "to": "program:pm-accelerator"}
+    {
+      "from": "project:presentation-v5",
+      "type": "part_of",
+      "to": "project:mars-society-2026-intelligence-layer"
+    },
+    {
+      "from": "science:hypatia-pro",
+      "type": "produces_evidence_for",
+      "to": "engineering:intelligent-engineer-pro"
+    },
+    {
+      "from": "engineering:intelligent-engineer-pro",
+      "type": "returns_research_requests_to",
+      "to": "science:hypatia-pro"
+    },
+    {
+      "from": "engineering:intelligent-engineer-pro",
+      "type": "produces_baseline_for",
+      "to": "program:pm-accelerator"
+    },
+    {
+      "from": "program:pm-accelerator",
+      "type": "controls_execution_of",
+      "to": "engineering:intelligent-engineer-pro"
+    },
+    {
+      "from": "science:moxie-observed-baseline",
+      "type": "informs",
+      "to": "engineering:ares-soe-modeled-scenario"
+    },
+    {
+      "from": "project:research-engineering-loop",
+      "type": "orchestrates",
+      "to": "science:hypatia-pro"
+    },
+    {
+      "from": "project:research-engineering-loop",
+      "type": "orchestrates",
+      "to": "engineering:intelligent-engineer-pro"
+    },
+    {
+      "from": "project:research-engineering-loop",
+      "type": "orchestrates",
+      "to": "program:pm-accelerator"
+    }
   ],
   "agents": [
-    {"id":"agent:mission-orchestrator","title":"Mission Orchestrator","domain":"integration","parent_id":null,"skill":"mars-harness-orchestrator","ethics_required":true,"may_spawn":true,"max_depth":3},
-    {"id":"agent:ethics-council","title":"Ethics, Safety, and Human Authority Council","domain":"governance","parent_id":null,"skill":"ethical-specialist-agent-network","ethics_required":true,"may_spawn":false,"independent":true},
-    {"id":"agent:science-director","title":"Hypatia Science Director","domain":"science","parent_id":"agent:mission-orchestrator","skill":"hypatia-science-harness","ethics_required":true,"may_spawn":true,"specialties":["evidence","hypotheses","experiments","statistics","peer_review","reports_and_visuals"]},
-    {"id":"agent:engineering-director","title":"Intelligent Engineer Systems Director","domain":"engineering","parent_id":"agent:mission-orchestrator","skill":"intelligent-engineer-harness","ethics_required":true,"may_spawn":true,"lifecycle_agent_count":11,"discipline_agent_count":34,"specialties":["systems","aerospace_flight_mechanics","propulsion","mechanical","structural","civil_geotechnical_construction","electrical_power","electronics_hardware","embedded_firmware","rf_communications","software_data_ai","controls_gnc_robotics","thermal","chemical_process","materials_metallurgy","biomedical_bioengineering","environmental_life_support","nuclear_radiation","optics_photonics_sensors","manufacturing_industrial","quality_metrology_nde","reliability_maintainability_logistics","safety_cybersecurity_mission_assurance","human_factors_habitability","agriculture_food_bioprocess","mining_mineral_resources","petroleum_drilling_subsurface","geological_geospatial_survey","architecture_habitat_buildings","fire_protection","acoustics_vibration","marine_hydraulics_fluids","mechatronics_automation","test_instrumentation_measurement"]},
-    {"id":"agent:pm-director","title":"PM Accelerator Program Director","domain":"program","parent_id":"agent:mission-orchestrator","skill":"pm-accelerator-harness","ethics_required":true,"may_spawn":true,"specialties":["governance","wbs_schedule","cost_resources","risk_change","execution","qa_testing","status_dashboard","closure_lessons"]}
+    {
+      "id": "agent:mission-orchestrator",
+      "title": "Mission Orchestrator",
+      "domain": "integration",
+      "parent_id": null,
+      "skill": "mars-harness-orchestrator",
+      "ethics_required": true,
+      "may_spawn": true,
+      "max_depth": 3
+    },
+    {
+      "id": "agent:ethics-council",
+      "title": "Ethics, Safety, and Human Authority Council",
+      "domain": "governance",
+      "parent_id": null,
+      "skill": "ethical-specialist-agent-network",
+      "ethics_required": true,
+      "may_spawn": false,
+      "independent": true
+    },
+    {
+      "id": "agent:science-director",
+      "title": "Hypatia Science Director",
+      "domain": "science",
+      "parent_id": "agent:mission-orchestrator",
+      "skill": "hypatia-science-harness",
+      "ethics_required": true,
+      "may_spawn": true,
+      "specialties": [
+        "evidence",
+        "hypotheses",
+        "experiments",
+        "statistics",
+        "peer_review",
+        "reports_and_visuals"
+      ]
+    },
+    {
+      "id": "agent:engineering-director",
+      "title": "Intelligent Engineer Systems Director",
+      "domain": "engineering",
+      "parent_id": "agent:mission-orchestrator",
+      "skill": "intelligent-engineer-harness",
+      "ethics_required": true,
+      "may_spawn": true,
+      "lifecycle_agent_count": 11,
+      "discipline_agent_count": 34,
+      "specialties": [
+        "systems",
+        "aerospace_flight_mechanics",
+        "propulsion",
+        "mechanical",
+        "structural",
+        "civil_geotechnical_construction",
+        "electrical_power",
+        "electronics_hardware",
+        "embedded_firmware",
+        "rf_communications",
+        "software_data_ai",
+        "controls_gnc_robotics",
+        "thermal",
+        "chemical_process",
+        "materials_metallurgy",
+        "biomedical_bioengineering",
+        "environmental_life_support",
+        "nuclear_radiation",
+        "optics_photonics_sensors",
+        "manufacturing_industrial",
+        "quality_metrology_nde",
+        "reliability_maintainability_logistics",
+        "safety_cybersecurity_mission_assurance",
+        "human_factors_habitability",
+        "agriculture_food_bioprocess",
+        "mining_mineral_resources",
+        "petroleum_drilling_subsurface",
+        "geological_geospatial_survey",
+        "architecture_habitat_buildings",
+        "fire_protection",
+        "acoustics_vibration",
+        "marine_hydraulics_fluids",
+        "mechatronics_automation",
+        "test_instrumentation_measurement"
+      ]
+    },
+    {
+      "id": "agent:pm-director",
+      "title": "PM Accelerator Program Director",
+      "domain": "program",
+      "parent_id": "agent:mission-orchestrator",
+      "skill": "pm-accelerator-harness",
+      "ethics_required": true,
+      "may_spawn": true,
+      "specialties": [
+        "governance",
+        "wbs_schedule",
+        "cost_resources",
+        "risk_change",
+        "execution",
+        "qa_testing",
+        "status_dashboard",
+        "closure_lessons"
+      ]
+    }
   ],
   "agent_runs": [],
   "spawn_events": [],
   "ethics_reviews": [],
   "revision_log": [
-    {"revision": 1, "timestamp_utc": "2026-09-08T00:00:00Z", "author": "project_owner", "reason": "Initial wiki-memory starter", "supersedes_revision": null},
-    {"revision": 2, "timestamp_utc": "2026-09-10T00:00:00Z", "author": "project_owner", "reason": "Added ethical recursive specialist-agent architecture", "supersedes_revision": 1}
+    {
+      "revision": 1,
+      "timestamp_utc": "2026-09-08T00:00:00Z",
+      "author": "project_owner",
+      "reason": "Initial wiki-memory starter",
+      "supersedes_revision": null
+    },
+    {
+      "revision": 2,
+      "timestamp_utc": "2026-09-10T00:00:00Z",
+      "author": "project_owner",
+      "reason": "Added ethical recursive specialist-agent architecture",
+      "supersedes_revision": 1
+    }
   ],
   "templates": {
-    "new_record": {"id": "namespace:unique-id", "type": "record_type", "title": "", "summary": "", "status": "draft", "owner": "", "source_ids": [], "tags": [], "created_utc": "", "updated_utc": "", "supersedes": null},
-    "research_request": {"id": "science:rrp-0001", "linked_requirement_ids": [], "decision": "", "question": "", "candidate_mechanisms": [], "variables": [], "boundary_conditions": [], "acceptance_limit": "", "due_utc": "", "owner": "", "status": "draft"},
-    "change_request": {"id": "program:cr-0001", "trigger": "", "requester": "", "affected_ids": [], "impact": {"scope": "", "cost": "", "schedule": "", "risk": "", "verification": ""}, "decision": "pending", "approver": "", "status": "draft"},
-    "report": {"id": "artifact:report-0001", "type": "report", "title": "", "purpose": "", "phase": "", "baseline_id": "", "source_record_ids": [], "sections": [], "findings": [], "limitations": [], "approval_id": "", "status": "draft", "artifact_metadata": {"format": "md", "created_utc": "", "data_date": "", "baseline_version": ""}},
-    "visual_artifact": {"id": "artifact:visual-0001", "type": "visual_artifact", "title": "", "visual_type": "chart|diagram|matrix|dashboard|map|model_view", "purpose": "", "phase": "", "baseline_id": "", "source_record_ids": [], "units": [], "transformations": [], "evidence_classes": [], "uncertainty_display": "", "status": "draft", "artifact_metadata": {"format": "svg|png|html|pptx", "created_utc": "", "data_date": "", "baseline_version": ""}},
-    "agent_definition": {"id":"agent:specialist-0001","title":"","domain":"science|engineering|program|governance","parent_id":"","skill":"","scope":[],"exclusions":[],"permissions":[],"ethics_required":true,"may_spawn":false,"max_depth":0,"owner":"","status":"draft"},
-    "spawn_contract": {"id":"spawn:0001","parent_agent_id":"","child_agent_id":"","objective":"","decision_link":"","inputs":[],"scope":[],"exclusions":[],"tools":[],"permissions":[],"evidence_standard":"","deliverables":[],"reports":[],"visual_artifacts":[],"acceptance_tests":[],"risk_tier":"","budget":{},"max_depth":0,"reviewer_agent_id":"","return_condition":"","memory_destination":"","status":"draft"},
-    "agent_run": {"id":"run:0001","spawn_contract_id":"","started_utc":"","ended_utc":"","outputs":[],"validation_status":"","ethics_review_id":"","dissent":[],"residual_risk":[],"return_status":"","retirement_record":""},
-    "ethics_review": {"id":"ethics:0001","agent_run_id":"","principles_tested":[],"affected_parties":[],"findings":[],"mitigations":[],"residual_risk":[],"human_approval_id":"","reviewer":"","disposition":"pass|conditional|block"}
+    "new_record": {
+      "id": "namespace:unique-id",
+      "type": "record_type",
+      "title": "",
+      "summary": "",
+      "status": "draft",
+      "owner": "",
+      "source_ids": [],
+      "tags": [],
+      "created_utc": "",
+      "updated_utc": "",
+      "supersedes": null
+    },
+    "research_request": {
+      "id": "science:rrp-0001",
+      "linked_requirement_ids": [],
+      "decision": "",
+      "question": "",
+      "candidate_mechanisms": [],
+      "variables": [],
+      "boundary_conditions": [],
+      "acceptance_limit": "",
+      "due_utc": "",
+      "owner": "",
+      "status": "draft"
+    },
+    "change_request": {
+      "id": "program:cr-0001",
+      "trigger": "",
+      "requester": "",
+      "affected_ids": [],
+      "impact": {
+        "scope": "",
+        "cost": "",
+        "schedule": "",
+        "risk": "",
+        "verification": ""
+      },
+      "decision": "pending",
+      "approver": "",
+      "status": "draft"
+    },
+    "report": {
+      "id": "artifact:report-0001",
+      "type": "report",
+      "title": "",
+      "purpose": "",
+      "phase": "",
+      "baseline_id": "",
+      "source_record_ids": [],
+      "sections": [],
+      "findings": [],
+      "limitations": [],
+      "approval_id": "",
+      "status": "draft",
+      "artifact_metadata": {
+        "format": "md",
+        "created_utc": "",
+        "data_date": "",
+        "baseline_version": ""
+      }
+    },
+    "visual_artifact": {
+      "id": "artifact:visual-0001",
+      "type": "visual_artifact",
+      "title": "",
+      "visual_type": "chart|diagram|matrix|dashboard|map|model_view",
+      "purpose": "",
+      "phase": "",
+      "baseline_id": "",
+      "source_record_ids": [],
+      "units": [],
+      "transformations": [],
+      "evidence_classes": [],
+      "uncertainty_display": "",
+      "status": "draft",
+      "artifact_metadata": {
+        "format": "svg|png|html|pptx",
+        "created_utc": "",
+        "data_date": "",
+        "baseline_version": ""
+      }
+    },
+    "agent_definition": {
+      "id": "agent:specialist-0001",
+      "title": "",
+      "domain": "science|engineering|program|governance",
+      "parent_id": "",
+      "skill": "",
+      "scope": [],
+      "exclusions": [],
+      "permissions": [],
+      "ethics_required": true,
+      "may_spawn": false,
+      "max_depth": 0,
+      "owner": "",
+      "status": "draft"
+    },
+    "spawn_contract": {
+      "id": "spawn:0001",
+      "parent_agent_id": "",
+      "child_agent_id": "",
+      "objective": "",
+      "decision_link": "",
+      "inputs": [],
+      "scope": [],
+      "exclusions": [],
+      "tools": [],
+      "permissions": [],
+      "evidence_standard": "",
+      "deliverables": [],
+      "reports": [],
+      "visual_artifacts": [],
+      "acceptance_tests": [],
+      "risk_tier": "",
+      "budget": {},
+      "max_depth": 0,
+      "reviewer_agent_id": "",
+      "return_condition": "",
+      "memory_destination": "",
+      "status": "draft"
+    },
+    "agent_run": {
+      "id": "run:0001",
+      "spawn_contract_id": "",
+      "started_utc": "",
+      "ended_utc": "",
+      "outputs": [],
+      "validation_status": "",
+      "ethics_review_id": "",
+      "dissent": [],
+      "residual_risk": [],
+      "return_status": "",
+      "retirement_record": ""
+    },
+    "ethics_review": {
+      "id": "ethics:0001",
+      "agent_run_id": "",
+      "principles_tested": [],
+      "affected_parties": [],
+      "findings": [],
+      "mitigations": [],
+      "residual_risk": [],
+      "human_approval_id": "",
+      "reviewer": "",
+      "disposition": "pass|conditional|block"
+    }
+  },
+  "license": {
+    "spdx_id": "Apache-2.0",
+    "copyright": "Copyright 2026 Mars Harness Lab contributors",
+    "full_text_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/"
   }
 }

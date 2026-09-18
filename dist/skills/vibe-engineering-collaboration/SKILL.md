@@ -3,6 +3,12 @@ name: vibe-engineering-collaboration
 description: Emulate collaborative build SaaS while keeping rapid ideation inside executable specifications, review gates, and reproducible handoffs.
 ---
 
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
+
 # Vibe Engineering Collaboration
 
 ## Purpose

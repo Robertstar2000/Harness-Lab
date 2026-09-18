@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
 # Ethical Specialist Agent Architecture — Version 5
 
 The Mars Harness Lab now includes an ethical, recursive specialist-agent organization for science, engineering, and project management.

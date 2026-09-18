@@ -3,6 +3,12 @@ name: pm-accelerator-harness
 description: Run the HMAP-style project lifecycle from intake and proposal through planning, agentic task execution, monitoring, change propagation, review readiness, and evidence-based closure.
 ---
 
+<!--
+Copyright 2026 Mars Harness Lab contributors
+SPDX-License-Identifier: Apache-2.0
+Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/
+-->
+
 # PM Accelerator Harness
 
 ## Purpose
