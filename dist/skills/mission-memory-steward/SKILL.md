@@ -35,6 +35,10 @@ Return a machine-readable stage packet plus a human-readable brief containing: o
 
 Use `../examples/wiki-memory/project-wiki-memory-starter.json` as the starter structure. Add immutable records with stable namespace IDs, connect them through explicit relationships, and supersede prior records rather than overwriting history. Keep claims, sources, requirements, hypotheses, configurations, verification, WBS, risks, issues, decisions, actions, approvals, artifacts, and lessons independently addressable.
 
+## Application identity map
+
+Retain native identifiers from all three applications: Hypatia experiment/step/data/notebook IDs; Intelligent Engineer project/phase/sprint/output/risk/task IDs; and PM Accelerator project/document/task/sprint/milestone/resource/notification IDs. Connect imported records to the packet, source branch or release, schema version, baseline/configuration hash, producer, validation status, and approval. Never collapse same-looking IDs across applications; namespace them and append crosswalk relationships.
+
 ## Guardrails
 
 Record every durable agent definition, spawn event, parent-child link, run status, ethics review, approval, dissent, residual risk, and retirement event. Never treat an agent's self-description as proof that work ran or passed review.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paired Schematic + Parts Harness"
+  short_description: "Create synchronized schematics and parts packages"
+  default_prompt: "Use $paired-schematic-parts-harness to produce a checked schematic and synchronized parts package."

@@ -33,6 +33,12 @@ Validate claims and work products against authoritative evidence, acceptance cri
 
 Return a machine-readable stage packet plus a human-readable brief containing: objective, inputs, method, evidence ledger, result, uncertainty, validation status, approvals, owner, next action, and memory record.
 
+## Application gate interpretation
+
+Treat Hypatia's `Verify Node`, Intelligent Engineer's phase lock and design checklist, and PM Accelerator's `Approved` document status as application state—not sufficient proof of scientific validity, technical adequacy, or project acceptance. Reconstruct the supporting evidence, configuration, test, reviewer, and authority before promotion.
+
+For the reviewed PM code, report the executable tracking chain as Extractor → QA → Scheduler → QA. Current interface copy calls it a six-agent workflow, but the inspected `trackingDataAgentWorkflow.ts` contains four model stages. Prefer executable source over a conflicting label and record the discrepancy.
+
 ## Guardrails
 
 For agent-produced work, verify agent identity, parent, spawn contract, permissions, evidence status, independent reviewer, ethics disposition, and memory record. Block promotion when required fields are absent or the author is the sole mission-critical approver.

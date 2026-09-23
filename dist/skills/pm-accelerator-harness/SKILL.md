@@ -147,6 +147,12 @@ All dashboards and charts must be reproducible from the same WBS, schedule, cost
 
 Every plan item includes unique ID, parent WBS ID, deliverable, accountable owner, contributors, dependencies, planned and actual dates, effort, cost, acceptance criteria, verification evidence, status, confidence, risks, issues, decisions, approvals, linked reports, linked visual artifacts, and memory records.
 
+## PM Accelerator code adapter
+
+The reviewed `backup-2026-09-22` application implements sequential HMAP document locking, manual or automatic Gemini generation, a current in-memory project copy during automatic runs, retry and rate-limit controls, compacted first-document plus immediately previous approved-document context, WBS/plan parsing, and project tracking, testing, workload, team, document, revision, notification, and change views.
+
+Preserve native `Project`, `Document`, `Task`, `Sprint`, `Milestone`, `Resource`, notification, and phase-data IDs. The reviewed tracking source implements four model stages—Extractor, QA, Scheduler, QA—even though interface copy says six-agent synthesis. Add formal authorization/readiness, Doer/Tools/Tester evidence, complete cross-baseline impact analysis, independent review, and closure packets around native records; do not claim those extensions already ran merely because an application status changed.
+
 ## Guardrails
 
 Treat speed claims as concept-generation estimates unless supported by measured project data. Do not notify people, change shared systems, authorize work, spend funds, or contact external parties without authority. Do not close work from narrative assurance. Preserve the original baseline and decision history.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mars 3D Modeling Harness"
+  short_description: "Create validated 3D images and STL models"
+  default_prompt: "Use $mars-3d-modeling-harness to create a traceable 3D concept and printable STL package."

@@ -24,6 +24,8 @@ Turn an approved mission objective into an accountable team of domain agents. Us
 - Hypatia Science Director: Evidence & Literature; Hypothesis & Causal Inference; Experiment & Simulation Design; Data Quality & Statistics; Peer Review & Reproducibility; Science Reports & Visuals.
 - Intelligent Engineer Systems Director: eleven lifecycle agents plus the 34-role discipline bench defined in `../docs/ENGINEERING_DISCIPLINE_AGENT_CATALOG.md`. It spans the major physical, digital, biological, infrastructure, manufacturing, operations, test, safety, and human-centered engineering fields needed for Mars and terrestrial projects.
 - PM Accelerator Program Director: Charter/Stakeholder/Governance; WBS/Schedule/Critical Path; Cost/Resource/Procurement; Risk/Issue/Change Control; Execution; QA/Testing; Status/Dashboard/Communications; Closure/Lessons.
+- Mars 3D Model Engineer: coordinate-controlled parametric geometry, concept/derived images, STL export, mesh validation, printability evidence, and geometry packages.
+- Schematic & Parts Configuration Engineer: synchronized schematics and BOM/parts records, stable item and connection IDs, cross-probing, domain rule checks, and paired configuration release.
 
 ## Decision loop
 

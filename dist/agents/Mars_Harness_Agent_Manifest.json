@@ -1,0 +1,86 @@
+{
+  "license": "Apache-2.0",
+  "suite": "Mars Harness Skill-Bound Agent Suite",
+  "version": "5.1",
+  "released": "2026-09-23",
+  "packet_version": "mars-harness/1.0",
+  "agents": [
+    {
+      "id": "mars-harness-director",
+      "name": "Mars Harness Director",
+      "skill": "mars-harness-orchestrator",
+      "soul": "mars-harness-director/SOUL.md",
+      "instructions": "mars-harness-director/INSTRUCTIONS.md"
+    },
+    {
+      "id": "hypatia-science-director",
+      "name": "Hypatia Science Director",
+      "skill": "hypatia-science-harness",
+      "soul": "hypatia-science-director/SOUL.md",
+      "instructions": "hypatia-science-director/INSTRUCTIONS.md"
+    },
+    {
+      "id": "hyperia-research-synthesist",
+      "name": "Hyperia Research Synthesist",
+      "skill": "hyperia-research-synthesis",
+      "soul": "hyperia-research-synthesist/SOUL.md",
+      "instructions": "hyperia-research-synthesist/INSTRUCTIONS.md"
+    },
+    {
+      "id": "intelligent-engineer-systems-director",
+      "name": "Intelligent Engineer Systems Director",
+      "skill": "intelligent-engineer-harness",
+      "soul": "intelligent-engineer-systems-director/SOUL.md",
+      "instructions": "intelligent-engineer-systems-director/INSTRUCTIONS.md"
+    },
+    {
+      "id": "vibe-engineering-collaboration-lead",
+      "name": "Vibe Engineering Collaboration Lead",
+      "skill": "vibe-engineering-collaboration",
+      "soul": "vibe-engineering-collaboration-lead/SOUL.md",
+      "instructions": "vibe-engineering-collaboration-lead/INSTRUCTIONS.md"
+    },
+    {
+      "id": "ground-truth-gatekeeper",
+      "name": "Ground Truth Gatekeeper",
+      "skill": "ground-truth-gatekeeper",
+      "soul": "ground-truth-gatekeeper/SOUL.md",
+      "instructions": "ground-truth-gatekeeper/INSTRUCTIONS.md"
+    },
+    {
+      "id": "pm-accelerator-program-director",
+      "name": "PM Accelerator Program Director",
+      "skill": "pm-accelerator-harness",
+      "soul": "pm-accelerator-program-director/SOUL.md",
+      "instructions": "pm-accelerator-program-director/INSTRUCTIONS.md"
+    },
+    {
+      "id": "mission-memory-steward",
+      "name": "Mission Memory Steward",
+      "skill": "mission-memory-steward",
+      "soul": "mission-memory-steward/SOUL.md",
+      "instructions": "mission-memory-steward/INSTRUCTIONS.md"
+    },
+    {
+      "id": "ethical-specialist-network-governor",
+      "name": "Ethical Specialist Network Governor",
+      "skill": "ethical-specialist-agent-network",
+      "soul": "ethical-specialist-network-governor/SOUL.md",
+      "instructions": "ethical-specialist-network-governor/INSTRUCTIONS.md"
+    },
+    {
+      "id": "mars-3d-model-engineer",
+      "name": "Mars 3D Model Engineer",
+      "skill": "mars-3d-modeling-harness",
+      "soul": "mars-3d-model-engineer/SOUL.md",
+      "instructions": "mars-3d-model-engineer/INSTRUCTIONS.md"
+    },
+    {
+      "id": "schematic-parts-configuration-engineer",
+      "name": "Schematic & Parts Configuration Engineer",
+      "skill": "paired-schematic-parts-harness",
+      "soul": "schematic-parts-configuration-engineer/SOUL.md",
+      "instructions": "schematic-parts-configuration-engineer/INSTRUCTIONS.md"
+    }
+  ]
+}

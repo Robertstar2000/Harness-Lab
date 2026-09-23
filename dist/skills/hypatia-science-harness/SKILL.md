@@ -156,6 +156,12 @@ Every chart must identify source data, units, transformations, uncertainty, and 
 
 Preserve the requirement ID, design decision, variable bounds, acceptance limit, due date, and consequence from an Intelligent Engineer Research Request Package. Answer the narrow blocker first and return evidence that can update the linked requirement, risk, model, or verification method.
 
+## Hypatia Pro code adapter
+
+The reviewed `backup-2026-09-22` application implements a React/Express ten-step experiment workflow with manual and agentic modes, human `Verify Node` gates, Google-grounded literature retrieval, structured JSON and repair, CSV/data QA, generated JavaScript in a sandboxed Web Worker, a debugger capped at 25 attempts, analysis, skeptical review, publication, and JSON/ZIP export.
+
+Preserve experiment, step, data, notebook, and automation-mode identifiers. Treat the application gate as evidence that a user accepted the node, not as automatic proof that its scientific claim is true. Add claim classes, immutable source/data manifests, independent promotion review, and the complete `EngineeringEvidencePackage/v1` fields at export. Do not claim those harness additions are native application behavior until implemented and tested.
+
 ## Work-product contract
 
 Return a brief and packet containing: `packet_version`, `project_id`, `objective`, `decision`, `phase`, `producer`, `inputs`, `claims`, `evidence`, `hypotheses`, `methods`, `data_manifest`, `results`, `uncertainty`, `assumptions`, `unknowns`, `reports`, `visual_artifacts`, `acceptance_tests`, `validation`, `approvals`, `owner`, `next_action`, `memory_write`, and `supersedes`.

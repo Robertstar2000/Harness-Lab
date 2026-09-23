@@ -158,6 +158,12 @@ Visuals must be generated from versioned requirements, calculations, models, or 
 
 Include request ID; linked requirement and decision; scientific question; candidate mechanisms; variables and ranges; Mars conditions; requested method; data quality; acceptance limit; due date; owner; and consequence of no answer. Pause only the affected decision path.
 
+## Intelligent Engineer Pro code adapter
+
+The reviewed `backup-2026-09-22` Vibe Engineering Partner application uses React/Express, Gemini, Firebase/Firestore, SQLite, and versioned `Project`, `Phase`, `Sprint`, and `VersionedOutput` records. Its seven user-facing phases are Requirements, Preliminary Design, Critical Design, Testing, Launch, Operation, and Improvement. It locks future phases, carries approved prior outputs into later context, supports multi-document phases, requires DFMA/FMEA in Critical Design, merges accepted sprint outputs, and uses a human design-review checklist before finalization.
+
+Map native records into the ten harness phases without rewriting their IDs or approval history. Treat tuning values and generated assets as declared parameters or candidate artifacts, not evidence. Route dimensioned 3D/STL work through `mars-3d-modeling-harness` and synchronized diagrams/BOMs through `paired-schematic-parts-harness`; link both to requirements, interfaces, configuration, DFMA/FMEA, and verification.
+
 ## Work-product contract
 
 Return human and machine-readable outputs containing baseline ID, phase, configuration, evidence crosswalk, requirements, interfaces, assumptions, analyses, alternatives, margins, hazards, FMEA/DFMA, risks, decisions, verification matrix, anomalies, reports, visual artifacts, approvals, actions, research requests, next-phase seed, memory write, and supersedes links.
