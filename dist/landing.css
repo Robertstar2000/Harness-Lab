@@ -1,0 +1,19 @@
+/* Copyright 2026 Mars Harness Lab contributors. SPDX-License-Identifier: Apache-2.0 */
+.welcome{background:radial-gradient(circle at 82% 3%,#184b56 0,transparent 33%),linear-gradient(145deg,#0c202b,#08131b 65%);border-bottom:1px solid var(--line)}
+.welcome-lead{max-width:1060px;padding:20px 0 60px}
+.welcome h1{max-width:950px;font:700 clamp(42px,6.1vw,82px)/1.03 'Space Grotesk',system-ui,sans-serif;letter-spacing:-.035em;margin:18px 0 24px}
+.welcome-deck{max-width:870px;font-size:clamp(18px,1.8vw,22px);line-height:1.55;color:#d4e3e7;margin:0}
+.welcome-work{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;border:1px solid #31515e;background:#31515e}
+.welcome-work article{padding:28px;background:#0d202a}
+.welcome-work span{color:var(--cyan);font-size:.875rem;letter-spacing:.07em;font-weight:800}
+.welcome-work h2{font:700 clamp(23px,2.3vw,32px)/1.15 'Space Grotesk',system-ui,sans-serif;margin:18px 0 12px}
+.welcome-work p{font-size:1rem;color:#bbccd1;margin:0}
+.welcome-explainer{display:grid;grid-template-columns:.75fr 1.25fr;gap:48px;padding:55px 0 20px;border-bottom:1px solid #31515e}
+.welcome-explainer h2{font:700 clamp(32px,3.6vw,50px)/1.08 'Space Grotesk',system-ui,sans-serif;margin:12px 0}
+.welcome-explainer p{color:#c5d6db;font-size:1.0625rem;margin:0 0 20px}
+.welcome-explainer a,.welcome-next a{color:var(--cyan);text-underline-offset:3px}
+.welcome-explainer strong{color:#f1f9fa}
+.welcome-next{font-size:1rem;color:#c5d6db;margin:24px 0 0}
+.welcome,.welcome:target{scroll-margin-top:76px}
+@media(max-width:900px){.welcome-work{grid-template-columns:1fr}.welcome-work article{padding:23px}.welcome-explainer{grid-template-columns:1fr;gap:12px}.welcome-lead{padding-bottom:42px}}
+@media(max-width:560px){.welcome h1{font-size:clamp(39px,11vw,56px)}.welcome-lead{padding:0 0 34px}.welcome-explainer{padding-top:38px}.welcome .actions .button{flex:1}}
