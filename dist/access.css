@@ -1,0 +1,38 @@
+/* Copyright 2026 Mars Harness Lab contributors. SPDX-License-Identifier: Apache-2.0 */
+section.lab-intro{padding:48px 6vw 36px;border-bottom:1px solid var(--line);background:linear-gradient(130deg,#102630,#09151e)}
+.lab-intro .section-head{max-width:1040px;margin-bottom:24px}
+.lab-intro h2{font-size:clamp(30px,3.5vw,48px)}
+.lab-intro .section-head p{margin-bottom:0;color:#c7d6da}
+.access-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.access-option{display:flex;flex-direction:column;min-width:0;padding:26px;border:1px solid var(--line);border-top:3px solid var(--cyan);background:var(--panel)}
+.access-option.paid-option{border-top-color:var(--mars)}
+.access-option.free-option>.eyebrow{color:var(--cyan)}
+.access-option h3,.application-access-card h3{font:700 25px/1.15 'Space Grotesk',system-ui,sans-serif;margin:12px 0}
+.access-option p,.application-access-card p{font-size:1rem;color:#b6c8ce;margin:0 0 20px}
+.access-option .actions,.application-access-card .actions{margin-top:auto;align-items:center}
+.access-option .eyebrow,.application-access-card .eyebrow{font-size:.875rem;letter-spacing:.06em}
+.access-option .button,.application-access-card .button,.access-catalog>.actions .button{font-size:.875rem;letter-spacing:0;white-space:normal;text-align:center}
+.text-link,.intro-next{font-size:.875rem;color:var(--cyan);text-underline-offset:4px}
+.text-link{display:inline-flex;align-items:center;min-height:44px}
+.intro-next{display:inline-block;margin-top:20px;padding:10px 0}
+.access-catalog{background:#0a1822;border-bottom:1px solid var(--line)}
+.access-catalog .section-head{max-width:940px}
+.access-catalog .section-head a,.access-note a{color:var(--cyan);text-underline-offset:3px}
+.access-summary{margin-bottom:24px}
+.application-access-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.application-access-card{display:flex;flex-direction:column;min-width:0;padding:28px;border:1px solid var(--line);background:#0d1b25}
+.application-access-card .actions{align-items:stretch;flex-direction:column;gap:10px}
+.application-access-card .offering-label{padding-top:14px;border-top:1px solid var(--line);font-size:.875rem;color:var(--ink)}
+.access-note{max-width:1060px;font-size:.875rem;color:var(--muted);margin:24px 0 0}
+.access-catalog :target,.lab-intro:target,#access:target,#downloads:target{scroll-margin-top:100px}
+footer>div:last-child{flex-wrap:wrap}
+.saas-card p,.saas-card li,.access-path .path-grid p{font-size:1rem}
+.saas-card .product-code{font-size:.875rem;letter-spacing:.06em}
+.saas-card .offer-type{font-size:1rem;font-weight:700;color:var(--cyan);margin:0 0 14px}
+.saas-card .actions{align-items:stretch;flex-direction:column}
+.saas-card .button{font-size:.875rem;letter-spacing:0;text-align:center;white-space:normal}
+.access-path .path-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(min-width:901px) and (max-width:1200px){header{gap:18px}header nav{gap:14px}header>.button{display:none}}
+@media(max-width:1000px){.application-access-grid{grid-template-columns:1fr}.application-access-card .actions{flex-direction:row;flex-wrap:wrap}}
+@media(max-width:760px){.access-options{grid-template-columns:1fr}.access-path .path-grid{grid-template-columns:1fr}}
+@media(max-width:560px){section.lab-intro{padding:32px 22px}.access-option,.application-access-card{padding:22px}.application-access-card .actions{flex-direction:column}.access-option .actions{align-items:stretch;flex-direction:column}.access-option .text-link{justify-content:center}.access-catalog .section-head h2{font-size:34px}}
