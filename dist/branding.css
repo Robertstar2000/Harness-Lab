@@ -1,0 +1,77 @@
+/* MIFECO card-led brand layer for Mars Harness Lab */
+:root{
+  --bg:#05090E;
+  --panel:#0C1D2F;
+  --ink:#FFFFFF;
+  --muted:#AEB8C2;
+  --mars:#F4A046;
+  --cyan:#F4A046;
+  --mint:#AEB8C2;
+  --line:rgba(174,184,194,.26);
+}
+body{
+  background-color:var(--bg);
+  background-image:linear-gradient(rgba(5,9,14,.91),rgba(5,9,14,.97)),url("assets/mifeco-mars-brand-background.webp");
+  background-position:center top;
+  background-size:cover;
+  background-attachment:fixed;
+}
+header{background:rgba(5,9,14,.94);border-bottom-color:rgba(244,160,70,.34)}
+.brand{gap:14px}
+.brand .mark{
+  width:112px;height:37px;flex:0 0 112px;
+  border:0;color:transparent;font-size:0;
+  background:url("assets/MIFECO_logo_white_transparent.png") center/contain no-repeat;
+}
+.brand small{color:var(--muted)}
+.button{border-color:rgba(174,184,194,.42);background:rgba(12,29,47,.74)}
+.button:hover{border-color:var(--mars);color:#fff}
+.button.primary{background:var(--mars);border-color:var(--mars);color:#17100a}
+.button.primary:hover{background:#ffb764;border-color:#ffb764;color:#17100a}
+.eyebrow,.card-index{color:var(--mars)}
+a:hover{color:#ffc27d}
+.welcome{
+  background-image:linear-gradient(90deg,rgba(5,9,14,.97) 0%,rgba(5,9,14,.83) 48%,rgba(5,9,14,.60) 100%),url("assets/mifeco-mars-brand-background.webp");
+  background-position:center, center 43%;background-size:cover;border-bottom-color:rgba(244,160,70,.36);
+}
+.welcome-work{border-color:rgba(244,160,70,.42);background:rgba(244,160,70,.42)}
+.welcome-work article{background:rgba(12,29,47,.95)}
+.welcome-work span,.welcome-explainer a,.welcome-next a{color:var(--mars)}
+.welcome-explainer{border-bottom-color:rgba(244,160,70,.30)}
+.console.hero{border-color:rgba(244,160,70,.45)}
+.console.hero:not(.page-hero){
+  display:block;min-height:650px;
+  background-image:linear-gradient(90deg,rgba(5,9,14,.92) 0%,rgba(5,9,14,.72) 52%,rgba(5,9,14,.12) 100%),url("assets/mifeco-mars-brand-background.webp");
+  background-position:center,center 56%;background-size:cover;
+}
+.console.hero:not(.page-hero) .hero-copy{width:min(70%,900px);background:linear-gradient(90deg,rgba(5,9,14,.82),rgba(5,9,14,.26));}
+.console.hero:not(.page-hero)>img{display:none}
+.console.hero:not(.page-hero) .stats{width:min(70%,900px);background:rgba(5,9,14,.90);border-color:rgba(244,160,70,.34)}
+.page-hero{background-image:linear-gradient(90deg,rgba(5,9,14,.92),rgba(5,9,14,.54)),url("assets/mifeco-mars-brand-background.webp");background-position:center;background-size:cover}
+.page-hero .hero-copy{background:linear-gradient(135deg,rgba(5,9,14,.90),rgba(12,29,47,.66))}
+.functions,.architectures,.conclusions,.deck{background:rgba(12,29,47,.96)!important;color:#fff!important}
+.function-grid,.conclusion-grid{background:rgba(244,160,70,.36);border-color:rgba(244,160,70,.36)}
+.function-grid article,.architecture-card,.architecture-grid>div,.app-flow div,.conclusion-grid article{background:#0C1D2F!important;color:#fff!important;border-color:rgba(174,184,194,.28)!important;box-shadow:none}
+.function-grid p,.architecture-description,.architecture-grid li,.conclusion-grid li{color:#AEB8C2!important}
+.tech-row span{background:#05090E;color:#AEB8C2;border-color:rgba(174,184,194,.32)}
+.architecture-card.hypatia-architecture,.architecture-card.engineer-architecture,.architecture-card.pm-architecture{border-top-color:var(--mars)}
+.source-link,.architecture-actions a,.agent-links a{color:var(--mars)!important;border-color:rgba(244,160,70,.50)!important}
+.app-flow b,.app-flow i,.conclusion-grid span{color:var(--mars)!important}
+.mapping-row,.implementation-note,.artifact-branches div{background:#0C1D2F!important;color:#AEB8C2!important;border-color:rgba(244,160,70,.36)!important}
+.mapping-row b,.implementation-note b,.artifact-branches span{color:var(--mars)!important}
+.agent-card,.skill-card,.primer-card,.chain-node{background:rgba(12,29,47,.94)!important;border-color:rgba(174,184,194,.28)}
+.agent-card.new-agent{background:linear-gradient(145deg,#172433,#24190f)!important;border-color:var(--mars)}
+.agent-card>span,.agent-card.new-agent>span,.chain-node small,.return-line{color:var(--mars)!important}
+.claim.blocked{border-color:#9b4d35;background:#24140f}
+footer{border-top-color:rgba(244,160,70,.30)}
+@media(max-width:900px){
+  body{background-attachment:scroll}
+  .console.hero:not(.page-hero){min-height:600px}
+  .console.hero:not(.page-hero) .hero-copy,.console.hero:not(.page-hero) .stats{width:100%;max-width:none}
+  .console.hero:not(.page-hero) .hero-copy{padding:50px 30px}
+}
+@media(max-width:560px){
+  .brand .mark{width:92px;flex-basis:92px;height:32px}
+  .welcome{background-position:center,65% center}
+  .console.hero:not(.page-hero){min-height:630px}
+}
