@@ -49,6 +49,7 @@ a:hover{color:#ffc27d}
 .console.hero:not(.page-hero) .stats{width:min(70%,900px);background:rgba(5,9,14,.90);border-color:rgba(244,160,70,.34)}
 .page-hero{background-image:linear-gradient(90deg,rgba(5,9,14,.92),rgba(5,9,14,.54)),url("assets/mifeco-mars-brand-background.webp");background-position:center;background-size:cover}
 .page-hero .hero-copy{background:linear-gradient(135deg,rgba(5,9,14,.90),rgba(12,29,47,.66))}
+.page-hero>img{display:none}
 .functions,.architectures,.conclusions,.deck{background:rgba(12,29,47,.96)!important;color:#fff!important}
 .function-grid,.conclusion-grid{background:rgba(244,160,70,.36);border-color:rgba(244,160,70,.36)}
 .function-grid article,.architecture-card,.architecture-grid>div,.app-flow div,.conclusion-grid article{background:#0C1D2F!important;color:#fff!important;border-color:rgba(174,184,194,.28)!important;box-shadow:none}
