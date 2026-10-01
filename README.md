@@ -92,6 +92,19 @@ flowchart LR
 
 The three application codebases are separate. The packet chain is the lab’s integration contract; it is not a claim of an already-running shared message bus. An implementation should use authenticated import/export or APIs, schema validation, stable IDs, configuration hashes, idempotency, audit records, and replay-safe transitions.
 
+### Portable control contract
+
+The same role, state, evidence, tool, validation, approval, and memory contract can map to different agent runtimes. These are the primary source materials; their inclusion does not mean that each runtime has been configured or connected to this lab.
+
+| Runtime | Primary source |
+| --- | --- |
+| Codex | [Codex as a platform](https://developers.openai.com/blog/codex-as-a-platform) |
+| Claude Code | [Claude Code overview](https://docs.claude.com/en/docs/claude-code/overview) |
+| Hermes | [Hermes Agent](https://github.com/hermes-agent-org/hermes) |
+| Grok | [Introducing Grok Bot](https://x.ai/news/introducing-grok-bot) |
+
+If a runtime lacks a required capability, the contract calls for a blocked packet—not simulated success.
+
 | Handoff | Purpose | Minimum control |
 | --- | --- | --- |
 | `EngineeringEvidencePackage/v1` | Science to engineering | Claim classes, sources, methods, data, uncertainty, applicability, peer review, approvals, and open research. |
@@ -132,19 +145,33 @@ Each work package should name its owner, predecessor, inputs, output, acceptance
 
 Eleven core installable agents form the control spine. Each is paired with a portable operating procedure (skill), authority limits, state loop, output expectations, delegation rules, memory-write rules, and stop conditions.
 
-| Agent | Primary responsibility |
-| --- | --- |
-| Mars Harness Director | Route the mission objective, typed packets, domain gates, integration, and final disposition. |
-| Hypatia Science Director | Research questions, evidence, hypotheses, study design, analysis, peer review, and handoff. |
-| Hyperia Research Synthesist | Claim-level source provenance, consensus/conflict maps, evidence gaps, and decision briefs. |
-| Intelligent Engineer Systems Director | Requirements, architecture, interfaces, critical design, configuration, verification, and release. |
-| Vibe Engineering Collaboration Lead | Reversible build increments, tests, specialist thresholds, handoffs, and rollback. |
-| Mars 3D Model Engineer | Model-derived views, editable geometry, STL, mesh checks, and printability evidence. |
-| Schematic & Parts Configuration Engineer | Synchronized schematics and bill-of-material/parts configurations. |
-| Ground Truth Gatekeeper | Provenance, configuration, recomputation, tests, evidence limits, and promotion disposition. |
-| PM Accelerator Program Director | Charter, WBS, schedule, resources, authority, evidence, change, and closure. |
-| Mission Memory Steward | Validated facts, versions, decisions, provenance, review triggers, and supersession. |
-| Ethical Specialist Network Governor | Bounded delegation, inherited ethics, supervision, independent review, and retirement. |
+| Agent | Paired skill | Primary responsibility |
+| --- | --- | --- |
+| Mars Harness Director | `mars-harness-orchestrator` | Route the mission objective, typed packets, domain gates, integration, and final disposition. |
+| Hypatia Science Director | `hypatia-science-harness` | Research questions, evidence, hypotheses, study design, analysis, peer review, and handoff. |
+| Hyperia Research Synthesist | `hyperia-research-synthesis` | Claim-level source provenance, consensus/conflict maps, evidence gaps, and decision briefs. |
+| Intelligent Engineer Systems Director | `intelligent-engineer-harness` | Requirements, architecture, interfaces, critical design, configuration, verification, and release. |
+| Vibe Engineering Collaboration Lead | `vibe-engineering-collaboration` | Reversible build increments, tests, specialist thresholds, handoffs, and rollback. |
+| Mars 3D Model Engineer | `mars-3d-modeling-harness` | Model-derived views, editable geometry, STL, mesh checks, and printability evidence. |
+| Schematic & Parts Configuration Engineer | `paired-schematic-parts-harness` | Synchronized schematics and bill-of-material/parts configurations. |
+| Ground Truth Gatekeeper | `ground-truth-gatekeeper` | Provenance, configuration, recomputation, tests, evidence limits, and promotion disposition. |
+| PM Accelerator Program Director | `pm-accelerator-harness` | Charter, WBS, schedule, resources, authority, evidence, change, and closure. |
+| Mission Memory Steward | `mission-memory-steward` | Validated facts, versions, decisions, provenance, review triggers, and supersession. |
+| Ethical Specialist Network Governor | `ethical-specialist-agent-network` | Bounded delegation, inherited ethics, supervision, independent review, and retirement. |
+
+### The eleven portable skills
+
+1. `mars-harness-orchestrator` — route science, engineering, execution, and artifact specialists through typed packets and gates.
+2. `hypatia-science-harness` — ten controlled phases from research charter to peer-reviewed engineering evidence.
+3. `hyperia-research-synthesis` — source collection, claim synthesis, conflict mapping, and evidence gaps.
+4. `intelligent-engineer-harness` — ten controlled stages mapped to the application's seven phases, including geometry and schematic branches.
+5. `vibe-engineering-collaboration` — reversible increments, tests, and rollback.
+6. `ground-truth-gatekeeper` — claim inventory, provenance, recomputation, test evidence, and promotion disposition.
+7. `pm-accelerator-harness` — nine lifecycle phases for planning, control, change, and closure.
+8. `mission-memory-steward` — validated facts, native IDs, versions, provenance, review triggers, and supersession.
+9. `ethical-specialist-agent-network` — bounded spawning, inherited ethics, review, and retirement.
+10. `mars-3d-modeling-harness` — model-derived images, geometry, STL, mesh integrity, dimensions, and printability.
+11. `paired-schematic-parts-harness` — a synchronized schematic and parts/BOM configuration with stable identifiers and domain checks.
 
 Ten additional role contracts extend these teams without claiming ten separate deployed services: deliberative-search specialist; graph-impact analyst; document-assembly editor; PCB-layout reviewer; mechanical-assembly editor; simulation-validation engineer; independent-challenge reviewer; runtime-assurance specialist; value-of-information analyst; performance-evidence analyst.
 
@@ -175,7 +202,7 @@ Promotion requires evidence appropriate to the transition, a named accountable r
 
 ## MOXIE scale-up case study
 
-The lab’s case study asks how NASA’s small MOXIE oxygen-production demonstration might inform a conceptual scale-up toward the oxygen needs of a two-year, twelve-person Mars habitat and return-vehicle refueling. It distinguishes reported MOXIE observations from scale-up calculations and assumptions.
+The lab’s case study asks how NASA’s small MOXIE oxygen-production demonstration might inform a conceptual scale-up toward the oxygen needs of a two-year, twelve-person Mars habitat and return-vehicle refueling. Site materials record 16 runs, 122 g produced, 12 g/hour, and at least 98% purity as observed evidence. The case study distinguishes those reported observations from scale-up calculations and assumptions.
 
 Figures carried in the presentation materials—including approximately 304 kWe, 592 metric tons, 585 metric tons, 7.4 metric tons, and 33.8 kg/hour—are modeled scenario values, not a qualified system design. The useful harness behavior is the evidence chain: state assumptions and units, show calculations, identify energy and thermal constraints, surface uncertainty, ask for independent review, and return unresolved requirements to research and engineering.
 
@@ -198,15 +225,15 @@ Recommended use:
 
 | Package | Contents |
 | --- | --- |
-| `Mars_Harness_Operational_Methods_V5_2.zip` | Ten methods, role contracts, templates, local tools, tests, coverage map, and license. |
-| `Mars_Harness_Skills_V5_1_Complete.zip` | All eleven current skills with shared methods, examples, tools, and references. |
-| `Mars_Harness_Agents_V5_1_Complete.zip` | Eleven core agent instructions/souls, skills, shared methods, references, and license. |
-| `Three_Harness_Setup_Instructions.zip` | Science, engineering, and project-management setup guides plus the operational methods. |
+| [Operational Methods V5.2 ZIP](https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/downloads/Mars_Harness_Operational_Methods_V5_2.zip) | Ten methods, role contracts, templates, local tools, tests, coverage map, and license. |
+| [Complete skill suite ZIP](https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/downloads/Mars_Harness_Skills_V5_1_Complete.zip) | All eleven current skills with shared methods, examples, tools, and references. |
+| [Complete agent suite ZIP](https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/downloads/Mars_Harness_Agents_V5_1_Complete.zip) | Eleven core agent instructions/souls, skills, shared methods, references, and license. |
+| [Three-harness setup ZIP](https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/downloads/Three_Harness_Setup_Instructions.zip) | Science, engineering, and project-management setup guides plus the operational methods. |
 | Individual skill and agent ZIPs | A focused role/skill package with shared methods and required references. |
 | Wiki-style project-memory JSON | Starter record structure for evidence, decisions, requirements, design, risks, artifacts, and change history. |
 | Complete Harness Methods Release | Agents, skills, methods, setup guides, wiki starter, and supporting text documentation. Presentation and artwork remain separate files. |
 
-Current files and checksums are indexed in [`dist/downloads/release-manifest.json`](dist/downloads/release-manifest.json) and [`dist/downloads/SHA256SUMS.txt`](dist/downloads/SHA256SUMS.txt). Start at the [download catalog](https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/#downloads) or inspect the source folders in this repository.
+Current files and checksums are indexed in [`dist/downloads/release-manifest.json`](dist/downloads/release-manifest.json) and [`dist/downloads/SHA256SUMS.txt`](dist/downloads/SHA256SUMS.txt). Browse the [complete download catalog](https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/#downloads) or inspect the source folders in this repository.
 
 ## Readiness and limitations
 
