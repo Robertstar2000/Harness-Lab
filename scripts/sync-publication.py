@@ -1,3 +1,4 @@
+# HTML sources are committed directly because the hosting layer injects HTML runtime markup.
 """Mirror the verified public Harness Lab publication into this repository."""
 from pathlib import Path, PurePosixPath
 from concurrent.futures import ThreadPoolExecutor
