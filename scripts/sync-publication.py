@@ -16,7 +16,9 @@ def download(item):
  if path.is_absolute() or '..' in path.parts or path.parts[0]!='dist':
   raise ValueError('Invalid publication path')
  target=root/str(path)
- if target.exists() and hashlib.sha256(target.read_bytes()).hexdigest()==item['sha256']:return
+ if target.is_file() and target.stat().st_size==item['bytes'] and hashlib.sha256(target.read_bytes()).hexdigest()==item['sha256']:return
+ if path.suffix.lower() in ('.html','.htm'):
+  raise ValueError('Canonical HTML source mismatch: '+str(path)+'; commit the Site source HTML and matching manifest together. The hosted response includes injected markup and cannot verify the source checksum.')
  request=Request(origin+'/'+quote('/'.join(path.parts[1:]),safe='/'),headers={'User-Agent':'MIFECO-Harness-Lab-Sync/1.0'})
  with urlopen(request,timeout=120) as response: data=response.read()
  if len(data)!=item['bytes'] or hashlib.sha256(data).hexdigest()!=item['sha256']:
