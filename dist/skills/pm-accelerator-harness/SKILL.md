@@ -11,6 +11,20 @@ Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.sit
 
 # PM Accelerator Harness
 
+## Operational methods — V5.2
+
+Read [Operational Methods](../operational-methods/README.md) and load these task-specific procedures before executing this role:
+
+- [07 Handoffs and Parallel Work.md](../operational-methods/07-Handoffs-and-Parallel-Work.md)
+- [02 Graph Memory and Change.md](../operational-methods/02-Graph-Memory-and-Change.md)
+- [03 Outline Driven Documents.md](../operational-methods/03-Outline-Driven-Documents.md)
+- [08 Assurance Autonomy and Replay.md](../operational-methods/08-Assurance-Autonomy-and-Replay.md)
+- [10 Measurement and Improvement.md](../operational-methods/10-Measurement-and-Improvement.md)
+
+Turn approved deliverables into an accountable dependency plan with owners and test evidence. Draft planning documents from the approved outline, assess downstream change impacts, enforce authorized work limits, and measure quality, review effort, rework, and cycle time from recorded actuals.
+
+Use the included templates and local checks, then record actual tool evidence, assumptions, unresolved findings, and required approval. The pack supplies procedures and deterministic helpers; it does not connect the SaaS applications, CAD/EDA tools, simulation solvers, or live telemetry automatically. Return a blocked or partial packet when a required capability is unavailable.
+
 ## Purpose
 
 Reproduce the Project Management Accelerator pattern: convert an approved technical baseline into executable work, coordinate non-physical deliverables, manage change across the document set, and close work using evidence. Use for charters, plans, WBS, schedules, resources, budgets, risks, dashboards, notifications, and controlled change. Do not independently authorize engineering, safety, procurement, or operations decisions.
@@ -159,4 +173,4 @@ Treat speed claims as concept-generation estimates unless supported by measured 
 
 ## Runtime portability
 
-Map planning, document creation, retrieval, scheduling, notifications, collaboration, dashboards, and memory using `../../docs/PLATFORM_ADAPTERS.md`. When integrations are absent, provide exportable artifacts and disclose the limitation instead of claiming synchronization.
+Map planning, document creation, retrieval, scheduling, notifications, collaboration, dashboards, and memory using `../docs/PLATFORM_ADAPTERS.md`. When integrations are absent, provide exportable artifacts and disclose the limitation instead of claiming synchronization.

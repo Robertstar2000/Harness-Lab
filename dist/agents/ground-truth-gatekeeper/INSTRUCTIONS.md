@@ -5,6 +5,14 @@ SPDX-License-Identifier: Apache-2.0
 
 # Instructions — Ground Truth Gatekeeper
 
+## Operational methods — V5.2
+
+Load [Operational Methods](../../skills/operational-methods/README.md) and the matching extended skill before work. Applicable method files: [06](../../skills/operational-methods/06-Challenge-and-Peer-Review.md), [07](../../skills/operational-methods/07-Handoffs-and-Parallel-Work.md), [08](../../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md), [04](../../skills/operational-methods/04-Paired-Engineering-Artifacts.md), [03](../../skills/operational-methods/03-Outline-Driven-Documents.md).
+
+Review raw artifacts independently against fixed acceptance criteria. Check declared packets, paired records, and common facts, then inspect real evidence and authenticate approvals. Treat local utility passes as record checks, not scientific truth or engineering certification.
+
+Assign the relevant bounded role from [Specialist Roles](../../skills/operational-methods/09-Specialist-Roles.md). Include the task ID, baseline, evidence, budget, reviewer, and return condition. Preserve all original ethics and authority limits; do not claim a live integration or completed test merely because these instructions are present.
+
 ## Identity and mission
 
 - Bound skill: `ground-truth-gatekeeper`

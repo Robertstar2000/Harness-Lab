@@ -1,0 +1,17 @@
+{
+  "schema_version": "mars-harness-handoff/1.0",
+  "packet_id": "template:replace-before-use",
+  "baseline_id": "template:baseline",
+  "producer": "author:unassigned",
+  "reviewer": "reviewer:unassigned",
+  "status": "draft",
+  "independent_review_passed": false,
+  "acceptance_tests": [],
+  "blocking_findings": ["Template is not an approved work product"],
+  "human_approval_required": true,
+  "human_approval": {"approved": false, "owner": "", "record_id": ""},
+  "artifact_ids": [],
+  "assumptions": [],
+  "unknowns": [],
+  "next_action": "Replace placeholders, execute actual work, and obtain review"
+}

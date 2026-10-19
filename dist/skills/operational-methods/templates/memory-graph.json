@@ -1,0 +1,15 @@
+{
+  "record_type": "synthetic_example_not_project_evidence",
+  "edge_direction": "prerequisite_to_dependent",
+  "nodes": [
+    {"id": "claim:power", "type": "claim", "status": "approved", "version": 1, "evidence_class": "Assumed", "text": "Synthetic assumption approved for planning only", "source_ids": []},
+    {"id": "req:power-budget", "type": "requirement", "status": "approved", "version": 1, "text": "Synthetic power requirement"},
+    {"id": "design:power", "type": "configuration", "status": "draft", "version": 1, "text": "Dependent candidate design"},
+    {"id": "task:review", "type": "task", "status": "draft", "version": 1, "text": "Review design against updated requirement"}
+  ],
+  "edges": [
+    {"from": "claim:power", "to": "req:power-budget", "kind": "informs", "propagates_change": true},
+    {"from": "req:power-budget", "to": "design:power", "kind": "constrains", "propagates_change": true},
+    {"from": "design:power", "to": "task:review", "kind": "defines_work", "propagates_change": true}
+  ]
+}

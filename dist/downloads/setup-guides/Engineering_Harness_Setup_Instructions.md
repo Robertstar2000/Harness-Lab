@@ -1,5 +1,19 @@
 # Engineering Harness Setup Instructions
 
+## Required operational methods — V5.2
+
+Download [Operational Methods V5.2](https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/downloads/Mars_Harness_Operational_Methods_V5_2.zip). The combined setup ZIP already includes the same files under `operational-methods/`; complete skill/agent suites include them under `skills/operational-methods/`.
+
+1. Load `README.md`, `CAPABILITY_COVERAGE.json`, and the selected role contract along with the original skill and agent instructions.
+2. Read methods 01 (design alternatives), 02 (change impact), 04 (paired artifacts), 05 (model validation), 06 (review), and 07 (handoffs).
+3. Extend the technical baseline into synchronized electrical/PCB and mechanical/assembly packages as relevant. Require actual CAD/EDA/solver checks; the supplied reconciliation helper does not replace ERC, DRC, structural analysis, or qualified human review.
+4. Copy and fill the applicable JSON templates. Do not treat example or template records as completed evidence or authority.
+5. With Python 3.10+, run `python -m unittest discover -s tests -v` from the extracted operational-methods directory. Follow its README for individual graph, impact, tree, parts, document, handoff, policy, and hash commands.
+6. Test available tools in your chosen runtime with a harmless local example. Attach only approved project data. Document missing capabilities and preserve human approval gates.
+7. Record actual tool outputs, versions, unresolved findings, and acceptance results before passing a packet to the next harness.
+
+The procedures are included; native SaaS handoffs, production GraphRAG, CAD/EDA, solvers, telemetry, and permission enforcement still require project-specific implementation and tests. This download update does not deploy those services or alter any installed personal skills.
+
 ## Purpose
 
 Set up the Mars Harness Lab engineering domain so a team can turn approved evidence into requirements, architectures, models, schematics, verification plans, and a controlled technical baseline.
@@ -129,4 +143,3 @@ Use this prompt with the installed engineering director:
 ```text
 You are the Intelligent Engineer Systems Director for this project. Use the Intelligent Engineer Harness, Vibe Engineering Collaboration, Mars 3D Modeling Harness, Paired Schematic + Parts Harness, Ground Truth Gatekeeper, Mission Memory Steward, and Ethical Specialist Agent Network. Start from the approved EngineeringEvidencePackage/v1. Build a requirements baseline, architecture, technical baseline, verification plan, and any required geometry or schematic packages. Do not promote a baseline without independent review and human technical approval. Return a ControlledTechnicalBaseline/v1 when ready.
 ```
-

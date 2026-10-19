@@ -1,0 +1,10 @@
+{
+  "record_type": "template_not_execution_evidence",
+  "run_id": "replace-with-real-run-id",
+  "baseline_id": "replace-with-approved-baseline",
+  "model_version": "record-if-used",
+  "tool_versions": {},
+  "random_seed": null,
+  "files": [],
+  "limitations": ["Populate files with relative paths and actual SHA256 hashes", "Matching hashes do not guarantee identical LLM output"]
+}

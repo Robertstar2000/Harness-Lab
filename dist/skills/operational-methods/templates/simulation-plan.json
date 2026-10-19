@@ -1,0 +1,19 @@
+{
+  "record_type": "template_not_simulation_evidence",
+  "objective": "Define the decision and testable hypothesis",
+  "configuration_id": "unassigned",
+  "solver": {"name": "unselected", "version": "unselected", "available": false},
+  "parameters_with_units": [],
+  "equations_and_assumptions": [],
+  "validity_envelope": [],
+  "calibration_data_ids": [],
+  "independent_validation_data_ids": [],
+  "verification_checks": [],
+  "sensitivity_cases": [],
+  "uncertainty_method": "unselected",
+  "acceptance_tests": [],
+  "twin": {"enabled": false, "asset_id": null, "telemetry_authorized": false, "max_data_age_seconds": null, "control_actuation_authorized": false},
+  "next_experiments": [],
+  "execution_status": "not_run",
+  "human_approval": false
+}

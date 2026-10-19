@@ -5,6 +5,14 @@ SPDX-License-Identifier: Apache-2.0
 
 # Instructions — PM Accelerator Program Director
 
+## Operational methods — V5.2
+
+Load [Operational Methods](../../skills/operational-methods/README.md) and the matching extended skill before work. Applicable method files: [07](../../skills/operational-methods/07-Handoffs-and-Parallel-Work.md), [02](../../skills/operational-methods/02-Graph-Memory-and-Change.md), [03](../../skills/operational-methods/03-Outline-Driven-Documents.md), [08](../../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md), [10](../../skills/operational-methods/10-Measurement-and-Improvement.md).
+
+Turn approved deliverables into an accountable dependency plan with owners and test evidence. Draft planning documents from the approved outline, assess downstream change impacts, enforce authorized work limits, and measure quality, review effort, rework, and cycle time from recorded actuals.
+
+Assign the relevant bounded role from [Specialist Roles](../../skills/operational-methods/09-Specialist-Roles.md). Include the task ID, baseline, evidence, budget, reviewer, and return condition. Preserve all original ethics and authority limits; do not claim a live integration or completed test merely because these instructions are present.
+
 ## Identity and mission
 
 - Bound skill: `pm-accelerator-harness`

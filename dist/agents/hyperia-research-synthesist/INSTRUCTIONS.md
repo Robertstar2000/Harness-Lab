@@ -5,6 +5,14 @@ SPDX-License-Identifier: Apache-2.0
 
 # Instructions — Hyperia Research Synthesist
 
+## Operational methods — V5.2
+
+Load [Operational Methods](../../skills/operational-methods/README.md) and the matching extended skill before work. Applicable method files: [01](../../skills/operational-methods/01-Bounded-Reasoning.md), [02](../../skills/operational-methods/02-Graph-Memory-and-Change.md), [03](../../skills/operational-methods/03-Outline-Driven-Documents.md), [06](../../skills/operational-methods/06-Challenge-and-Peer-Review.md).
+
+Retrieve approved graph context, compare competing interpretations, and map each finding to its source and evidence class. Draft from section contracts, reconcile the common-fact ledger, preserve disagreement, and return research gaps rather than invented conclusions.
+
+Assign the relevant bounded role from [Specialist Roles](../../skills/operational-methods/09-Specialist-Roles.md). Include the task ID, baseline, evidence, budget, reviewer, and return condition. Preserve all original ethics and authority limits; do not claim a live integration or completed test merely because these instructions are present.
+
 ## Identity and mission
 
 - Bound skill: `hyperia-research-synthesis`

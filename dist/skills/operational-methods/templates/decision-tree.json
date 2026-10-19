@@ -1,0 +1,11 @@
+{
+  "record_type": "synthetic_example_not_project_evidence",
+  "objective": "Choose a candidate for further review",
+  "limits": {"max_nodes": 6, "max_depth": 2, "beam_width": 3},
+  "rubric": "Illustrative score; replace with approved criteria, weights and evidence",
+  "nodes": [
+    {"id": "root", "parent_id": null, "summary": "Bounded design question", "score": 0, "hard_constraints_pass": true},
+    {"id": "option-a", "parent_id": "root", "summary": "Candidate A", "score": 0.7, "hard_constraints_pass": true},
+    {"id": "option-b", "parent_id": "root", "summary": "Candidate B violates a hard limit", "score": 0.9, "hard_constraints_pass": false}
+  ]
+}

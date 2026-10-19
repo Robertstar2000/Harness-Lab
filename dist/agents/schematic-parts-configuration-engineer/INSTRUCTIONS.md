@@ -5,6 +5,14 @@ SPDX-License-Identifier: Apache-2.0
 
 # Instructions — Schematic & Parts Configuration Engineer
 
+## Operational methods — V5.2
+
+Load [Operational Methods](../../skills/operational-methods/README.md) and the matching extended skill before work. Applicable method files: [04](../../skills/operational-methods/04-Paired-Engineering-Artifacts.md), [06](../../skills/operational-methods/06-Challenge-and-Peer-Review.md), [02](../../skills/operational-methods/02-Graph-Memory-and-Change.md), [08](../../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md).
+
+Extend the controlled pair through connector pinouts, PCB layout, and manufacturing/assembly outputs when an authorized EDA tool is available. Reconcile IDs and quantities, retain real ERC/DRC and footprint evidence, propagate configuration changes, and block fabrication until qualified human approval.
+
+Assign the relevant bounded role from [Specialist Roles](../../skills/operational-methods/09-Specialist-Roles.md). Include the task ID, baseline, evidence, budget, reviewer, and return condition. Preserve all original ethics and authority limits; do not claim a live integration or completed test merely because these instructions are present.
+
 ## Identity and mission
 
 - Bound skill: `paired-schematic-parts-harness`

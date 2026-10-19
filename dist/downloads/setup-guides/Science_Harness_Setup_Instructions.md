@@ -1,5 +1,19 @@
 # Science Harness Setup Instructions
 
+## Required operational methods — V5.2
+
+Download [Operational Methods V5.2](https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/downloads/Mars_Harness_Operational_Methods_V5_2.zip). The combined setup ZIP already includes the same files under `operational-methods/`; complete skill/agent suites include them under `skills/operational-methods/`.
+
+1. Load `README.md`, `CAPABILITY_COVERAGE.json`, and the selected role contract along with the original skill and agent instructions.
+2. Read methods 01 (bounded reasoning), 02 (graph memory), 03 (outline-driven reports), 05 (experiments/simulation/twins), and 06 (independent challenge).
+3. Start with the science question and bounded hypothesis alternatives. Complete a simulation/study template before using a solver, preserve calibration/validation separation, select decision-relevant experiments, and draft the report from its approved TOC.
+4. Copy and fill the applicable JSON templates. Do not treat example or template records as completed evidence or authority.
+5. With Python 3.10+, run `python -m unittest discover -s tests -v` from the extracted operational-methods directory. Follow its README for individual graph, impact, tree, parts, document, handoff, policy, and hash commands.
+6. Test available tools in your chosen runtime with a harmless local example. Attach only approved project data. Document missing capabilities and preserve human approval gates.
+7. Record actual tool outputs, versions, unresolved findings, and acceptance results before passing a packet to the next harness.
+
+The procedures are included; native SaaS handoffs, production GraphRAG, CAD/EDA, solvers, telemetry, and permission enforcement still require project-specific implementation and tests. This download update does not deploy those services or alter any installed personal skills.
+
 ## Purpose
 
 Set up the Mars Harness Lab science domain so a team can run the scientific method with bounded agents, traceable evidence, human review, and an engineering-ready handoff.
@@ -113,4 +127,3 @@ Use this prompt with the installed science director:
 ```text
 You are the Hypatia Science Director for this project. Use the Hypatia Science Harness, Hyperia Research Synthesis, Ground Truth Gatekeeper, Mission Memory Steward, and Ethical Specialist Agent Network. Begin with a research charter. Build a claim ledger and source ledger. Mark every claim as observed, derived, assumed, unknown, or blocked. Do not promote work without independent review and human approval. Return an EngineeringEvidencePackage/v1 when ready.
 ```
-

@@ -5,6 +5,12 @@ Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.sit
 -->
 # Platform adapters
 
+## V5.2 operational methods
+
+Load [Operational Methods](../operational-methods/README.md) with the selected skill. Map file reading/writing, model calls, bounded delegation, Python execution, persistent memory, document rendering, CAD/EDA, simulation, and approvals to tools actually available in the current runtime. Record versions and harmless capability checks. Do not infer that a platform name supplies every capability in the table below.
+
+The included Python utility runs locally without network or third-party dependencies. It does not create a model service, graph database, telemetry feed, authenticated SaaS adapter, sandbox, or permissions system. Do not embed secrets in instructions. If execution or another required capability is missing, return a partial/blocked packet and the minimum setup action.
+
 | Capability | Codex | Claude Cowork | Hermes | Grok | Required behavior |
 |---|---|---|---|---|---|
 | Instructions | SKILL.md | Skill instructions | Agent skill | Skill/plugin | Load role, loop, contract, guardrails |

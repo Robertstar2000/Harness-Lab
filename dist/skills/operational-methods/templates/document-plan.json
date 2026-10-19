@@ -1,0 +1,10 @@
+{
+  "record_type": "synthetic_example_not_project_evidence",
+  "outline_status": "draft",
+  "sources": ["source:example"],
+  "facts": [{"id": "fact:duration", "value": 24, "unit": "h", "evidence_class": "Assumed"}],
+  "sections": [
+    {"id": "section:scope", "title": "Scope", "description": "Define decision, operating envelope, and limitations", "depends_on": [], "source_ids": ["source:example"], "facts": [{"id": "fact:duration", "value": 24, "unit": "h"}], "acceptance": ["Scope and assumptions explicit"]},
+    {"id": "section:method", "title": "Method", "description": "Explain the method using approved scope and evidence", "depends_on": ["section:scope"], "source_ids": ["source:example"], "facts": [], "acceptance": ["Method and evidence traceable"]}
+  ]
+}

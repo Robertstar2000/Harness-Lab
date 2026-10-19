@@ -1,0 +1,13 @@
+{
+  "record_type": "template_not_performance_evidence",
+  "task_definition": "unassigned",
+  "acceptance_criteria": [],
+  "baseline_version": "unassigned",
+  "candidate_version": "unassigned",
+  "sample_size": 0,
+  "baseline": {"elapsed_hours": null, "human_hours": null, "review_hours": null, "cost_usd": null, "defects": null},
+  "candidate": {"elapsed_hours": null, "human_hours": null, "review_hours": null, "cost_usd": null, "defects": null},
+  "comparability_limitations": [],
+  "measured_claims": [],
+  "publication_approved": false
+}

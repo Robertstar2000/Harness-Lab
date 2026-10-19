@@ -43,6 +43,10 @@ List authoritative inputs, configuration/version identifiers, assumptions, unkno
 
 Define phase states and legal transitions. Use: frame → retrieve → generate → act → observe → validate → critique → repair → approve → persist.
 
+## Operational methods and capability readiness
+
+Select applicable methods from `skills/operational-methods/README.md` and a bounded role contract from its `roles/` directory. Declare required tools, observed availability, inputs, method/template versions, acceptance tests, author/reviewer separation, and actual execution evidence. Identify tool-dependent or unimplemented adapters explicitly. A local helper pass is not domain validation, permission enforcement, or human approval.
+
 ## Output contract
 
 Name the schema, mandatory fields, acceptance tests, evidence classes, and status vocabulary.

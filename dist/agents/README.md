@@ -78,6 +78,12 @@ Every agent returns a human-readable brief and a machine-readable envelope with 
 
 The domain-specific agent extends this envelope; it does not replace it.
 
+## V5.2 operational methods update
+
+All eleven core instruction sets now route to [Operational Methods](../skills/operational-methods/README.md). Ten additional bounded role contracts cover deliberative search, graph/change impact, document assembly, PCB review, mechanical assembly documentation, simulation validation/twin readiness, independent challenge, runtime assurance/replay, value of information, and performance evidence. They remain subordinate to the existing accountable leads and inherit ethics, permissions, and review limits.
+
+Individual agent ZIPs preserve the `agents/<role>/` and `skills/<skill>/` layout with shared methods, docs, and examples so relative references work after extraction. The complete agent suite includes all eleven skills. These are downloadable instructions and helpers, not a claim that every role, native adapter, or external engineering tool has executed.
+
 ## License
 
 Apache License 2.0. See `LICENSE.txt` and `NOTICE.txt` in the downloadable package.

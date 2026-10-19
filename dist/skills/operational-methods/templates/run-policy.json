@@ -1,0 +1,11 @@
+{
+  "record_type": "synthetic_example_not_authorization",
+  "risk": "low",
+  "action": "analyze_local",
+  "explicitly_authorized": false,
+  "allowed_actions": ["read_local", "analyze_local", "write_scratch"],
+  "limits": {"calls": 10, "cost_usd": 1, "elapsed_seconds": 120},
+  "used": {"calls": 0, "cost_usd": 0, "elapsed_seconds": 0},
+  "proposed": {"calls": 1, "cost_usd": 0, "elapsed_seconds": 1},
+  "runtime_enforcement": "not_configured"
+}

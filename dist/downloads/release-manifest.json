@@ -1,6 +1,6 @@
 {
   "release": "Mars Harness Lab Version 5",
-  "updated": "2026-09-28",
+  "updated": "2026-10-01",
   "license": {
     "spdx_id": "Apache-2.0",
     "copyright": "Copyright 2026 Mars Harness Lab contributors",
@@ -22,7 +22,7 @@
     "Hermes",
     "Grok"
   ],
-  "manifest_scope": "All published files except this manifest, SHA256SUMS.txt, and the self-containing complete release archive.",
+  "manifest_scope": "All public files except release-manifest.json and SHA256SUMS.txt; archives use their own payload manifests.",
   "files": [
     {
       "path": "access.css",
@@ -31,18 +31,18 @@
     },
     {
       "path": "agents/AGENT_INSTRUCTIONS_TEMPLATE.md",
-      "bytes": 1762,
-      "sha256": "0fe29a99f32824a092cb50a5c3272db0cc6138f727280a20dfac2740be927412"
+      "bytes": 2248,
+      "sha256": "8f88315b246817c524e3cb06376ffaf1a2538325c490c847898b5a1c6eea1abf"
     },
     {
       "path": "agents/Mars_Harness_Agent_Manifest.json",
-      "bytes": 3197,
-      "sha256": "61785dc9c4a27e8f399f61e4b323fd9431bfb58a6650368af77faec622285863"
+      "bytes": 10985,
+      "sha256": "98e331abafd9fbac58f2ed152f4c6c68a7bd3d70a9a5ca4237662bb47e0f1fe8"
     },
     {
       "path": "agents/README.md",
-      "bytes": 4696,
-      "sha256": "f8ebaf2110f945bd6b5b4cf410761d54842ef081ffbd7b51af5f365866351d51"
+      "bytes": 5598,
+      "sha256": "4692d58c2e6979b6a24a1a1b128b75d1e4197a4eedf03b031fc0248de1182356"
     },
     {
       "path": "agents/docs/GITHUB_APPLICATION_SOURCE_REVIEW.md",
@@ -55,9 +55,14 @@
       "sha256": "7791f0658e2b466bd1cca16a268e3440868ff419736d69f67d691c74a5ad8c00"
     },
     {
+      "path": "agents/docs/STRIPE_PAYMENT_LINKS.md",
+      "bytes": 4028,
+      "sha256": "4e6dea2dd7e2fbfe7d572b6ef38f2255a2a4405962b206ac2e55a16c9288cb0e"
+    },
+    {
       "path": "agents/ethical-specialist-network-governor/INSTRUCTIONS.md",
-      "bytes": 2370,
-      "sha256": "7604752b6c77225d5517989057808d42185de322286f893fe3a091b74038aa0a"
+      "bytes": 3440,
+      "sha256": "e9201a2f11d6a3994ae0e4bb95685c00cda62af4484fd3d6de2141bc3189a1e4"
     },
     {
       "path": "agents/ethical-specialist-network-governor/SOUL.md",
@@ -66,8 +71,8 @@
     },
     {
       "path": "agents/ground-truth-gatekeeper/INSTRUCTIONS.md",
-      "bytes": 2022,
-      "sha256": "7894d7f872149d4536058c3dda36def8dcb444efd58e75388de5a8d0048ffc67"
+      "bytes": 3189,
+      "sha256": "e9c5e37cffc1e8325cf72de95f13c2f450602e29fac5ede9a7cd8dd51ffe75ca"
     },
     {
       "path": "agents/ground-truth-gatekeeper/SOUL.md",
@@ -76,8 +81,8 @@
     },
     {
       "path": "agents/hypatia-science-director/INSTRUCTIONS.md",
-      "bytes": 3128,
-      "sha256": "cba9cb148929968c6fe23da6b1892acc87359315faf403b7bf88738bc56a83fe"
+      "bytes": 4293,
+      "sha256": "689ba31451dfaed3f50be813c491c6a35796d902b771633c7c97b5b3469b7d7c"
     },
     {
       "path": "agents/hypatia-science-director/SOUL.md",
@@ -86,8 +91,8 @@
     },
     {
       "path": "agents/hyperia-research-synthesist/INSTRUCTIONS.md",
-      "bytes": 2204,
-      "sha256": "a81e46f3b6bdd8d6b0313d24e1a96197cac72627845ee558b967184c0a4b956e"
+      "bytes": 3271,
+      "sha256": "60c36f3fb37bfbd04d2d8efdcacac3373487c21a30818f01a091ade7e5ecb4b5"
     },
     {
       "path": "agents/hyperia-research-synthesist/SOUL.md",
@@ -96,8 +101,8 @@
     },
     {
       "path": "agents/intelligent-engineer-systems-director/INSTRUCTIONS.md",
-      "bytes": 3689,
-      "sha256": "490883fff6b5af6558d55fbb18854e1babebb04bc77d664f9b32a6c9f06437d9"
+      "bytes": 4937,
+      "sha256": "39079110b9ad3c1f6ee17a82b86e87e9101ea512d6b47a62eaa1fb0abc0cbe23"
     },
     {
       "path": "agents/intelligent-engineer-systems-director/SOUL.md",
@@ -106,8 +111,8 @@
     },
     {
       "path": "agents/mars-3d-model-engineer/INSTRUCTIONS.md",
-      "bytes": 2346,
-      "sha256": "1de1468a6ef8ff9c33c552af575451b7bc87f2597e6a6e3f9ee31cb73d3aa140"
+      "bytes": 3435,
+      "sha256": "714f67a39b97ecad79131984518a0059359ebb08a2e6be9b7b6938fd8fa02a43"
     },
     {
       "path": "agents/mars-3d-model-engineer/SOUL.md",
@@ -116,8 +121,8 @@
     },
     {
       "path": "agents/mars-harness-director/INSTRUCTIONS.md",
-      "bytes": 2730,
-      "sha256": "5b85077c5712016d058f90ad1969ad13a1126f58d1a3317afd2b4e9f88b02daa"
+      "bytes": 3958,
+      "sha256": "8d1ac026048bd932563f298d34c1a99d793c06457976b060a83b03c4f48f32a6"
     },
     {
       "path": "agents/mars-harness-director/SOUL.md",
@@ -126,8 +131,8 @@
     },
     {
       "path": "agents/mission-memory-steward/INSTRUCTIONS.md",
-      "bytes": 2110,
-      "sha256": "f9bd149d8951740fbf11c686cd07b9897ac08d23d15a34c15f5019f6bdc72775"
+      "bytes": 3228,
+      "sha256": "c9e48f5e7b847c7a1bb443c160ccc5469793d51a40d39ac436d6cf86a95e934e"
     },
     {
       "path": "agents/mission-memory-steward/SOUL.md",
@@ -136,8 +141,8 @@
     },
     {
       "path": "agents/pm-accelerator-program-director/INSTRUCTIONS.md",
-      "bytes": 3011,
-      "sha256": "77e34aacf586494f167c826e50da56f0273928926f2ab183f600f885861b2688"
+      "bytes": 4190,
+      "sha256": "185ea0c60b73a4f345ff969e0fd6ebb3c5c8c1cab3a1f1b1cf9b5a4996f895a4"
     },
     {
       "path": "agents/pm-accelerator-program-director/SOUL.md",
@@ -146,8 +151,8 @@
     },
     {
       "path": "agents/schematic-parts-configuration-engineer/INSTRUCTIONS.md",
-      "bytes": 2436,
-      "sha256": "372776db5a146624c58641e68579060cd2a7119f5cc765a9bfc58562c53ff0b1"
+      "bytes": 3554,
+      "sha256": "7f7399b9ca0e71c9aa0138f552d0d6ef9c5e27dc87b6b352e3aa3455caeab05c"
     },
     {
       "path": "agents/schematic-parts-configuration-engineer/SOUL.md",
@@ -156,8 +161,8 @@
     },
     {
       "path": "agents/vibe-engineering-collaboration-lead/INSTRUCTIONS.md",
-      "bytes": 1913,
-      "sha256": "d702df11a7b8849581fd63d0351062cfdfbc8f2648b0f5b10b598061bb15f397"
+      "bytes": 3025,
+      "sha256": "b2301bf238f71a3f82706cdef7a566b4184b251b016d1de9c8ac3fee5dd34c68"
     },
     {
       "path": "agents/vibe-engineering-collaboration-lead/SOUL.md",
@@ -195,6 +200,16 @@
       "sha256": "215c290765487cb1a164a5c78c7532e38521b2da8af00888b449575918c662c7"
     },
     {
+      "path": "assets/mti-logo-attribution.txt",
+      "bytes": 296,
+      "sha256": "987307956b5e40acb32b3871f225413d8f2afb92c091ca9b93f5d4cca8244dda"
+    },
+    {
+      "path": "assets/mti-official-patch.png",
+      "bytes": 451518,
+      "sha256": "b2a65c030c6c26648e6e15b3410461312907c9de1228b1c7669ac04dd2a13ce9"
+    },
+    {
       "path": "assets/science-harness.png",
       "bytes": 1741232,
       "sha256": "48c3114ba942e2d42a74651ff1d99a1e5afd7ac6837067bf72fd52fc1203630b"
@@ -206,8 +221,13 @@
     },
     {
       "path": "branding.css",
-      "bytes": 4720,
-      "sha256": "2c563b5e07b3389c6db2811878594e956cb0a982d986dff961cbff9c98388be0"
+      "bytes": 6210,
+      "sha256": "bd229429076958d10086bbd286eded05732fbe980e00d9a456db98b2fd4c48e9"
+    },
+    {
+      "path": "different.css",
+      "bytes": 1347,
+      "sha256": "c5edbf734e2fa6872a5f0c03fa61563232dc758b6761a13c99a1cf1f62755a4d"
     },
     {
       "path": "downloads/LICENSE.txt",
@@ -216,38 +236,38 @@
     },
     {
       "path": "downloads/Mars_Harness_Agents_V5_1_Complete.zip",
-      "bytes": 96529,
-      "sha256": "92da9a6854fc36f850a977412af8d38e8175d7b043a8aa1c3dce8425b1947f52"
+      "bytes": 160711,
+      "sha256": "b07868804d6a9170c80e9fdb5fef0665ab5e916723ead88efe43b9f8768611f4"
+    },
+    {
+      "path": "downloads/Mars_Harness_Lab_V5_Complete_Release.zip",
+      "bytes": 252683,
+      "sha256": "309850c9564b5ad23a4dfb6631418ba45df41fac1e6f2b01753a1958b248179e"
+    },
+    {
+      "path": "downloads/Mars_Harness_Operational_Methods_V5_2.zip",
+      "bytes": 53664,
+      "sha256": "af5636e99039cf71f58a41593cf486d9a3d36981526cedfd72073d0d6c291b91"
     },
     {
       "path": "downloads/Mars_Harness_Project_Wiki_Memory_Starter.json",
-      "bytes": 21257,
-      "sha256": "75a13b0a21905c31af45bdd21eef510fb4b80bdeb8cf5eb49a9f477b66ce634d"
+      "bytes": 21881,
+      "sha256": "658581c738c888be07c0bfbe0343712cb7eb4c4ab27951d185a630c38a940545"
     },
     {
       "path": "downloads/Mars_Harness_Recursive_Agent_Manifest.json",
-      "bytes": 5604,
-      "sha256": "1018feb1eeb868c30b482a5c9e14d268279e4ae252d2b4a3cf5634da85d1e397"
+      "bytes": 9807,
+      "sha256": "da6973c4040df800c600804874e18830f8df02b20db371b2f1c78f11682b94f9"
     },
     {
       "path": "downloads/Mars_Harness_Skills_V5_1_Complete.zip",
-      "bytes": 55330,
-      "sha256": "bb399c302eb9bbcea3031d148a3025dd7bea92b717256e3600be8427dbdd7430"
+      "bytes": 111762,
+      "sha256": "98cea319418e2196aabc5f7a88046c750712cd0cbc552868b50911f0d74e766c"
     },
     {
       "path": "downloads/Mars_Harness_Skills_V5_Complete.zip",
-      "bytes": 42540,
-      "sha256": "c6874d5e7565790c610d3a036382d2a21e4abc89a8a157731b7022bf44b9c388"
-    },
-    {
-      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pdf",
-      "bytes": 3691614,
-      "sha256": "9e3aabf813e6737786f97c0d3a533ec586ed01284a632567c650e8473b79e785"
-    },
-    {
-      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pptx",
-      "bytes": 18876087,
-      "sha256": "095d3970a1caa34b0c97788a1c675e0112db184e87298d1b8352d22705a78640"
+      "bytes": 113644,
+      "sha256": "825a3ddf9adad11adb2735dfdeaf7908256c0084ba4651744d5da85d5c80c432"
     },
     {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5/slide-1.png",
@@ -365,9 +385,19 @@
       "sha256": "4780042160496d3107e00db1061e621d6044ebf29971da00e1262b32c4f446ff"
     },
     {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pdf",
+      "bytes": 3691614,
+      "sha256": "9e3aabf813e6737786f97c0d3a533ec586ed01284a632567c650e8473b79e785"
+    },
+    {
+      "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5.pptx",
+      "bytes": 18876087,
+      "sha256": "095d3970a1caa34b0c97788a1c675e0112db184e87298d1b8352d22705a78640"
+    },
+    {
       "path": "downloads/Mars_Society_2026_The_Intelligence_Layer_for_Mars_Version_5_Complete_Package.zip",
-      "bytes": 19033105,
-      "sha256": "464f3dbc5af757ef6a28a9b722ce10d191a8aa204149b58af8459b17c2ab360c"
+      "bytes": 19114755,
+      "sha256": "e14c95e1628282d071e711e192b9ddb84da6b9a7e352de33fcfd49dfd80f72e2"
     },
     {
       "path": "downloads/NOTICE.txt",
@@ -376,93 +406,93 @@
     },
     {
       "path": "downloads/README.txt",
-      "bytes": 831,
-      "sha256": "80bb51b3f9ce3b55543730dcc9ead6737a1bdb9a7a60cb53c329da73c1538e37"
+      "bytes": 2446,
+      "sha256": "571428f35acf5826d364435053382266ab61cf284013631e8e595c227d6f5a87"
     },
     {
       "path": "downloads/Three_Harness_Setup_Instructions.zip",
-      "bytes": 8780,
-      "sha256": "83959a64aea670faf63fcbed1f2fc5732c6c412c83c2e18b6829404ff9c96659"
+      "bytes": 67533,
+      "sha256": "68f562b466cfcb860922f975a0f7c0827e4e374ba90793a627f7930e179d7947"
     },
     {
       "path": "downloads/agents/ethical-specialist-network-governor.zip",
-      "bytes": 9939,
-      "sha256": "cff7a083944b5c4948ba228762dbb99a2104817cce0cef81f00c7116e93e0357"
+      "bytes": 89728,
+      "sha256": "852721c10aa7df23d41cacc310c77abfa1a6253b33a48cd0c7b06eeb2d2cace0"
     },
     {
       "path": "downloads/agents/ground-truth-gatekeeper.zip",
-      "bytes": 8263,
-      "sha256": "9d01664379d7f9c47546753f88d2d8ec481d5a31e78b0f9d21658e35fb47ce4f"
+      "bytes": 88096,
+      "sha256": "ed90f49a0791f1a3d854371ba3d2cfd7473df568e0ccfa5e5b01db153f2dcf7d"
     },
     {
       "path": "downloads/agents/hypatia-science-director.zip",
-      "bytes": 11637,
-      "sha256": "e8418135bbe6a635f19575f5eaadd3ef64f59f600a396e43f9f0db225d22aad2"
+      "bytes": 91402,
+      "sha256": "0ccd16173fa0997819a3ca1e92cce7e66c3165cf4d779f1b21a73120dccbdb6c"
     },
     {
       "path": "downloads/agents/hyperia-research-synthesist.zip",
-      "bytes": 8179,
-      "sha256": "05be9cf672f36634b7b9a5f2aa9b47ec74d7716bb8f94a9485068358ce6e56b9"
+      "bytes": 87967,
+      "sha256": "2152b652b2f0539292a056735a139a23db18c6b46681d930bad4d56f9f45f5c5"
     },
     {
       "path": "downloads/agents/intelligent-engineer-systems-director.zip",
-      "bytes": 12035,
-      "sha256": "8e0d533c4392a5d3ff7eba3e2724b312ac1332c780a29623c133edbdb10eef21"
+      "bytes": 91993,
+      "sha256": "c6e5cdb74a8686a3302ddc7203a15618d15762cc37e845640f393362c1086b21"
     },
     {
       "path": "downloads/agents/mars-3d-model-engineer.zip",
-      "bytes": 9684,
-      "sha256": "57c6cfeee9ee98caa125d69634b8c38785a04cf7873ac08951a776d94e4c72d9"
+      "bytes": 89422,
+      "sha256": "021619bf4ea86701f659e0f32c3a258b0f38457f121bb22fa2b330b776a72875"
     },
     {
       "path": "downloads/agents/mars-harness-director.zip",
-      "bytes": 9477,
-      "sha256": "e1c6242285e692a617d960e81b9390afee3fb6e74572f25421548b438aa7d1a1"
+      "bytes": 89316,
+      "sha256": "097f5a66638cbc372de5e972892514be4e303295cc8d85d5c79c7d29d3fd4e67"
     },
     {
       "path": "downloads/agents/mission-memory-steward.zip",
-      "bytes": 8388,
-      "sha256": "3177f7a757fe2c662eaed2d6a0e85a73c8af239c09a111907fce27d4ac083d89"
+      "bytes": 88172,
+      "sha256": "eb8889e3cf1f028d215fc950a78c07e0ec16e0e8e092197066ee87e094ac1123"
     },
     {
       "path": "downloads/agents/pm-accelerator-program-director.zip",
-      "bytes": 11375,
-      "sha256": "225255667ea00e44928c0529d21aba562de8e7e79faaa50fe0c7c07f8aa5c9ca"
+      "bytes": 91211,
+      "sha256": "1125bfb7720e4e93df36c474e109baef0c4e2d4a8db76c3e15e85e28accfe0b3"
     },
     {
       "path": "downloads/agents/schematic-parts-configuration-engineer.zip",
-      "bytes": 10047,
-      "sha256": "9ba90d1bf5e484fd501358e793858381b645e1764bb190740acaaf6f2c79ef0e"
+      "bytes": 89902,
+      "sha256": "3bebefa4a0c95e415cefd2c0affabdf2067868917e378e452e313caac13081b9"
     },
     {
       "path": "downloads/agents/vibe-engineering-collaboration-lead.zip",
-      "bytes": 8145,
-      "sha256": "99eeb72f3fda2ff2e6bf64958bd2dca435b8e424deb9298c64876f17ce52812c"
+      "bytes": 88000,
+      "sha256": "1ff4b84b328ae74bda12add522b3f0ce088aa9861e0cc34d420ab83e1c63c4ca"
     },
     {
       "path": "downloads/ethical-specialist-agent-network.zip",
-      "bytes": 7832,
-      "sha256": "8e097a9a6d0e8e104b022cc7c0f1aee3c1f16f8298a9657fd7590ea3c35d2ae9"
+      "bytes": 74793,
+      "sha256": "7511c0237020b1c13d762833ebe277c2efccbb3ae8e360dc34cb683752c74c9a"
     },
     {
       "path": "downloads/ground-truth-gatekeeper.zip",
-      "bytes": 6327,
-      "sha256": "52a5bc0438970ac53f68119c2dc9d974181d40025329354144a8e0e538f426a1"
+      "bytes": 73376,
+      "sha256": "fc1c282b365268ea204bdefa881f89fdab492a360158852228d1506c79a4341c"
     },
     {
       "path": "downloads/hypatia-science-harness.zip",
-      "bytes": 9089,
-      "sha256": "c41e5742a6b73db79efc6cc16a8aa3e6667ec37e28da02a1c453a263bf2ab6cf"
+      "bytes": 76076,
+      "sha256": "75bd7b728db07c86497bce65b1fdbab265bbbe297300d25449693c1be3348261"
     },
     {
       "path": "downloads/hyperia-research-synthesis.zip",
-      "bytes": 6152,
-      "sha256": "6491dd6806c7105ccae7c98960c9020d7722f9e8ba1b868149aa205ad157c3bb"
+      "bytes": 73170,
+      "sha256": "e2651b877f218072f5159a5cd48aa40aa5dc4df16241e3a852f56ba612c65d1b"
     },
     {
       "path": "downloads/intelligent-engineer-harness.zip",
-      "bytes": 9349,
-      "sha256": "042c587291c82fc09dd902b16ae12bcae469e7fb586e838b974e87f502b44200"
+      "bytes": 76403,
+      "sha256": "1bb9f79879792d18892fc475c2675b1be548d8daec4482befa1a7fc0a8248ac4"
     },
     {
       "path": "downloads/markdown/00_Markdown_Document_Index.md",
@@ -570,49 +600,54 @@
       "sha256": "c8e651a2927f50f14c2c0ff08963f1456428cd917f49e09783f8607cd1c6a50e"
     },
     {
+      "path": "downloads/markdown/21_Operational_Methods_V5_2.md",
+      "bytes": 2934,
+      "sha256": "eaee974a7311eed047679b322959ca1ab1542300cee5d2a2565639b34b4cc031"
+    },
+    {
       "path": "downloads/mars-3d-modeling-harness.zip",
-      "bytes": 7600,
-      "sha256": "e46da9c506800926e614743a79f17d79a11e41d555df6e2d4d97a865549ca6fd"
+      "bytes": 74488,
+      "sha256": "b3e83ca97a1652ded22a9176357eb3317670e94b9e79eb47403026fe7b7e3818"
     },
     {
       "path": "downloads/mars-harness-orchestrator.zip",
-      "bytes": 7106,
-      "sha256": "e1eb352377d5556ea160b28160377152057c5c99bef62caa025a8aca1868d803"
+      "bytes": 74146,
+      "sha256": "75e1e3e43e3f13242dcd70ef9fcbe6823fe873c931b8e532f28631525908f056"
     },
     {
       "path": "downloads/mission-memory-steward.zip",
-      "bytes": 6415,
-      "sha256": "47a04bd998027f583fd6a9b49d8551f98cf083a706d8957566ace21e52cf239e"
+      "bytes": 73436,
+      "sha256": "12ce09db7a0ac8b1fe98e6a76e74eae519c3fb80a7ffa3b35c0660b8303b702d"
     },
     {
       "path": "downloads/paired-schematic-parts-harness.zip",
-      "bytes": 8006,
-      "sha256": "06868e5ad7bd0ac11671775877ce4d6baecfb60115b9071bae01eaefd3bd2455"
+      "bytes": 74864,
+      "sha256": "d73e5fdcab43235912a4f7c41a26cb5cf1da5591c4061323d91427444697a907"
     },
     {
       "path": "downloads/pm-accelerator-harness.zip",
-      "bytes": 8918,
-      "sha256": "2c1337a2c238c6f3e5305b59cc6f24187692851f96b9e28a7c403966ee9ea095"
+      "bytes": 75938,
+      "sha256": "77f8b1bd044e3d54317bcf998f7ec13d4c17a7d61ce9d0226d255f77bc37de68"
     },
     {
       "path": "downloads/setup-guides/Engineering_Harness_Setup_Instructions.md",
-      "bytes": 7502,
-      "sha256": "df694fd066c95008c2ce7461adcedf589e1e1bb04cf7347d6aacbdf75eb9a281"
+      "bytes": 9327,
+      "sha256": "faf083450ef81ef74d5538fe50844334216df41f2f1217a800494ff0e0cebec5"
     },
     {
       "path": "downloads/setup-guides/Project_Management_Harness_Setup_Instructions.md",
-      "bytes": 6337,
-      "sha256": "c67c7111386fc2659438855f7e7d2b824e5ba1cf6de7b70ed9ce2a7011117c1c"
+      "bytes": 8171,
+      "sha256": "aafe51dab317053fc0911850b7d5345fc84769b9d1394279042ff66e11f6fc33"
     },
     {
       "path": "downloads/setup-guides/Science_Harness_Setup_Instructions.md",
-      "bytes": 5739,
-      "sha256": "4981a8f9c19011051d0b046e3d79c661db422b9106ce887fb1f19bc3064546b6"
+      "bytes": 7577,
+      "sha256": "8b34285e41a042a44f4462f26fa1b61cc97e9c5820f93e40f8ed7a12117a6bb6"
     },
     {
       "path": "downloads/setup-guides/Three_Harness_Setup_Readme.md",
-      "bytes": 1610,
-      "sha256": "cd29c556f38f8e54ffa61d7b6f7b22c7c2c063e9324a9245568f06e0b5966e98"
+      "bytes": 3348,
+      "sha256": "ea9f991c7c5ec9c8340889e7f62328a60ed70ce6771ca83d012d51ab6e1c3cf0"
     },
     {
       "path": "downloads/support/01_Mars_Harness_Architecture_Guide_V5.pdf",
@@ -646,13 +681,13 @@
     },
     {
       "path": "downloads/vibe-engineering-collaboration.zip",
-      "bytes": 6252,
-      "sha256": "f2ed90f7574f28c8c9dc4c871134256d609a47bccc4f0209cd4a2bcd4851a6b5"
+      "bytes": 73263,
+      "sha256": "57ee180e8a45ffebd12310b6fcd4efead3d6a7298dc507b7f30741618f75e9ca"
     },
     {
       "path": "index.html",
-      "bytes": 54128,
-      "sha256": "d74b5dc3aad8c13fb6fb9296a88b98fcfe5f234367e9d7846a89bae231de5d2c"
+      "bytes": 61853,
+      "sha256": "68b50830f549dc80e63d787871ba531c90823c861f9efa940fc2445b41eff679"
     },
     {
       "path": "landing.css",
@@ -661,13 +696,13 @@
     },
     {
       "path": "license/index.html",
-      "bytes": 13385,
-      "sha256": "43726695c490fb9182518523996918c8e11635f1f3e2c13cbb2c76a4b8966287"
+      "bytes": 13710,
+      "sha256": "0bb0f49a7b186143e41182f0f817cbb274034de8712ffbb583758595f0a44164"
     },
     {
       "path": "mifeco/index.html",
-      "bytes": 5253,
-      "sha256": "351fb535cc199b8826e98355d41011fc0f8691aec3c1e13fa2e9f709a70d6db5"
+      "bytes": 5903,
+      "sha256": "f311dd180222ce5dccd339d87aa085201ef9edbccc85796658295230f4828b32"
     },
     {
       "path": "mind-map/index.html",
@@ -675,14 +710,89 @@
       "sha256": "afb32d300d7b6a105224892266c6373e40f2d17b7dcdba9f508c4fa21e767828"
     },
     {
+      "path": "offline/.part-006.bin.mquTfh",
+      "bytes": 2359296,
+      "sha256": "404e12635a5311edd8569343cf0ca086bb57ed35694d4c2ed21279f226ac85d8"
+    },
+    {
+      "path": "offline/download.js",
+      "bytes": 1574,
+      "sha256": "f375241330be63399e09824d0540c3562412b871c1db79adf611744e2ff903e1"
+    },
+    {
+      "path": "offline/manifest.json",
+      "bytes": 1071,
+      "sha256": "742ac1b0d711e7fe6afe18b65ec3c9e427aef5892a6872b66b1b09bab348b0ad"
+    },
+    {
+      "path": "offline/part-000.bin",
+      "bytes": 8388608,
+      "sha256": "7d212e30dbe4fa19c8c39372de71454ccd49a58515f3daac2e18efb78ca5bd84"
+    },
+    {
+      "path": "offline/part-001.bin",
+      "bytes": 8388608,
+      "sha256": "f30439d40b39baa17d938971dab0b55f249cafe9012097caab45f6b777b439f4"
+    },
+    {
+      "path": "offline/part-002.bin",
+      "bytes": 8388608,
+      "sha256": "936760ecaf8ff505e1ed597b44184d24c1c8b799ea4a25148f59ae229b6f2e50"
+    },
+    {
+      "path": "offline/part-003.bin",
+      "bytes": 8388608,
+      "sha256": "9e0ebdbce64bb4067cbb35c1c506c7f3d7e6d73c42b4c4485495b6c76a5c2474"
+    },
+    {
+      "path": "offline/part-004.bin",
+      "bytes": 8388608,
+      "sha256": "69a95d69eb0749d04f84beb9a1e6a848e6c9687e763f1db44dc13050ded133ad"
+    },
+    {
+      "path": "offline/part-005.bin",
+      "bytes": 8388608,
+      "sha256": "ae20743f04e1a6f0cf80d35dfa8ee96595c3715a1652f3956588b8df9bcc305b"
+    },
+    {
+      "path": "offline/part-006.bin",
+      "bytes": 8388608,
+      "sha256": "ce615bbe285a6e702b846be21dcf69f05907d4b994a7f17bbc44838ff4b8c68b"
+    },
+    {
+      "path": "offline/part-007.bin",
+      "bytes": 8388608,
+      "sha256": "dd3b416d7e68c6bef81bd4fdb4528baa5d83a96c8335b546753d5136d7f86452"
+    },
+    {
+      "path": "offline/part-008.bin",
+      "bytes": 8388608,
+      "sha256": "dfd656270657cf15c5f19ee7823665471b3393ef083b02f02e09a325ba2520ea"
+    },
+    {
+      "path": "offline/part-009.bin",
+      "bytes": 8388608,
+      "sha256": "9714a247c81b104f47fda26fd860645f70870d5ef3fccab90b1a60db63418a12"
+    },
+    {
+      "path": "offline/part-010.bin",
+      "bytes": 8388608,
+      "sha256": "f8eeaf8b2b30aeeb3137b67591cdecb8f77a55033b87a6f1ab5be8bb0b9f0d4c"
+    },
+    {
+      "path": "offline/part-011.bin",
+      "bytes": 268222,
+      "sha256": "709ed49d04ff2707ebb15611a745952295e3087479dad0831ddcb5ba06cafc92"
+    },
+    {
       "path": "saas/index.html",
-      "bytes": 8509,
-      "sha256": "4f5da852554875e1f1f340874c7d3174fca2639f3cdb86002c7627527e832c1e"
+      "bytes": 9062,
+      "sha256": "b41ac1d4f1cc38ece3470396f5dcb3c7dfd1d2745578a988fa89e2f7f276cb33"
     },
     {
       "path": "skills/README.md",
-      "bytes": 869,
-      "sha256": "bbb7071e14e178e475e77aeeaf66055a5a2ca7c67cacaf669431eb8b02e2efab"
+      "bytes": 1526,
+      "sha256": "b82b6f90827edc900b1967744f5f19aaa194a0727e42acdb02e64aa0b60c6e0b"
     },
     {
       "path": "skills/docs/ENGINEERING_DISCIPLINE_AGENT_CATALOG.md",
@@ -701,18 +811,18 @@
     },
     {
       "path": "skills/docs/PLATFORM_ADAPTERS.md",
-      "bytes": 1293,
-      "sha256": "f54d2bb6f2d4c2736b1d31458dc8f1bae782a1332abc921542e8c6ec4f192806"
+      "bytes": 2111,
+      "sha256": "89a5cd37e360712250ccb8a818b54c04f9ad62cc234fa1f67baad29d9e5e5ff0"
     },
     {
       "path": "skills/docs/WORK_PRODUCT_CONTRACTS.md",
-      "bytes": 737,
-      "sha256": "b45c41b3898d1dfb9a790eb36833152da9e191bb58711b6eb4aa97e269cb9715"
+      "bytes": 1629,
+      "sha256": "c7fd4b1ae9a0aaf1fb0d807d408b33008b33799bbb47de247929a6d6716dbc87"
     },
     {
       "path": "skills/ethical-specialist-agent-network/SKILL.md",
-      "bytes": 6052,
-      "sha256": "4940abd00adfabd45d22b4a96e13a4346201e9d44a1037048f7c02827f54ad42"
+      "bytes": 7224,
+      "sha256": "12d32c47cdf9e6ce0d9d671f75ca416386d1bdd2c3dabb53779c02008d2e2c24"
     },
     {
       "path": "skills/examples/moxie-isru/stage-packet.json",
@@ -721,33 +831,33 @@
     },
     {
       "path": "skills/examples/wiki-memory/project-wiki-memory-starter.json",
-      "bytes": 21257,
-      "sha256": "75a13b0a21905c31af45bdd21eef510fb4b80bdeb8cf5eb49a9f477b66ce634d"
+      "bytes": 21881,
+      "sha256": "658581c738c888be07c0bfbe0343712cb7eb4c4ab27951d185a630c38a940545"
     },
     {
       "path": "skills/ground-truth-gatekeeper/SKILL.md",
-      "bytes": 2848,
-      "sha256": "aa5613249e1c5f32fb9e2e0218025bef5daa4e92b401e228b6c1aba77b65a0cf"
+      "bytes": 4145,
+      "sha256": "aa4e9e29892d10668921f7359b78cccf8c71d3cf0e1d986c08e3e71fb16f237e"
     },
     {
       "path": "skills/hypatia-science-harness/SKILL.md",
-      "bytes": 9939,
-      "sha256": "eed0f1bbf94437e0db47a71eae4244f274f658ffd70cd9f396b266e4c66888fc"
+      "bytes": 11223,
+      "sha256": "0ebe08cb1309cf30020fe989cfb0bf92ad85e1656a69b6d2ef44ac287d23f317"
     },
     {
       "path": "skills/hyperia-research-synthesis/SKILL.md",
-      "bytes": 2434,
-      "sha256": "d27cbc680ed68a0518af539af91bdfb219cb8740f8891a5088e2cd314b0aeaf7"
+      "bytes": 3593,
+      "sha256": "eb8ff5d4b584cc70a7715f0ae8be30f2b3f20d980117b3f12f80fdf575723aac"
     },
     {
       "path": "skills/intelligent-engineer-harness/SKILL.md",
-      "bytes": 11050,
-      "sha256": "eec1ff8e910003756366b457043d5c246a94905ac4059c16262acd494a8758f0"
+      "bytes": 12442,
+      "sha256": "2c92112930796405681a94b35b4aeccdf5376238ac73b16daffea5cadd0481fa"
     },
     {
       "path": "skills/mars-3d-modeling-harness/SKILL.md",
-      "bytes": 4739,
-      "sha256": "9c4abbafe39d7275f7c6b8c972575ecca961f16ad51c7e1c13060b5ccb22fbff"
+      "bytes": 5940,
+      "sha256": "83e50b9a69c3ad02b34e0c99dd9826c6bd0e7d401e7490e2d1713437d098c06c"
     },
     {
       "path": "skills/mars-3d-modeling-harness/agents/openai.yaml",
@@ -756,18 +866,188 @@
     },
     {
       "path": "skills/mars-harness-orchestrator/SKILL.md",
-      "bytes": 4837,
-      "sha256": "72788f7a638bf87148b6a053c39b4fc43133764dfce6ced9a2e4ea9e3f53e82b"
+      "bytes": 6196,
+      "sha256": "649470aaaed9bbd0ae863fe1757e2ed5c9a778d37884b966a45664ffe7d536e1"
     },
     {
       "path": "skills/mission-memory-steward/SKILL.md",
-      "bytes": 3089,
-      "sha256": "fafac399ae45d0062a1c40156900a112b9add29099d7d224f8bc7b576336bf90"
+      "bytes": 4312,
+      "sha256": "262149cd6560887bd1cdbd4ac5fba855066ec67a56aedb3bedf8910777b24dc3"
+    },
+    {
+      "path": "skills/operational-methods/01-Bounded-Reasoning.md",
+      "bytes": 2910,
+      "sha256": "5eb6156de9218b83fb3ece2b1e355e38fec970dc38e6546f89a4941cf871bb03"
+    },
+    {
+      "path": "skills/operational-methods/02-Graph-Memory-and-Change.md",
+      "bytes": 2940,
+      "sha256": "46bff6886b0085c850d29b2a295c8f3c75d38bca3cda2a8aeb5448aff0b6e53b"
+    },
+    {
+      "path": "skills/operational-methods/03-Outline-Driven-Documents.md",
+      "bytes": 2591,
+      "sha256": "e605577863a43ec78f656388681b16cc7ece810432ad13a77ae9f2bb0840f319"
+    },
+    {
+      "path": "skills/operational-methods/04-Paired-Engineering-Artifacts.md",
+      "bytes": 3651,
+      "sha256": "7ecc450e28dbb1f3c35d23a4df1b2a5f85c81a9093550e12526d1b1e5848a8f3"
+    },
+    {
+      "path": "skills/operational-methods/05-Experiments-Simulation-and-Twins.md",
+      "bytes": 3284,
+      "sha256": "63810697059f5d729fcdc1795d0c04dc034a9e97ba63c08a8a4032e3dce45dc6"
+    },
+    {
+      "path": "skills/operational-methods/06-Challenge-and-Peer-Review.md",
+      "bytes": 2335,
+      "sha256": "d0b023a38278c69b66c1638af2a440442fbf95835e59d489009d81c875e9e6fb"
+    },
+    {
+      "path": "skills/operational-methods/07-Handoffs-and-Parallel-Work.md",
+      "bytes": 3058,
+      "sha256": "8d82f99f3527960431d174958e0ace0856c033be6aa2be21a9e5ffdf57626f9b"
+    },
+    {
+      "path": "skills/operational-methods/08-Assurance-Autonomy-and-Replay.md",
+      "bytes": 3396,
+      "sha256": "bdce0b76fee21f32f4aa2bae391bdc886a37f34e4a221a3516a576c3454cad97"
+    },
+    {
+      "path": "skills/operational-methods/09-Specialist-Roles.md",
+      "bytes": 2184,
+      "sha256": "850f41ad19802b673bf25f52bf1aa396a9a550e83e2dcbd8edcf9174f0a7d2a2"
+    },
+    {
+      "path": "skills/operational-methods/10-Measurement-and-Improvement.md",
+      "bytes": 1870,
+      "sha256": "0db57645100c7e88615f6951b8ed6d3edfe61723aaf1d0c99768f3ba40987869"
+    },
+    {
+      "path": "skills/operational-methods/CAPABILITY_COVERAGE.json",
+      "bytes": 30351,
+      "sha256": "b570d99458dc0b7a660fa92bcbd63fba3cc26c345b596da989c16c8de4f2ea01"
+    },
+    {
+      "path": "skills/operational-methods/README.md",
+      "bytes": 4448,
+      "sha256": "780d4fe7632919dbed01a6fcdd2a3f94c25531dc1ef2878919a87554081de26b"
+    },
+    {
+      "path": "skills/operational-methods/roles/deliberative-search-specialist.md",
+      "bytes": 1986,
+      "sha256": "9fbd04a4a1590423403190a8fea221d57cf869dba3fd1218d9b0119b805b23e4"
+    },
+    {
+      "path": "skills/operational-methods/roles/document-assembly-editor.md",
+      "bytes": 2026,
+      "sha256": "f8c67a6358e42b71bd24a50a28996600e7a525f03e7c9dddc630efd98577a0f5"
+    },
+    {
+      "path": "skills/operational-methods/roles/graph-impact-analyst.md",
+      "bytes": 2008,
+      "sha256": "89cf0ca9b85af5d5deea76b3e687e1f3318510330f76859baa483bb8004f1dd4"
+    },
+    {
+      "path": "skills/operational-methods/roles/independent-challenge-reviewer.md",
+      "bytes": 1977,
+      "sha256": "338bd2576be232efcc970a5fd503830ec313d72fd653f3d6e32ac8d373c0ee7c"
+    },
+    {
+      "path": "skills/operational-methods/roles/mechanical-assembly-editor.md",
+      "bytes": 2028,
+      "sha256": "e8d99a34fa97121d5d1fe1910cd8c9ac0a5c316308427b308b9b25002a9bbe22"
+    },
+    {
+      "path": "skills/operational-methods/roles/pcb-layout-reviewer.md",
+      "bytes": 2035,
+      "sha256": "29b61f2a2aa48da42d8f47c2719a9e621632f91505007409e0a6c06aaafdb3a9"
+    },
+    {
+      "path": "skills/operational-methods/roles/performance-evidence-analyst.md",
+      "bytes": 2019,
+      "sha256": "8db8135270d4b546f547ed4926705d4131b83c7acb64131e5000df045365d4c4"
+    },
+    {
+      "path": "skills/operational-methods/roles/runtime-assurance-specialist.md",
+      "bytes": 2063,
+      "sha256": "1573c4dd1e4a477026ea9e2ee05b05dd8ff93dd9296df83181a6f4a71036e8c1"
+    },
+    {
+      "path": "skills/operational-methods/roles/simulation-validation-engineer.md",
+      "bytes": 2046,
+      "sha256": "bd0a93f2eb87c3520ec7c7df8d595203f8818c117110ab1e1ac35c925d688895"
+    },
+    {
+      "path": "skills/operational-methods/roles/value-of-information-analyst.md",
+      "bytes": 2028,
+      "sha256": "5572553aa07b9b81cd551e4190ca8e1fabbe7aa2152213a28440708e5b1db8dc"
+    },
+    {
+      "path": "skills/operational-methods/templates/decision-tree.json",
+      "bytes": 661,
+      "sha256": "73c60d718574c0d5866d301eeef06c3f0472da7b185fd8cf5056346bdb86aabb"
+    },
+    {
+      "path": "skills/operational-methods/templates/document-plan.json",
+      "bytes": 768,
+      "sha256": "0cb27910ec8170f98330019d1b65a251389517775653437c74f57d875896c0f6"
+    },
+    {
+      "path": "skills/operational-methods/templates/handoff-packet.json",
+      "bytes": 609,
+      "sha256": "cd344b3a082d215919e3126609c71fbaaad8511919fa4e26bbf12808a3da1f60"
+    },
+    {
+      "path": "skills/operational-methods/templates/memory-graph.json",
+      "bytes": 1022,
+      "sha256": "0ac84c11d140f62e4f0a53d676d1fcd23be3adfa6ae0eb352bd06c1968a510dd"
+    },
+    {
+      "path": "skills/operational-methods/templates/paired-artifacts.json",
+      "bytes": 450,
+      "sha256": "eb1fdc54fa7cb158f821d1950e0a1d0bcff6c08c4d9b98c30a51eb29aacfc46e"
+    },
+    {
+      "path": "skills/operational-methods/templates/performance-record.json",
+      "bytes": 542,
+      "sha256": "a91f8a35b0ccbf28d843bb4e6bc841572578ae1ab14ef70faaef7a6e757335af"
+    },
+    {
+      "path": "skills/operational-methods/templates/review-record.json",
+      "bytes": 337,
+      "sha256": "2ba19a985247e5bfc478c5aa65c0583514f1e0ae4909e258e23a0379e26999f0"
+    },
+    {
+      "path": "skills/operational-methods/templates/run-manifest.json",
+      "bytes": 383,
+      "sha256": "2cbe3da155a15546917997849bd67cf99f777dce4bff74ccfec873f31a2b8695"
+    },
+    {
+      "path": "skills/operational-methods/templates/run-policy.json",
+      "bytes": 445,
+      "sha256": "c7a63e0bc70259979e13914492e2ecbe6541d3b3c5ca93f37b00073a2bc22b60"
+    },
+    {
+      "path": "skills/operational-methods/templates/simulation-plan.json",
+      "bytes": 753,
+      "sha256": "179270841a51c78805af75e5300c549e625a4c29e54245c591adb4651237aadb"
+    },
+    {
+      "path": "skills/operational-methods/tests/test_harness_checks.py",
+      "bytes": 7558,
+      "sha256": "11f815444a01956ddb0088e7f51c3128342119568d84a3089511246eb8abde8f"
+    },
+    {
+      "path": "skills/operational-methods/tools/harness_checks.py",
+      "bytes": 13114,
+      "sha256": "f3237a9150c1e53c928b10e05e04306f567366cc07935d2658c8414a7c6ef9f9"
     },
     {
       "path": "skills/paired-schematic-parts-harness/SKILL.md",
-      "bytes": 5553,
-      "sha256": "51b96fdadb5dec2d6af942f6b520c439e87f911f23f03f6f7f8215d235f737d5"
+      "bytes": 6782,
+      "sha256": "9ea97bf121f1461993bab000fc1391d654469addf1c450e874eaf62c05ef429a"
     },
     {
       "path": "skills/paired-schematic-parts-harness/agents/openai.yaml",
@@ -776,23 +1056,23 @@
     },
     {
       "path": "skills/pm-accelerator-harness/SKILL.md",
-      "bytes": 9861,
-      "sha256": "a3498e32f6df6689ca85b3deafeda1377788036dd00b59e55df61665d45c2487"
+      "bytes": 11167,
+      "sha256": "5540e05024d8fc7378eb10bb9eb36d639ea7fc1a0383d431804112387e475331"
     },
     {
       "path": "skills/tests/validate_suite.py",
-      "bytes": 3446,
-      "sha256": "3ee75f4ef2f6f10fbcacc6909099c898792cd0d104c59334e52ed2f528f0e556"
+      "bytes": 4229,
+      "sha256": "b14ea765a2fcb86a005ebc7a7def26fe36f6be75d9970391f2f83d6297c27b90"
     },
     {
       "path": "skills/vibe-engineering-collaboration/SKILL.md",
-      "bytes": 2617,
-      "sha256": "e08ed28a85eca228ed7593d91ffc1e1760f163223a20a72f15cbf444f30aed24"
+      "bytes": 3849,
+      "sha256": "01c6599ec3ea9771b15be51a275fad29c519bad3304391982882ba22e1da954f"
     },
     {
       "path": "styles.css",
-      "bytes": 8302,
-      "sha256": "0d522526722119be77fe52a044b25728315aedf2e033dc7c4129405e5c259125"
+      "bytes": 8528,
+      "sha256": "02d72807b1ed02bae1600235285197b92c8b44d6badf5f53ce527cae1b8be4d9"
     },
     {
       "path": "subpages.css",
@@ -804,5 +1084,8 @@
       "bytes": 13469,
       "sha256": "cdf61018f1c4a24280a0a1d6f7caa2a814039e1b84c0591b775986a1da670ffb"
     }
-  ]
+  ],
+  "operational_methods_version": "5.2",
+  "operational_capabilities": 46,
+  "added_method_role_contracts": 10
 }

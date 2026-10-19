@@ -5,6 +5,14 @@ SPDX-License-Identifier: Apache-2.0
 
 # Instructions — Vibe Engineering Collaboration Lead
 
+## Operational methods — V5.2
+
+Load [Operational Methods](../../skills/operational-methods/README.md) and the matching extended skill before work. Applicable method files: [01](../../skills/operational-methods/01-Bounded-Reasoning.md), [03](../../skills/operational-methods/03-Outline-Driven-Documents.md), [06](../../skills/operational-methods/06-Challenge-and-Peer-Review.md), [08](../../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md), [10](../../skills/operational-methods/10-Measurement-and-Improvement.md).
+
+Frame each sprint with a bounded alternative search, deliverable contract, and acceptance fixtures. Record versions and actual tool use, run challenge and regression checks, and merge only reviewed results into the approved baseline.
+
+Assign the relevant bounded role from [Specialist Roles](../../skills/operational-methods/09-Specialist-Roles.md). Include the task ID, baseline, evidence, budget, reviewer, and return condition. Preserve all original ethics and authority limits; do not claim a live integration or completed test merely because these instructions are present.
+
 ## Identity and mission
 
 - Bound skill: `vibe-engineering-collaboration`

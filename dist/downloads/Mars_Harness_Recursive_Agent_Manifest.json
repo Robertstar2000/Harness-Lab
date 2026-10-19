@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "title": "Mars Harness Recursive Specialized Agent Manifest",
-  "updated_utc": "2026-09-10T00:00:00Z",
+  "updated_utc": "2026-10-01T02:00:00Z",
   "principle": "Skills are durable; agents are bounded assignments.",
   "spawn_policy": {
     "maximum_descendant_depth": 3,
@@ -179,5 +179,94 @@
     "spdx_id": "Apache-2.0",
     "copyright": "Copyright 2026 Mars Harness Lab contributors",
     "full_text_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/"
-  }
+  },
+  "operational_methods": {
+    "version": "5.2",
+    "site_path": "skills/operational-methods/",
+    "coverage": "skills/operational-methods/CAPABILITY_COVERAGE.json",
+    "status": "procedures_and_local_helpers_included",
+    "integration_boundary": "Native services, authenticated handoffs, CAD/EDA, solvers, live telemetry and runtime enforcement require project-specific implementation and validation."
+  },
+  "operational_role_contracts": [
+    {
+      "id": "deliberative-search-specialist",
+      "name": "Deliberative Search Specialist",
+      "parent": "Science or engineering director",
+      "ethics_required": true,
+      "may_expand_authority": false,
+      "instructions_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/skills/operational-methods/roles/deliberative-search-specialist.md"
+    },
+    {
+      "id": "graph-impact-analyst",
+      "name": "Graph and Change-Impact Analyst",
+      "parent": "Mission Memory Steward",
+      "ethics_required": true,
+      "may_expand_authority": false,
+      "instructions_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/skills/operational-methods/roles/graph-impact-analyst.md"
+    },
+    {
+      "id": "document-assembly-editor",
+      "name": "Document Assembly and Consistency Editor",
+      "parent": "Relevant domain director",
+      "ethics_required": true,
+      "may_expand_authority": false,
+      "instructions_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/skills/operational-methods/roles/document-assembly-editor.md"
+    },
+    {
+      "id": "pcb-layout-reviewer",
+      "name": "PCB Layout and Manufacturing Reviewer",
+      "parent": "Schematic/Parts Configuration Engineer",
+      "ethics_required": true,
+      "may_expand_authority": false,
+      "instructions_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/skills/operational-methods/roles/pcb-layout-reviewer.md"
+    },
+    {
+      "id": "mechanical-assembly-editor",
+      "name": "Mechanical Assembly Documentation Specialist",
+      "parent": "Mars 3D Model Engineer",
+      "ethics_required": true,
+      "may_expand_authority": false,
+      "instructions_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/skills/operational-methods/roles/mechanical-assembly-editor.md"
+    },
+    {
+      "id": "simulation-validation-engineer",
+      "name": "Simulation Validation and Twin-Readiness Engineer",
+      "parent": "Science or engineering director",
+      "ethics_required": true,
+      "may_expand_authority": false,
+      "instructions_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/skills/operational-methods/roles/simulation-validation-engineer.md"
+    },
+    {
+      "id": "independent-challenge-reviewer",
+      "name": "Independent Challenge Reviewer",
+      "parent": "Ground Truth Gatekeeper",
+      "ethics_required": true,
+      "may_expand_authority": false,
+      "instructions_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/skills/operational-methods/roles/independent-challenge-reviewer.md"
+    },
+    {
+      "id": "runtime-assurance-specialist",
+      "name": "Runtime Assurance and Replay Specialist",
+      "parent": "Ethical Specialist Network Governor",
+      "ethics_required": true,
+      "may_expand_authority": false,
+      "instructions_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/skills/operational-methods/roles/runtime-assurance-specialist.md"
+    },
+    {
+      "id": "value-of-information-analyst",
+      "name": "Value-of-Information Analyst",
+      "parent": "Hypatia Science Director",
+      "ethics_required": true,
+      "may_expand_authority": false,
+      "instructions_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/skills/operational-methods/roles/value-of-information-analyst.md"
+    },
+    {
+      "id": "performance-evidence-analyst",
+      "name": "Performance Evidence Analyst",
+      "parent": "PM Accelerator Program Director",
+      "ethics_required": true,
+      "may_expand_authority": false,
+      "instructions_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/skills/operational-methods/roles/performance-evidence-analyst.md"
+    }
+  ]
 }

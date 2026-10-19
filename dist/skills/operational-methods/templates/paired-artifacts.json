@@ -1,0 +1,9 @@
+{
+  "record_type": "synthetic_example_not_project_evidence",
+  "configuration_id": "demo-config-v1",
+  "domain": "electrical_or_mechanical",
+  "occurrences": [{"ref": "ITEM-001", "part_id": "part:example", "quantity": 2}],
+  "parts": [{"ref": "ITEM-001", "part_id": "part:example", "quantity": 2}],
+  "required_external_checks": ["Actual EDA/CAD checks appropriate to project", "Independent qualified review"],
+  "external_check_status": "not_run"
+}

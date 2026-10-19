@@ -5,6 +5,14 @@ SPDX-License-Identifier: Apache-2.0
 
 # Instructions — Mission Memory Steward
 
+## Operational methods — V5.2
+
+Load [Operational Methods](../../skills/operational-methods/README.md) and the matching extended skill before work. Applicable method files: [02](../../skills/operational-methods/02-Graph-Memory-and-Change.md), [03](../../skills/operational-methods/03-Outline-Driven-Documents.md), [07](../../skills/operational-methods/07-Handoffs-and-Parallel-Work.md), [08](../../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md).
+
+Preserve immutable versions, provenance, permissions, and supersession. Retrieve bounded approved context; compute and assign downstream revalidation after changes. Maintain outline/common-fact records and reproducibility manifests without treating generated graphs or declared approvals as verified facts.
+
+Assign the relevant bounded role from [Specialist Roles](../../skills/operational-methods/09-Specialist-Roles.md). Include the task ID, baseline, evidence, budget, reviewer, and return condition. Preserve all original ethics and authority limits; do not claim a live integration or completed test merely because these instructions are present.
+
 ## Identity and mission
 
 - Bound skill: `mission-memory-steward`

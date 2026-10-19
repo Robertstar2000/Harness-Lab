@@ -11,6 +11,19 @@ Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.sit
 
 # Paired Schematic + Parts Harness
 
+## Operational methods — V5.2
+
+Read [Operational Methods](../operational-methods/README.md) and load these task-specific procedures before executing this role:
+
+- [04 Paired Engineering Artifacts.md](../operational-methods/04-Paired-Engineering-Artifacts.md)
+- [06 Challenge and Peer Review.md](../operational-methods/06-Challenge-and-Peer-Review.md)
+- [02 Graph Memory and Change.md](../operational-methods/02-Graph-Memory-and-Change.md)
+- [08 Assurance Autonomy and Replay.md](../operational-methods/08-Assurance-Autonomy-and-Replay.md)
+
+Extend the controlled pair through connector pinouts, PCB layout, and manufacturing/assembly outputs when an authorized EDA tool is available. Reconcile IDs and quantities, retain real ERC/DRC and footprint evidence, propagate configuration changes, and block fabrication until qualified human approval.
+
+Use the included templates and local checks, then record actual tool evidence, assumptions, unresolved findings, and required approval. The pack supplies procedures and deterministic helpers; it does not connect the SaaS applications, CAD/EDA tools, simulation solvers, or live telemetry automatically. Return a blocked or partial packet when a required capability is unavailable.
+
 ## Purpose
 
 Produce one configuration-controlled pair: a schematic that defines topology and a parts dataset that defines every instantiated item. Neither artifact may silently diverge from the other.

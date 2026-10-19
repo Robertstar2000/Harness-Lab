@@ -1,8 +1,8 @@
 {
   "license": "Apache-2.0",
   "suite": "Mars Harness Skill-Bound Agent Suite",
-  "version": "5.1",
-  "released": "2026-09-23",
+  "version": "5.2",
+  "released": "2026-10-01",
   "packet_version": "mars-harness/1.0",
   "agents": [
     {
@@ -10,77 +10,240 @@
       "name": "Mars Harness Director",
       "skill": "mars-harness-orchestrator",
       "soul": "mars-harness-director/SOUL.md",
-      "instructions": "mars-harness-director/INSTRUCTIONS.md"
+      "instructions": "mars-harness-director/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/07-Handoffs-and-Parallel-Work.md",
+        "../skills/operational-methods/01-Bounded-Reasoning.md",
+        "../skills/operational-methods/02-Graph-Memory-and-Change.md",
+        "../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md",
+        "../skills/operational-methods/09-Specialist-Roles.md",
+        "../skills/operational-methods/10-Measurement-and-Improvement.md"
+      ]
     },
     {
       "id": "hypatia-science-director",
       "name": "Hypatia Science Director",
       "skill": "hypatia-science-harness",
       "soul": "hypatia-science-director/SOUL.md",
-      "instructions": "hypatia-science-director/INSTRUCTIONS.md"
+      "instructions": "hypatia-science-director/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/01-Bounded-Reasoning.md",
+        "../skills/operational-methods/05-Experiments-Simulation-and-Twins.md",
+        "../skills/operational-methods/06-Challenge-and-Peer-Review.md",
+        "../skills/operational-methods/03-Outline-Driven-Documents.md",
+        "../skills/operational-methods/02-Graph-Memory-and-Change.md"
+      ]
     },
     {
       "id": "hyperia-research-synthesist",
       "name": "Hyperia Research Synthesist",
       "skill": "hyperia-research-synthesis",
       "soul": "hyperia-research-synthesist/SOUL.md",
-      "instructions": "hyperia-research-synthesist/INSTRUCTIONS.md"
+      "instructions": "hyperia-research-synthesist/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/01-Bounded-Reasoning.md",
+        "../skills/operational-methods/02-Graph-Memory-and-Change.md",
+        "../skills/operational-methods/03-Outline-Driven-Documents.md",
+        "../skills/operational-methods/06-Challenge-and-Peer-Review.md"
+      ]
     },
     {
       "id": "intelligent-engineer-systems-director",
       "name": "Intelligent Engineer Systems Director",
       "skill": "intelligent-engineer-harness",
       "soul": "intelligent-engineer-systems-director/SOUL.md",
-      "instructions": "intelligent-engineer-systems-director/INSTRUCTIONS.md"
+      "instructions": "intelligent-engineer-systems-director/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/01-Bounded-Reasoning.md",
+        "../skills/operational-methods/04-Paired-Engineering-Artifacts.md",
+        "../skills/operational-methods/05-Experiments-Simulation-and-Twins.md",
+        "../skills/operational-methods/06-Challenge-and-Peer-Review.md",
+        "../skills/operational-methods/07-Handoffs-and-Parallel-Work.md",
+        "../skills/operational-methods/02-Graph-Memory-and-Change.md"
+      ]
     },
     {
       "id": "vibe-engineering-collaboration-lead",
       "name": "Vibe Engineering Collaboration Lead",
       "skill": "vibe-engineering-collaboration",
       "soul": "vibe-engineering-collaboration-lead/SOUL.md",
-      "instructions": "vibe-engineering-collaboration-lead/INSTRUCTIONS.md"
+      "instructions": "vibe-engineering-collaboration-lead/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/01-Bounded-Reasoning.md",
+        "../skills/operational-methods/03-Outline-Driven-Documents.md",
+        "../skills/operational-methods/06-Challenge-and-Peer-Review.md",
+        "../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md",
+        "../skills/operational-methods/10-Measurement-and-Improvement.md"
+      ]
     },
     {
       "id": "ground-truth-gatekeeper",
       "name": "Ground Truth Gatekeeper",
       "skill": "ground-truth-gatekeeper",
       "soul": "ground-truth-gatekeeper/SOUL.md",
-      "instructions": "ground-truth-gatekeeper/INSTRUCTIONS.md"
+      "instructions": "ground-truth-gatekeeper/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/06-Challenge-and-Peer-Review.md",
+        "../skills/operational-methods/07-Handoffs-and-Parallel-Work.md",
+        "../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md",
+        "../skills/operational-methods/04-Paired-Engineering-Artifacts.md",
+        "../skills/operational-methods/03-Outline-Driven-Documents.md"
+      ]
     },
     {
       "id": "pm-accelerator-program-director",
       "name": "PM Accelerator Program Director",
       "skill": "pm-accelerator-harness",
       "soul": "pm-accelerator-program-director/SOUL.md",
-      "instructions": "pm-accelerator-program-director/INSTRUCTIONS.md"
+      "instructions": "pm-accelerator-program-director/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/07-Handoffs-and-Parallel-Work.md",
+        "../skills/operational-methods/02-Graph-Memory-and-Change.md",
+        "../skills/operational-methods/03-Outline-Driven-Documents.md",
+        "../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md",
+        "../skills/operational-methods/10-Measurement-and-Improvement.md"
+      ]
     },
     {
       "id": "mission-memory-steward",
       "name": "Mission Memory Steward",
       "skill": "mission-memory-steward",
       "soul": "mission-memory-steward/SOUL.md",
-      "instructions": "mission-memory-steward/INSTRUCTIONS.md"
+      "instructions": "mission-memory-steward/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/02-Graph-Memory-and-Change.md",
+        "../skills/operational-methods/03-Outline-Driven-Documents.md",
+        "../skills/operational-methods/07-Handoffs-and-Parallel-Work.md",
+        "../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md"
+      ]
     },
     {
       "id": "ethical-specialist-network-governor",
       "name": "Ethical Specialist Network Governor",
       "skill": "ethical-specialist-agent-network",
       "soul": "ethical-specialist-network-governor/SOUL.md",
-      "instructions": "ethical-specialist-network-governor/INSTRUCTIONS.md"
+      "instructions": "ethical-specialist-network-governor/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/09-Specialist-Roles.md",
+        "../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md",
+        "../skills/operational-methods/06-Challenge-and-Peer-Review.md",
+        "../skills/operational-methods/07-Handoffs-and-Parallel-Work.md"
+      ]
     },
     {
       "id": "mars-3d-model-engineer",
       "name": "Mars 3D Model Engineer",
       "skill": "mars-3d-modeling-harness",
       "soul": "mars-3d-model-engineer/SOUL.md",
-      "instructions": "mars-3d-model-engineer/INSTRUCTIONS.md"
+      "instructions": "mars-3d-model-engineer/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/04-Paired-Engineering-Artifacts.md",
+        "../skills/operational-methods/06-Challenge-and-Peer-Review.md",
+        "../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md",
+        "../skills/operational-methods/03-Outline-Driven-Documents.md"
+      ]
     },
     {
       "id": "schematic-parts-configuration-engineer",
       "name": "Schematic & Parts Configuration Engineer",
       "skill": "paired-schematic-parts-harness",
       "soul": "schematic-parts-configuration-engineer/SOUL.md",
-      "instructions": "schematic-parts-configuration-engineer/INSTRUCTIONS.md"
+      "instructions": "schematic-parts-configuration-engineer/INSTRUCTIONS.md",
+      "operational_methods": [
+        "../skills/operational-methods/04-Paired-Engineering-Artifacts.md",
+        "../skills/operational-methods/06-Challenge-and-Peer-Review.md",
+        "../skills/operational-methods/02-Graph-Memory-and-Change.md",
+        "../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md"
+      ]
+    }
+  ],
+  "operational_methods": {
+    "version": "5.2",
+    "site_path": "skills/operational-methods/",
+    "coverage": "skills/operational-methods/CAPABILITY_COVERAGE.json",
+    "status": "procedures_and_local_helpers_included",
+    "integration_boundary": "Native services, authenticated handoffs, CAD/EDA, solvers, live telemetry and runtime enforcement require project-specific implementation and validation."
+  },
+  "additional_role_contracts": [
+    {
+      "id": "deliberative-search-specialist",
+      "name": "Deliberative Search Specialist",
+      "parent": "Science or engineering director",
+      "instructions": "../skills/operational-methods/roles/deliberative-search-specialist.md",
+      "bounded_assignment": true,
+      "ethics_required": true
+    },
+    {
+      "id": "graph-impact-analyst",
+      "name": "Graph and Change-Impact Analyst",
+      "parent": "Mission Memory Steward",
+      "instructions": "../skills/operational-methods/roles/graph-impact-analyst.md",
+      "bounded_assignment": true,
+      "ethics_required": true
+    },
+    {
+      "id": "document-assembly-editor",
+      "name": "Document Assembly and Consistency Editor",
+      "parent": "Relevant domain director",
+      "instructions": "../skills/operational-methods/roles/document-assembly-editor.md",
+      "bounded_assignment": true,
+      "ethics_required": true
+    },
+    {
+      "id": "pcb-layout-reviewer",
+      "name": "PCB Layout and Manufacturing Reviewer",
+      "parent": "Schematic/Parts Configuration Engineer",
+      "instructions": "../skills/operational-methods/roles/pcb-layout-reviewer.md",
+      "bounded_assignment": true,
+      "ethics_required": true
+    },
+    {
+      "id": "mechanical-assembly-editor",
+      "name": "Mechanical Assembly Documentation Specialist",
+      "parent": "Mars 3D Model Engineer",
+      "instructions": "../skills/operational-methods/roles/mechanical-assembly-editor.md",
+      "bounded_assignment": true,
+      "ethics_required": true
+    },
+    {
+      "id": "simulation-validation-engineer",
+      "name": "Simulation Validation and Twin-Readiness Engineer",
+      "parent": "Science or engineering director",
+      "instructions": "../skills/operational-methods/roles/simulation-validation-engineer.md",
+      "bounded_assignment": true,
+      "ethics_required": true
+    },
+    {
+      "id": "independent-challenge-reviewer",
+      "name": "Independent Challenge Reviewer",
+      "parent": "Ground Truth Gatekeeper",
+      "instructions": "../skills/operational-methods/roles/independent-challenge-reviewer.md",
+      "bounded_assignment": true,
+      "ethics_required": true
+    },
+    {
+      "id": "runtime-assurance-specialist",
+      "name": "Runtime Assurance and Replay Specialist",
+      "parent": "Ethical Specialist Network Governor",
+      "instructions": "../skills/operational-methods/roles/runtime-assurance-specialist.md",
+      "bounded_assignment": true,
+      "ethics_required": true
+    },
+    {
+      "id": "value-of-information-analyst",
+      "name": "Value-of-Information Analyst",
+      "parent": "Hypatia Science Director",
+      "instructions": "../skills/operational-methods/roles/value-of-information-analyst.md",
+      "bounded_assignment": true,
+      "ethics_required": true
+    },
+    {
+      "id": "performance-evidence-analyst",
+      "name": "Performance Evidence Analyst",
+      "parent": "PM Accelerator Program Director",
+      "instructions": "../skills/operational-methods/roles/performance-evidence-analyst.md",
+      "bounded_assignment": true,
+      "ethics_required": true
     }
   ]
 }

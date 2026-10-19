@@ -1,0 +1,14 @@
+{
+  "record_type": "template_not_review_evidence",
+  "artifact_id": "unassigned",
+  "baseline_id": "unassigned",
+  "author": "unassigned",
+  "reviewer": "unassigned",
+  "max_rounds": 3,
+  "rounds_completed": 0,
+  "findings": [],
+  "dissent": [],
+  "actual_test_evidence": [],
+  "disposition": "not_reviewed",
+  "human_approval": false
+}

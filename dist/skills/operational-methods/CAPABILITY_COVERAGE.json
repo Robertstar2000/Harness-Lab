@@ -1,0 +1,851 @@
+{
+  "schema_version": "mars-harness-capability-coverage/1.0",
+  "release": "5.2",
+  "updated_utc": "2026-10-01",
+  "license": "Apache-2.0",
+  "scope": "Downloadable operating procedures and local record-check helpers; no new native SaaS integration or domain qualification.",
+  "readiness_definitions": {
+    "procedure": "Actionable instructions and output/stop criteria supplied; project execution not asserted.",
+    "procedure_and_local_helper": "Procedure plus bundled deterministic helper; tests cover synthetic records, not domain truth.",
+    "procedure_with_tool_requirements": "Procedure and templates supplied; actual CAD/EDA/solver/telemetry tools and project validation still required.",
+    "procedure_with_adapter_requirements": "Handoff contract supplied; authenticated executable adapters and end-to-end tests still required.",
+    "procedure_with_runtime_requirements": "Procedure supplied; capabilities, permissions, and availability must be verified in chosen runtime."
+  },
+  "capabilities": [
+    {
+      "id": "agentic-workflows",
+      "description": "Planning, tool use, observation, checking, revision, and approval",
+      "method": "07-Handoffs-and-Parallel-Work.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "specialized-harnesses",
+      "description": "Domain procedures combining agents, skills, tools, memory, artifacts, and gates",
+      "method": "07-Handoffs-and-Parallel-Work.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "harness-orchestration",
+      "description": "Accountable routing across science, engineering, and project management",
+      "method": "07-Handoffs-and-Parallel-Work.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "harness-chaining",
+      "description": "Versioned evidence, technical-baseline, and execution handoffs",
+      "method": "07-Handoffs-and-Parallel-Work.md",
+      "readiness": "procedure_with_adapter_requirements",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "feedback-and-research-returns",
+      "description": "Bounded upstream questions and downstream revalidation",
+      "method": "07-Handoffs-and-Parallel-Work.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "parallel-workstreams",
+      "description": "Dependency-aware scheduling of ready branches",
+      "method": "07-Handoffs-and-Parallel-Work.md",
+      "readiness": "procedure_with_runtime_requirements",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "bounded-delegation",
+      "description": "Inherited scope, permissions, depth, budgets, and retirement",
+      "method": "09-Specialist-Roles.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "runtime-portability",
+      "description": "Capability inventory and explicit blocked states across runtimes",
+      "method": "08-Assurance-Autonomy-and-Replay.md",
+      "readiness": "procedure_with_runtime_requirements",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "tree-of-thoughts",
+      "description": "Bounded generation/evaluation/backtracking procedure plus supplied-candidate ranker",
+      "method": "01-Bounded-Reasoning.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "vibe-engineering-collaboration"
+      ]
+    },
+    {
+      "id": "competing-hypotheses",
+      "description": "Testable alternatives and disconfirming evidence",
+      "method": "01-Bounded-Reasoning.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "vibe-engineering-collaboration"
+      ]
+    },
+    {
+      "id": "design-trades",
+      "description": "Hard constraints, weighted criteria, evidence, and independent decision review",
+      "method": "01-Bounded-Reasoning.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "vibe-engineering-collaboration"
+      ]
+    },
+    {
+      "id": "wiki-memory",
+      "description": "Namespaced approved records, history, supersession, and retrieval manifests",
+      "method": "02-Graph-Memory-and-Change.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "graph-relationships",
+      "description": "Validated records and explicit prerequisite-to-dependent edges",
+      "method": "02-Graph-Memory-and-Change.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "graph-aware-retrieval",
+      "description": "Approved-node traversal plus GraphRAG adapter readiness procedure",
+      "method": "02-Graph-Memory-and-Change.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "provenance-and-stable-identifiers",
+      "description": "Sources, versions, authors, timestamps, evidence classes, and record IDs",
+      "method": "02-Graph-Memory-and-Change.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "context-selection",
+      "description": "Bounded permission-filtered retrieval for each task or chapter",
+      "method": "02-Graph-Memory-and-Change.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "change-propagation",
+      "description": "Transitive downstream impact; revalidation remains an assigned action",
+      "method": "02-Graph-Memory-and-Change.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "outline-driven-documents",
+      "description": "Approved TOC, section contracts, chapter drafting, assembly, and rendered QA",
+      "method": "03-Outline-Driven-Documents.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "mars-3d-modeling-harness"
+      ]
+    },
+    {
+      "id": "cross-document-consistency",
+      "description": "Canonical fact and unit checks plus source/cross-reference review",
+      "method": "03-Outline-Driven-Documents.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "mars-3d-modeling-harness"
+      ]
+    },
+    {
+      "id": "shared-reports-and-visuals",
+      "description": "Narratives, figures, tables, and dashboards from a controlled baseline",
+      "method": "03-Outline-Driven-Documents.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "mars-3d-modeling-harness"
+      ]
+    },
+    {
+      "id": "electrical-schematic-pinout-bom",
+      "description": "Shared parts IDs, connection data, ratings, footprint and occurrence reconciliation",
+      "method": "04-Paired-Engineering-Artifacts.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "pcb-layout-and-manufacturing",
+      "description": "Real EDA placement/routing, ERC/DRC, fabrication/assembly reconciliation",
+      "method": "04-Paired-Engineering-Artifacts.md",
+      "readiness": "procedure_with_tool_requirements",
+      "owner_skills": [
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "mechanical-models-and-drawings",
+      "description": "Parametric geometry, derived views, wireframes, dimensions, tolerance checks",
+      "method": "04-Paired-Engineering-Artifacts.md",
+      "readiness": "procedure_with_tool_requirements",
+      "owner_skills": [
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "assembly-packages",
+      "description": "Item tree, BOM, fasteners, exploded views, assembly and inspection instructions",
+      "method": "04-Paired-Engineering-Artifacts.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "experiments-and-simulations",
+      "description": "Hypotheses, protocol, real solver runs, logs, and reproducibility",
+      "method": "05-Experiments-Simulation-and-Twins.md",
+      "readiness": "procedure_with_tool_requirements",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "intelligent-engineer-harness"
+      ]
+    },
+    {
+      "id": "uncertainty-and-sensitivity",
+      "description": "Parameter sensitivity, discrepancy, numerical error, and validity envelope",
+      "method": "05-Experiments-Simulation-and-Twins.md",
+      "readiness": "procedure_with_tool_requirements",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "intelligent-engineer-harness"
+      ]
+    },
+    {
+      "id": "boundary-and-failure-testing",
+      "description": "Counterexamples, off-nominal cases, conservation and convergence checks",
+      "method": "05-Experiments-Simulation-and-Twins.md",
+      "readiness": "procedure_with_tool_requirements",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "intelligent-engineer-harness"
+      ]
+    },
+    {
+      "id": "digital-twins",
+      "description": "Asset identity, independent calibration/validation, read-only telemetry, drift and fallback",
+      "method": "05-Experiments-Simulation-and-Twins.md",
+      "readiness": "procedure_with_tool_requirements",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "intelligent-engineer-harness"
+      ]
+    },
+    {
+      "id": "value-of-information",
+      "description": "Decision-sensitive next experiments with explicit assumptions and cost/risk",
+      "method": "05-Experiments-Simulation-and-Twins.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "intelligent-engineer-harness"
+      ]
+    },
+    {
+      "id": "virtual-peer-review",
+      "description": "Independent evidence critique, findings, responses, and dissent",
+      "method": "06-Challenge-and-Peer-Review.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "ethical-specialist-agent-network",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "multistage-challenges",
+      "description": "Bounded challenge/revision/retest rounds with escalation",
+      "method": "06-Challenge-and-Peer-Review.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "ethical-specialist-agent-network",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "diverse-model-review",
+      "description": "Model/method diversity and explicit correlated-failure limitations",
+      "method": "06-Challenge-and-Peer-Review.md",
+      "readiness": "procedure_with_runtime_requirements",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "ethical-specialist-agent-network",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "specialist-teams",
+      "description": "Existing science/engineering/PM specialists plus ten bounded role contracts",
+      "method": "09-Specialist-Roles.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "evidence-class-labeling",
+      "description": "Observed, derived/modeled, assumed, and unknown claims remain separate",
+      "method": "07-Handoffs-and-Parallel-Work.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "ground-truth-gates",
+      "description": "Declared packet checks plus authenticated independent evidence review",
+      "method": "07-Handoffs-and-Parallel-Work.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "structured-handoffs",
+      "description": "Required schema/IDs/baseline/evidence/review/approval fields",
+      "method": "07-Handoffs-and-Parallel-Work.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "human-authority-and-ethics",
+      "description": "Inherited ethics, least privilege, independent review, and consequential-action gates",
+      "method": "09-Specialist-Roles.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "ethical-specialist-agent-network"
+      ]
+    },
+    {
+      "id": "blocked-states-and-dissent",
+      "description": "Missing tools, failed checks, unresolved disagreement, and residual risk remain visible",
+      "method": "06-Challenge-and-Peer-Review.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "hypatia-science-harness",
+        "hyperia-research-synthesis",
+        "intelligent-engineer-harness",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "ethical-specialist-agent-network",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "configuration-controlled-artifacts",
+      "description": "Source/derived views/parts/tests/documents share one approved revision",
+      "method": "04-Paired-Engineering-Artifacts.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "intelligent-engineer-harness",
+        "ground-truth-gatekeeper",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "risk-based-autonomy",
+      "description": "Declared low-risk eligibility check and separate real-runtime enforcement requirements",
+      "method": "08-Assurance-Autonomy-and-Replay.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "resource-aware-routing",
+      "description": "Task-quality/privacy-aware model/tool choice, budgets, retries, and stop conditions",
+      "method": "08-Assurance-Autonomy-and-Replay.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "reproducibility-and-replay",
+      "description": "Version/run manifests, root-constrained file-hash checks, and bounded reruns",
+      "method": "08-Assurance-Autonomy-and-Replay.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "regression-testing",
+      "description": "Bundled utility tests plus project-specific benchmark and failure-case procedure",
+      "method": "08-Assurance-Autonomy-and-Replay.md",
+      "readiness": "procedure_and_local_helper",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "security-of-retrieved-content",
+      "description": "Untrusted content separation, no prompt-based permission escalation, secret protection",
+      "method": "08-Assurance-Autonomy-and-Replay.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "vibe-engineering-collaboration",
+        "ground-truth-gatekeeper",
+        "pm-accelerator-harness",
+        "mission-memory-steward",
+        "ethical-specialist-agent-network",
+        "mars-3d-modeling-harness",
+        "paired-schematic-parts-harness"
+      ]
+    },
+    {
+      "id": "evidence-based-progress",
+      "description": "Acceptance/test records and baseline-linked project status",
+      "method": "10-Measurement-and-Improvement.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "vibe-engineering-collaboration",
+        "pm-accelerator-harness"
+      ]
+    },
+    {
+      "id": "measured-improvement",
+      "description": "Comparable cycle-time, labor, cost, quality, reviewer-effort and rework measurements",
+      "method": "10-Measurement-and-Improvement.md",
+      "readiness": "procedure",
+      "owner_skills": [
+        "mars-harness-orchestrator",
+        "vibe-engineering-collaboration",
+        "pm-accelerator-harness"
+      ]
+    }
+  ],
+  "skill_routing": [
+    {
+      "skill": "mars-harness-orchestrator",
+      "agent": "mars-harness-director",
+      "methods": [
+        "07-Handoffs-and-Parallel-Work.md",
+        "01-Bounded-Reasoning.md",
+        "02-Graph-Memory-and-Change.md",
+        "08-Assurance-Autonomy-and-Replay.md",
+        "09-Specialist-Roles.md",
+        "10-Measurement-and-Improvement.md"
+      ]
+    },
+    {
+      "skill": "hypatia-science-harness",
+      "agent": "hypatia-science-director",
+      "methods": [
+        "01-Bounded-Reasoning.md",
+        "05-Experiments-Simulation-and-Twins.md",
+        "06-Challenge-and-Peer-Review.md",
+        "03-Outline-Driven-Documents.md",
+        "02-Graph-Memory-and-Change.md"
+      ]
+    },
+    {
+      "skill": "hyperia-research-synthesis",
+      "agent": "hyperia-research-synthesist",
+      "methods": [
+        "01-Bounded-Reasoning.md",
+        "02-Graph-Memory-and-Change.md",
+        "03-Outline-Driven-Documents.md",
+        "06-Challenge-and-Peer-Review.md"
+      ]
+    },
+    {
+      "skill": "intelligent-engineer-harness",
+      "agent": "intelligent-engineer-systems-director",
+      "methods": [
+        "01-Bounded-Reasoning.md",
+        "04-Paired-Engineering-Artifacts.md",
+        "05-Experiments-Simulation-and-Twins.md",
+        "06-Challenge-and-Peer-Review.md",
+        "07-Handoffs-and-Parallel-Work.md",
+        "02-Graph-Memory-and-Change.md"
+      ]
+    },
+    {
+      "skill": "vibe-engineering-collaboration",
+      "agent": "vibe-engineering-collaboration-lead",
+      "methods": [
+        "01-Bounded-Reasoning.md",
+        "03-Outline-Driven-Documents.md",
+        "06-Challenge-and-Peer-Review.md",
+        "08-Assurance-Autonomy-and-Replay.md",
+        "10-Measurement-and-Improvement.md"
+      ]
+    },
+    {
+      "skill": "ground-truth-gatekeeper",
+      "agent": "ground-truth-gatekeeper",
+      "methods": [
+        "06-Challenge-and-Peer-Review.md",
+        "07-Handoffs-and-Parallel-Work.md",
+        "08-Assurance-Autonomy-and-Replay.md",
+        "04-Paired-Engineering-Artifacts.md",
+        "03-Outline-Driven-Documents.md"
+      ]
+    },
+    {
+      "skill": "pm-accelerator-harness",
+      "agent": "pm-accelerator-program-director",
+      "methods": [
+        "07-Handoffs-and-Parallel-Work.md",
+        "02-Graph-Memory-and-Change.md",
+        "03-Outline-Driven-Documents.md",
+        "08-Assurance-Autonomy-and-Replay.md",
+        "10-Measurement-and-Improvement.md"
+      ]
+    },
+    {
+      "skill": "mission-memory-steward",
+      "agent": "mission-memory-steward",
+      "methods": [
+        "02-Graph-Memory-and-Change.md",
+        "03-Outline-Driven-Documents.md",
+        "07-Handoffs-and-Parallel-Work.md",
+        "08-Assurance-Autonomy-and-Replay.md"
+      ]
+    },
+    {
+      "skill": "ethical-specialist-agent-network",
+      "agent": "ethical-specialist-network-governor",
+      "methods": [
+        "09-Specialist-Roles.md",
+        "08-Assurance-Autonomy-and-Replay.md",
+        "06-Challenge-and-Peer-Review.md",
+        "07-Handoffs-and-Parallel-Work.md"
+      ]
+    },
+    {
+      "skill": "mars-3d-modeling-harness",
+      "agent": "mars-3d-model-engineer",
+      "methods": [
+        "04-Paired-Engineering-Artifacts.md",
+        "06-Challenge-and-Peer-Review.md",
+        "08-Assurance-Autonomy-and-Replay.md",
+        "03-Outline-Driven-Documents.md"
+      ]
+    },
+    {
+      "skill": "paired-schematic-parts-harness",
+      "agent": "schematic-parts-configuration-engineer",
+      "methods": [
+        "04-Paired-Engineering-Artifacts.md",
+        "06-Challenge-and-Peer-Review.md",
+        "02-Graph-Memory-and-Change.md",
+        "08-Assurance-Autonomy-and-Replay.md"
+      ]
+    }
+  ],
+  "added_specialist_roles": [
+    {
+      "id": "deliberative-search-specialist",
+      "title": "Deliberative Search Specialist",
+      "parent": "Science or engineering director",
+      "instructions": "roles/deliberative-search-specialist.md",
+      "method": "01-Bounded-Reasoning.md",
+      "permission_expansion": false
+    },
+    {
+      "id": "graph-impact-analyst",
+      "title": "Graph and Change-Impact Analyst",
+      "parent": "Mission Memory Steward",
+      "instructions": "roles/graph-impact-analyst.md",
+      "method": "02-Graph-Memory-and-Change.md",
+      "permission_expansion": false
+    },
+    {
+      "id": "document-assembly-editor",
+      "title": "Document Assembly and Consistency Editor",
+      "parent": "Relevant domain director",
+      "instructions": "roles/document-assembly-editor.md",
+      "method": "03-Outline-Driven-Documents.md",
+      "permission_expansion": false
+    },
+    {
+      "id": "pcb-layout-reviewer",
+      "title": "PCB Layout and Manufacturing Reviewer",
+      "parent": "Schematic/Parts Configuration Engineer",
+      "instructions": "roles/pcb-layout-reviewer.md",
+      "method": "04-Paired-Engineering-Artifacts.md",
+      "permission_expansion": false
+    },
+    {
+      "id": "mechanical-assembly-editor",
+      "title": "Mechanical Assembly Documentation Specialist",
+      "parent": "Mars 3D Model Engineer",
+      "instructions": "roles/mechanical-assembly-editor.md",
+      "method": "04-Paired-Engineering-Artifacts.md",
+      "permission_expansion": false
+    },
+    {
+      "id": "simulation-validation-engineer",
+      "title": "Simulation Validation and Twin-Readiness Engineer",
+      "parent": "Science or engineering director",
+      "instructions": "roles/simulation-validation-engineer.md",
+      "method": "05-Experiments-Simulation-and-Twins.md",
+      "permission_expansion": false
+    },
+    {
+      "id": "independent-challenge-reviewer",
+      "title": "Independent Challenge Reviewer",
+      "parent": "Ground Truth Gatekeeper",
+      "instructions": "roles/independent-challenge-reviewer.md",
+      "method": "06-Challenge-and-Peer-Review.md",
+      "permission_expansion": false
+    },
+    {
+      "id": "runtime-assurance-specialist",
+      "title": "Runtime Assurance and Replay Specialist",
+      "parent": "Ethical Specialist Network Governor",
+      "instructions": "roles/runtime-assurance-specialist.md",
+      "method": "08-Assurance-Autonomy-and-Replay.md",
+      "permission_expansion": false
+    },
+    {
+      "id": "value-of-information-analyst",
+      "title": "Value-of-Information Analyst",
+      "parent": "Hypatia Science Director",
+      "instructions": "roles/value-of-information-analyst.md",
+      "method": "05-Experiments-Simulation-and-Twins.md",
+      "permission_expansion": false
+    },
+    {
+      "id": "performance-evidence-analyst",
+      "title": "Performance Evidence Analyst",
+      "parent": "PM Accelerator Program Director",
+      "instructions": "roles/performance-evidence-analyst.md",
+      "method": "10-Measurement-and-Improvement.md",
+      "permission_expansion": false
+    }
+  ],
+  "not_deployed_by_this_release": [
+    "Authenticated SaaS packet adapters",
+    "LLM reasoning-tree generator service",
+    "Production GraphRAG index/service",
+    "CAD/EDA automation",
+    "Scientific simulation solver",
+    "Live digital-twin telemetry or actuation",
+    "Runtime permission enforcement",
+    "Automatic cross-document rewriting",
+    "Measured R&D savings or domain certification"
+  ]
+}

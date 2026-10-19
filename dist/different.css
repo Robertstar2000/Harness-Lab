@@ -1,0 +1,13 @@
+/* Copyright 2026 Mars Harness Lab contributors. SPDX-License-Identifier: Apache-2.0 */
+.lab-difference{background:linear-gradient(130deg,rgba(12,29,47,.98),rgba(5,9,14,.96));border-block:1px solid var(--line)}
+.difference-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.difference-grid article{padding:28px;border:1px solid var(--line);border-top:3px solid var(--mars);background:var(--panel)}
+.difference-grid article>span{font-size:.875rem;font-weight:700;color:var(--mars);letter-spacing:.06em}
+.difference-grid h3,.difference-readiness h3{font:700 1.5rem/1.2 'Space Grotesk',system-ui,sans-serif;margin:16px 0}
+.difference-grid p,.difference-readiness p{font-size:1rem;line-height:1.65;color:var(--muted)}
+.difference-readiness{margin-top:30px;padding:28px;border:1px solid var(--mars);background:rgba(5,9,14,.8)}
+.difference-readiness strong{color:var(--ink)}
+.lab-difference a:focus-visible{outline:3px solid var(--mars);outline-offset:5px}
+.lab-difference .button{font-size:.875rem;white-space:normal;text-align:center}
+@media(max-width:1050px){.difference-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.difference-grid{grid-template-columns:1fr}.difference-grid article,.difference-readiness{padding:22px}.difference-readiness .actions{align-items:stretch;flex-direction:column}}

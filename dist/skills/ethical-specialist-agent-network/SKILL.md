@@ -11,6 +11,19 @@ Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.sit
 
 # Ethical Specialist Agent Network
 
+## Operational methods — V5.2
+
+Read [Operational Methods](../operational-methods/README.md) and load these task-specific procedures before executing this role:
+
+- [09 Specialist Roles.md](../operational-methods/09-Specialist-Roles.md)
+- [08 Assurance Autonomy and Replay.md](../operational-methods/08-Assurance-Autonomy-and-Replay.md)
+- [06 Challenge and Peer Review.md](../operational-methods/06-Challenge-and-Peer-Review.md)
+- [07 Handoffs and Parallel Work.md](../operational-methods/07-Handoffs-and-Parallel-Work.md)
+
+Assign the added role contracts with inherited ethics, least privilege, budgets, and stopping rules. Require separate author/reviewer identities and preserve dissent. Audit actual tool permissions and human authority; a policy JSON file is not a security boundary.
+
+Use the included templates and local checks, then record actual tool evidence, assumptions, unresolved findings, and required approval. The pack supplies procedures and deterministic helpers; it does not connect the SaaS applications, CAD/EDA tools, simulation solvers, or live telemetry automatically. Return a blocked or partial packet when a required capability is unavailable.
+
 ## Purpose
 
 Turn an approved mission objective into an accountable team of domain agents. Use when work benefits from a science, engineering, or project-management lead and narrower specialists. Delegation never expands authority or bypasses review.

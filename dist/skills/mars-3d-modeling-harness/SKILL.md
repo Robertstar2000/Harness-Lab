@@ -11,6 +11,19 @@ Complete license text: https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.sit
 
 # Mars 3D Modeling Harness
 
+## Operational methods — V5.2
+
+Read [Operational Methods](../operational-methods/README.md) and load these task-specific procedures before executing this role:
+
+- [04 Paired Engineering Artifacts.md](../operational-methods/04-Paired-Engineering-Artifacts.md)
+- [06 Challenge and Peer Review.md](../operational-methods/06-Challenge-and-Peer-Review.md)
+- [08 Assurance Autonomy and Replay.md](../operational-methods/08-Assurance-Autonomy-and-Replay.md)
+- [03 Outline Driven Documents.md](../operational-methods/03-Outline-Driven-Documents.md)
+
+Extend geometry into a synchronized model/drawing/assembly-list/instruction/inspection package. Use stable item IDs and verified units, distinguish model-derived views from conceptual art, run actual geometric checks, and retain reproducible sources and independent review.
+
+Use the included templates and local checks, then record actual tool evidence, assumptions, unresolved findings, and required approval. The pack supplies procedures and deterministic helpers; it does not connect the SaaS applications, CAD/EDA tools, simulation solvers, or live telemetry automatically. Return a blocked or partial packet when a required capability is unavailable.
+
 ## Purpose
 
 Turn approved geometry requirements into versioned 3D source, derived images, and an STL package whose units, dimensions, configuration, and validation state are explicit.

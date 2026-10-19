@@ -4,7 +4,7 @@
   "title": "Mars Harness Lab Version 5 Project Memory",
   "description": "Starter knowledge graph and wiki-style memory for the Intelligence Layer for Mars presentation, application-derived skills, documentation, and scaled MOXIE case study.",
   "created_utc": "2026-09-08T00:00:00Z",
-  "updated_utc": "2026-09-08T00:00:00Z",
+  "updated_utc": "2026-10-01T02:00:00Z",
   "governance": {
     "owner": "Bob J Mills",
     "write_policy": "append_version_then_supersede",
@@ -701,5 +701,20 @@
     "spdx_id": "Apache-2.0",
     "copyright": "Copyright 2026 Mars Harness Lab contributors",
     "full_text_url": "https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/license/"
-  }
+  },
+  "operational_methods": {
+    "version": "5.2",
+    "site_path": "skills/operational-methods/",
+    "coverage": "skills/operational-methods/CAPABILITY_COVERAGE.json",
+    "status": "procedures_and_local_helpers_included",
+    "integration_boundary": "Native services, authenticated handoffs, CAD/EDA, solvers, live telemetry and runtime enforcement require project-specific implementation and validation."
+  },
+  "decision_trees": [],
+  "document_plans": [],
+  "change_impacts": [],
+  "simulation_runs": [],
+  "review_rounds": [],
+  "execution_manifests": [],
+  "performance_observations": [],
+  "capability_registry": []
 }

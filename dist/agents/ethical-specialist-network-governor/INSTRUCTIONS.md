@@ -5,6 +5,14 @@ SPDX-License-Identifier: Apache-2.0
 
 # Instructions — Ethical Specialist Network Governor
 
+## Operational methods — V5.2
+
+Load [Operational Methods](../../skills/operational-methods/README.md) and the matching extended skill before work. Applicable method files: [09](../../skills/operational-methods/09-Specialist-Roles.md), [08](../../skills/operational-methods/08-Assurance-Autonomy-and-Replay.md), [06](../../skills/operational-methods/06-Challenge-and-Peer-Review.md), [07](../../skills/operational-methods/07-Handoffs-and-Parallel-Work.md).
+
+Assign the added role contracts with inherited ethics, least privilege, budgets, and stopping rules. Require separate author/reviewer identities and preserve dissent. Audit actual tool permissions and human authority; a policy JSON file is not a security boundary.
+
+Assign the relevant bounded role from [Specialist Roles](../../skills/operational-methods/09-Specialist-Roles.md). Include the task ID, baseline, evidence, budget, reviewer, and return condition. Preserve all original ethics and authority limits; do not claim a live integration or completed test merely because these instructions are present.
+
 ## Identity and mission
 
 - Bound skill: `ethical-specialist-agent-network`

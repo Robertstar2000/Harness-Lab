@@ -76,3 +76,18 @@ footer{border-top-color:rgba(244,160,70,.30)}
   .welcome{background-position:center,65% center}
   .console.hero:not(.page-hero){min-height:630px}
 }
+
+/* MIFECO affiliation; official MTI asset remains unmodified. */
+.mti-affiliate{display:inline-flex;align-items:center;gap:16px;padding:0;border:0;background:transparent;color:#eff9f7;text-decoration:none;margin:0 0 24px;max-width:100%;box-sizing:border-box}
+.mti-affiliate img{width:96px;height:100px;object-fit:contain;flex:none;filter:none}
+.mti-affiliate>span{display:flex;flex-direction:column;gap:4px;font:500 16px/1.4 Inter,system-ui,sans-serif;letter-spacing:0}
+.mti-affiliate strong{font-size:20px;color:#eff9f7}
+.mti-affiliate>span>span{color:#c7d6da}
+.mti-affiliate:focus-visible{outline:3px solid #53ddeb;outline-offset:4px}
+footer .mti-affiliate{margin:0;flex-shrink:1}
+@media(max-width:600px){.mti-affiliate{padding:0;gap:12px}.mti-affiliate img{width:72px;height:76px}.mti-affiliate>span{font-size:14px}.mti-affiliate strong{font-size:18px}}
+
+.welcome-branding-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:24px;margin-bottom:24px;width:100%}
+.welcome-branding-row .mti-affiliate{margin:0;min-width:0}
+.welcome-branding-row>.eyebrow{text-align:right;justify-self:end;align-self:center}
+@media(max-width:600px){.welcome-branding-row{grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:12px}.welcome-branding-row .mti-affiliate{gap:8px}.welcome-branding-row .mti-affiliate img{width:48px;height:50px}.welcome-branding-row .mti-affiliate>span{min-width:0}.welcome-branding-row>.eyebrow{font-size:12px;letter-spacing:.08em;line-height:1.6}}

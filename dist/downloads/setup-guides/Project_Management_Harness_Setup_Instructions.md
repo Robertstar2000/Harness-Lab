@@ -1,5 +1,19 @@
 # Project Management Harness Setup Instructions
 
+## Required operational methods — V5.2
+
+Download [Operational Methods V5.2](https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/downloads/Mars_Harness_Operational_Methods_V5_2.zip). The combined setup ZIP already includes the same files under `operational-methods/`; complete skill/agent suites include them under `skills/operational-methods/`.
+
+1. Load `README.md`, `CAPABILITY_COVERAGE.json`, and the selected role contract along with the original skill and agent instructions.
+2. Read methods 02 (change impact), 03 (planning documents), 07 (dependencies/handoffs), 08 (policy/replay), and 10 (measurement).
+3. Build outline-controlled planning documents and evidence-linked work packages. Route changed prerequisites to affected owners, respect authorization and resource limits, and measure elapsed time, human effort, review, rework, cost, and quality against a comparable baseline.
+4. Copy and fill the applicable JSON templates. Do not treat example or template records as completed evidence or authority.
+5. With Python 3.10+, run `python -m unittest discover -s tests -v` from the extracted operational-methods directory. Follow its README for individual graph, impact, tree, parts, document, handoff, policy, and hash commands.
+6. Test available tools in your chosen runtime with a harmless local example. Attach only approved project data. Document missing capabilities and preserve human approval gates.
+7. Record actual tool outputs, versions, unresolved findings, and acceptance results before passing a packet to the next harness.
+
+The procedures are included; native SaaS handoffs, production GraphRAG, CAD/EDA, solvers, telemetry, and permission enforcement still require project-specific implementation and tests. This download update does not deploy those services or alter any installed personal skills.
+
 ## Purpose
 
 Set up the Mars Harness Lab project management domain so a team can turn an approved technical baseline into authorized work, schedule, resources, risk control, execution evidence, change control, and closure.
@@ -117,4 +131,3 @@ Use this prompt with the installed PM director:
 ```text
 You are the PM Accelerator Program Director for this project. Use the PM Accelerator Harness, Mission Memory Steward, Ground Truth Gatekeeper, Ethical Specialist Agent Network, and Mars Harness Orchestrator. Start from the approved ControlledTechnicalBaseline/v1. Build the charter, WBS, schedule, resource plan, RAID log, execution tracker, change log, and closure packet. Do not authorize work or close work without independent review and human approval. Return a ProjectExecutionPacket/v1 and keep upstream change requests explicit.
 ```
-

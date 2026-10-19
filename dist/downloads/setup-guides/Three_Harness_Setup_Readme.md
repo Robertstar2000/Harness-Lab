@@ -1,5 +1,19 @@
 # Three Harness Setup Readme
 
+## Required operational methods — V5.2
+
+Download [Operational Methods V5.2](https://mars-harness-lab-v5.tallman-equi-9130.chatgpt.site/downloads/Mars_Harness_Operational_Methods_V5_2.zip). The combined setup ZIP already includes the same files under `operational-methods/`; complete skill/agent suites include them under `skills/operational-methods/`.
+
+1. Load `README.md`, `CAPABILITY_COVERAGE.json`, and the selected role contract along with the original skill and agent instructions.
+2. Read methods 01–10 as applicable to the current domain and task.
+3. Use the same operational-method version and shared baseline across the three domains. Keep independent branches bounded, preserve explicit packets and review separation, and treat unavailable integrations as blocked rather than successful.
+4. Copy and fill the applicable JSON templates. Do not treat example or template records as completed evidence or authority.
+5. With Python 3.10+, run `python -m unittest discover -s tests -v` from the extracted operational-methods directory. Follow its README for individual graph, impact, tree, parts, document, handoff, policy, and hash commands.
+6. Test available tools in your chosen runtime with a harmless local example. Attach only approved project data. Document missing capabilities and preserve human approval gates.
+7. Record actual tool outputs, versions, unresolved findings, and acceptance results before passing a packet to the next harness.
+
+The procedures are included; native SaaS handoffs, production GraphRAG, CAD/EDA, solvers, telemetry, and permission enforcement still require project-specific implementation and tests. This download update does not deploy those services or alter any installed personal skills.
+
 ## Purpose
 
 This package gives a visitor the setup instructions for all three Mars Harness Lab domains:
@@ -38,4 +52,3 @@ Project Management Harness
 ```
 
 Blocked claims, unresolved variables, operational observations, and approved changes can move upstream through typed request packets. No domain should rely on hidden chat state as the source of truth.
-

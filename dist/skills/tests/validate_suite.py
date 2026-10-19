@@ -9,7 +9,7 @@ EXPECTED={
  'mars-harness-orchestrator','hypatia-science-harness','hyperia-research-synthesis',
  'intelligent-engineer-harness','vibe-engineering-collaboration',
  'ground-truth-gatekeeper','pm-accelerator-harness','mission-memory-steward',
- 'ethical-specialist-agent-network'
+ 'ethical-specialist-agent-network','mars-3d-modeling-harness','paired-schematic-parts-harness'
 }
 errors=[]
 found={p.parent.name for p in ROOT.glob('*/SKILL.md')}
@@ -17,8 +17,13 @@ if found != EXPECTED: errors.append(f'skill set mismatch: {sorted(found)}')
 for p in ROOT.glob('*/SKILL.md'):
     text=p.read_text(encoding='utf-8')
     if not text.startswith('---\n'): errors.append(f'{p}: missing frontmatter')
-    for section in ['## Purpose','## Decision loop','## Work-product contract','## Guardrails','## Runtime portability']:
+    sections=['## Purpose','## Work-product contract','## Guardrails','## Operational methods — V5.2']
+    if p.parent.name not in {'mars-3d-modeling-harness','paired-schematic-parts-harness'}:
+        sections += ['## Decision loop','## Runtime portability']
+    for section in sections:
         if section not in text: errors.append(f'{p}: missing {section}')
+    for link in re.findall(r'\]\((\.\./operational-methods/[^)#]+)(?:#[^)]*)?\)',text):
+        if not (p.parent/link).is_file(): errors.append(f'{p}: missing operational method {link}')
     if re.search(r'\b(?:TODO|TBD|FIXME)\b',text,re.I): errors.append(f'{p}: placeholder found')
 phase_minimums={
  'hypatia-science-harness':10,
@@ -56,4 +61,10 @@ if len(engineering.get('specialties',[])) != engineering.get('discipline_agent_c
     errors.append('engineering discipline count does not match specialties')
 if errors:
     print('\n'.join(errors)); sys.exit(1)
-print('PASS: 9 skills, application phases, MOXIE packet, ethical agents, and wiki memory validated')
+coverage=json.loads((ROOT/'operational-methods/CAPABILITY_COVERAGE.json').read_text())
+assert len(coverage['skill_routing']) == 11
+assert len(coverage['added_specialist_roles']) == 10
+for capability in coverage['capabilities']:
+    assert (ROOT/'operational-methods'/capability['method']).is_file()
+    assert capability['owner_skills']
+print('PASS: 11 skills, application phases, MOXIE packet, ethical agents, wiki memory, and operational-method coverage validated')
