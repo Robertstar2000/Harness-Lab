@@ -1,0 +1,21 @@
+name: Sync verified Harness Lab publication
+on:
+  push:
+    branches: [main]
+    paths:
+      - publication-manifest.json
+      - scripts/sync-publication.py
+      - .github/workflows/sync-publication.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: harness-lab-publication-sync
+  cancel-in-progress: false
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Verify and mirror the master publication
+        run: python3 scripts/sync-publication.py
