@@ -1,0 +1,13 @@
+{
+  "schema_version": "RegenerationPlan/v1",
+  "issue_id": "",
+  "prior_baseline_id": "",
+  "branch_id": "",
+  "changed_revision_ids": [],
+  "affected_closure": [],
+  "unaffected_reuse": [],
+  "ordered_tasks": [],
+  "approval_refs": [],
+  "remaining_budget": {},
+  "promotion_state": "blocked"
+}

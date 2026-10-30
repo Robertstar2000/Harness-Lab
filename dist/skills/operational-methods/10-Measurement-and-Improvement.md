@@ -1,5 +1,9 @@
 # Measured process improvement
 
+Capture corrections as reviewed lessons with a root cause, prevention rule and early detection signal. Read relevant lessons when resuming a project, measure rework and quality, and update the smallest affected method through a versioned review. Lessons guide future work without silently changing authority.
+
+Expanded procedure: [14-Task-and-Lesson-Continuity.md](14-Task-and-Lesson-Continuity.md).
+
 SPDX-License-Identifier: Apache-2.0
 
 ## Inputs

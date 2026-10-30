@@ -1,0 +1,34 @@
+{
+  "schema_version": "RunTrace/v1",
+  "run_id": "example-not-executed",
+  "trace_id": "00000000000000000000000000000000",
+  "parent_run_id": null,
+  "host": {
+    "name": "required",
+    "version": "required",
+    "isolation_evidence_ref": null
+  },
+  "policy_ref": "policy.json",
+  "policy_sha256": "required-before-execution",
+  "prompt_refs": [],
+  "model_profile_ref": null,
+  "input_snapshot_sha256": null,
+  "started_utc": null,
+  "ended_utc": null,
+  "termination_reason": "not_started",
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cached_tokens": null,
+    "cost_usd": 0,
+    "single_agent_estimate_usd": null,
+    "cost_ratio": null
+  },
+  "events": [],
+  "compaction": {
+    "previous_summary_ref": null,
+    "recent_tail_ref": null,
+    "pinned_decision_refs": []
+  },
+  "gate_outcomes": []
+}

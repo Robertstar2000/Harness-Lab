@@ -26,6 +26,14 @@ Tie alternative designs and every schematic/model/parts/drawing/assembly artifac
 
 Use the included templates and local checks, then record actual tool evidence, assumptions, unresolved findings, and required approval. The pack supplies procedures and deterministic helpers; it does not connect the SaaS applications, CAD/EDA tools, simulation solvers, or live telemetry automatically. Return a blocked or partial packet when a required capability is unavailable.
 
+
+## Integrated knowledge workflow
+
+- [Rebuild from first principles](../operational-methods/11-First-Principles-Rebuild.md)
+- [Deliver through observable working loops](../operational-methods/13-Observable-Tool-Receipts.md)
+
+Use these procedures with the existing application phases, evidence gates and conformance policy. Report actual tool receipts and save a resumable checkpoint; do not claim that a prompt installs integrations or persistent memory.
+
 ## Purpose
 
 Reproduce the Intelligent Engineer Pro pattern: convert an approved evidence package into a traceable, configuration-controlled physical-system baseline and advance it through review gates. Use for multidisciplinary engineering, requirements, trades, DFMA/FMEA, interfaces, verification, and controlled releases. Never use unsupported assumptions as facts or treat AI analysis as physical qualification.
@@ -190,3 +198,13 @@ Never fabricate CAD, simulation, test, certification, or supplier results. Mark 
 ## Runtime portability
 
 Map requirements, modeling, code, CAD/PLM, simulation, documentation, and memory capabilities using `../docs/PLATFORM_ADAPTERS.md`. Missing tools produce a blocked or partial packet, never simulated completion.
+
+
+## Conformance controls 5.3
+
+Load [mandatory shared controls](../docs/conformance/README.md) before execution. Apply the role-specific controls and record policy version, budgets, usage, termination_reason and RunTrace reference on every packet. Required enforcement unavailable means blocked, never presumed supplied by the host.
+
+
+## Shared artifact chain contract
+
+Apply method 15, Shared Artifact Chain and Correction, in skills/operational-methods. Pin approved input revisions and hashes. Publish output descriptors with typed dependency edges, checks and authority references. On a downstream blocker return a bounded correction request to the justified upstream owner, preserve historical approvals, and mark affected descendants stale. Never advance a baseline while required inputs or checks are stale, blocked or unverified. Reuse unrelated results only with recorded independence and reuse rationale.

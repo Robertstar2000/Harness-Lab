@@ -1,0 +1,18 @@
+{
+  "schema_version": "FirstPrinciplesStudy/v1",
+  "status": "template_not_executed",
+  "problem": "",
+  "goal": "",
+  "current_baseline": {},
+  "constraints": [],
+  "assumptions": [],
+  "lower_bounds": [],
+  "cost_gaps": [],
+  "options": {
+    "bold": {},
+    "conservative": {}
+  },
+  "stress_tests": [],
+  "verdict": null,
+  "thirty_day_plan": []
+}

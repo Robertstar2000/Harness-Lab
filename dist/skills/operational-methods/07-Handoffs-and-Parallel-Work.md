@@ -1,5 +1,9 @@
 # Harness chaining, structured handoffs, and parallel work
 
+Each handoff carries a task contract, bounded context pack, tool receipts and a checkpoint. Choose one checkable next step; use independent workers only when permitted and justified. Verify returned artifacts rather than equating tool completion with mission success.
+
+Expanded procedure: [13-Observable-Tool-Receipts.md](13-Observable-Tool-Receipts.md).
+
 SPDX-License-Identifier: Apache-2.0
 
 ## Inputs
@@ -27,3 +31,8 @@ A native application adapter additionally needs authenticated producer/consumer 
 ## Outputs and stops
 
 Return a dependency plan, spawn records, branch results, approved or blocked packets, impact/rework list, and closure record. Stop promotion for missing approval, self-approved consequential work, invalid packet, unresolved blocker, stale configuration, exceeded budget, or missing required tool. Never fabricate an execution record to complete a chain.
+
+
+## Shared artifact chain and backward correction
+
+Read skills/operational-methods/15-Shared-Artifact-Chain-and-Correction.md (method 15 in the methods folder). Each harness consumes exact approved revisions, publishes a transactional output manifest, and routes blockers through CorrectionRequest/v1. Preserve the previous baseline, mark dependent artifacts stale, independently review upstream revisions and regenerate the minimal affected closure before promotion. The workflow revisits stages while each pinned revision graph remains acyclic.

@@ -1,3 +1,5 @@
+> Historical transcript. Use [current presentation transcripts](23_Updated_Presentation_Transcripts.md) for the 29 October 2026 decks.
+
 <!--
 Copyright 2026 Mars Harness Lab contributors
 SPDX-License-Identifier: Apache-2.0

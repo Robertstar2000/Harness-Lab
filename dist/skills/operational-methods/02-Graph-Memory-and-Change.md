@@ -1,5 +1,9 @@
 # Graph-linked memory, retrieval, and change propagation
 
+Mission memory separates protected raw evidence, curated linked wiki pages, versioned outputs, working context and approved identity/preferences. Read the catalogue first, retrieve only relevant pages and preserve source-backed relationships, contradiction records and supersession. Raw inputs are not automatically ground truth.
+
+Expanded procedure: [12-Layered-Wiki-Memory.md](12-Layered-Wiki-Memory.md).
+
 SPDX-License-Identifier: Apache-2.0
 
 ## Inputs
@@ -31,3 +35,8 @@ For a real GraphRAG adapter, add source ingestion, entity/relationship review, i
 ## Outputs and gate
 
 Return a context manifest, affected-node list, proposed revalidation plan, append-only change record, and approval decision. Reject orphan references, unauthorized context, silent overwrites, or an assertion that dependency detection itself fixed downstream work.
+
+
+## Shared artifact chain and backward correction
+
+Read skills/operational-methods/15-Shared-Artifact-Chain-and-Correction.md (method 15 in the methods folder). Each harness consumes exact approved revisions, publishes a transactional output manifest, and routes blockers through CorrectionRequest/v1. Preserve the previous baseline, mark dependent artifacts stale, independently review upstream revisions and regenerate the minimal affected closure before promotion. The workflow revisits stages while each pinned revision graph remains acyclic.

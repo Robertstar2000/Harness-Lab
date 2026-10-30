@@ -4,7 +4,7 @@
   "title": "Mars Harness Lab Version 5 Project Memory",
   "description": "Starter knowledge graph and wiki-style memory for the Intelligence Layer for Mars presentation, application-derived skills, documentation, and scaled MOXIE case study.",
   "created_utc": "2026-09-08T00:00:00Z",
-  "updated_utc": "2026-10-01T02:00:00Z",
+  "updated_utc": "2026-10-29",
   "governance": {
     "owner": "Bob J Mills",
     "write_policy": "append_version_then_supersede",
@@ -25,7 +25,8 @@
       "blocked",
       "superseded",
       "retired"
-    ]
+    ],
+    "trace_ingest": "Redact secrets and scan injection before persistence; quarantine unsafe records; preserve rule IDs and evidence references."
   },
   "namespaces": [
     {
@@ -70,7 +71,7 @@
     {
       "id": "project:presentation-v5",
       "type": "presentation",
-      "title": "Mars Society 2026 — The Intelligence Layer for Mars — Version 5",
+      "title": "Mars Society 2026 \u2014 The Intelligence Layer for Mars \u2014 Version 5",
       "summary": "Twenty-three-slide presentation with aligned speaker notes, a scaled MOXIE case study, the research-engineering feedback loop, and conclusions for science, engineering, and project management.",
       "status": "approved",
       "attributes": {
@@ -137,7 +138,7 @@
     {
       "id": "project:research-engineering-loop",
       "type": "process",
-      "title": "Research → Engineer → Research Issues → Engineer to Completion",
+      "title": "Research \u2192 Engineer \u2192 Research Issues \u2192 Engineer to Completion",
       "summary": "Iterative digital thread that sends precise design blockers back to science and uses approved evidence to update linked engineering and program baselines.",
       "status": "approved"
     },
@@ -695,6 +696,196 @@
       "human_approval_id": "",
       "reviewer": "",
       "disposition": "pass|conditional|block"
+    },
+    "run_trace_v1": {
+      "schema_version": "RunTrace/v1",
+      "run_id": "example-not-executed",
+      "trace_id": "00000000000000000000000000000000",
+      "parent_run_id": null,
+      "host": {
+        "name": "required",
+        "version": "required",
+        "isolation_evidence_ref": null
+      },
+      "policy_ref": "policy.json",
+      "policy_sha256": "required-before-execution",
+      "prompt_refs": [],
+      "model_profile_ref": null,
+      "input_snapshot_sha256": null,
+      "started_utc": null,
+      "ended_utc": null,
+      "termination_reason": "not_started",
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": null,
+        "cost_usd": 0,
+        "single_agent_estimate_usd": null,
+        "cost_ratio": null
+      },
+      "events": [],
+      "compaction": {
+        "previous_summary_ref": null,
+        "recent_tail_ref": null,
+        "pinned_decision_refs": []
+      },
+      "gate_outcomes": []
+    },
+    "runtime_control_envelope": {
+      "policy_ref": "skills/docs/conformance/policy.json",
+      "run_trace_ref": null,
+      "termination_reason": null,
+      "limits": {
+        "schema_version": "mars-policy/1",
+        "version": "5.3",
+        "default": "deny",
+        "mode": "read_only",
+        "max_turns": 30,
+        "max_tokens": 100000,
+        "max_cost_usd": 5.0,
+        "wall_seconds": 900,
+        "max_format_errors": 3,
+        "max_depth": 3,
+        "max_workers": 3,
+        "max_observation_bytes": 16384,
+        "allow_tools": [],
+        "deny_tools": [],
+        "network": "deny",
+        "generated_code": "requires_os_isolation",
+        "bypass": false,
+        "rule_id": "MARS-DEFAULT-DENY-1"
+      },
+      "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "cached_tokens": null,
+        "cost_usd": 0,
+        "single_agent_estimate_usd": null,
+        "cost_ratio": null
+      }
+    },
+    "FirstPrinciplesStudy/v1": {
+      "schema_version": "FirstPrinciplesStudy/v1",
+      "status": "template_not_executed",
+      "problem": "",
+      "goal": "",
+      "current_baseline": {},
+      "constraints": [],
+      "assumptions": [],
+      "lower_bounds": [],
+      "cost_gaps": [],
+      "options": {
+        "bold": {},
+        "conservative": {}
+      },
+      "stress_tests": [],
+      "verdict": null,
+      "thirty_day_plan": []
+    },
+    "KnowledgePage/v1": {
+      "schema_version": "KnowledgePage/v1",
+      "id": "",
+      "title": "",
+      "one_line_summary": "",
+      "page_type": "concept",
+      "source_ids": [],
+      "evidence_class": "Unknown",
+      "related_ids": [],
+      "contradiction_ids": [],
+      "supersedes": null,
+      "owner": "",
+      "review_due": null,
+      "status": "draft"
+    },
+    "ToolReceipt/v1": {
+      "schema_version": "ToolReceipt/v1",
+      "id": "",
+      "run_trace_ref": "",
+      "call_id": "",
+      "input_refs": [],
+      "expected_result": "",
+      "tool_status": "not_run",
+      "output_paths": [],
+      "observations": [],
+      "error": null,
+      "acceptance_checks": [],
+      "policy_rule_ids": [],
+      "usage": {},
+      "timestamp": null
+    },
+    "AcceptanceCheck/v1": {
+      "schema_version": "AcceptanceCheck/v1",
+      "id": "",
+      "criterion": "",
+      "status": "UNVERIFIED",
+      "evidence_refs": [],
+      "reason": "Not executed",
+      "reviewer": null
+    },
+    "WorkCheckpoint/v1": {
+      "schema_version": "WorkCheckpoint/v1",
+      "task_ref": "tasks/todo.md",
+      "completed": [],
+      "next_action": "",
+      "open_questions": [],
+      "artifact_refs": [],
+      "receipt_refs": [],
+      "remaining_budget": {},
+      "policy_ref": "",
+      "updated_utc": null
+    },
+    "ArtifactDescriptor/v1": {
+      "schema_version": "ArtifactDescriptor/v1",
+      "logical_id": "",
+      "revision_id": "",
+      "content_uri": "",
+      "sha256": "",
+      "media_type": "",
+      "producer_harness": "",
+      "run_trace_ref": "",
+      "baseline_id": "",
+      "input_revisions": [],
+      "evidence_class": "Unknown",
+      "validation_state": "draft",
+      "approval_refs": [],
+      "assumptions": [],
+      "owner": "",
+      "supersedes": null
+    },
+    "CorrectionRequest/v1": {
+      "schema_version": "CorrectionRequest/v1",
+      "id": "",
+      "detector_run_ref": "",
+      "baseline_id": "",
+      "affected_revision_ids": [],
+      "symptom": "",
+      "reproduction_steps": [],
+      "expected_result": "",
+      "failing_criterion": "",
+      "evidence_refs": [],
+      "severity": "untriaged",
+      "root_cause_hypothesis": null,
+      "requested_owner": "",
+      "requested_deliverable": "",
+      "acceptance_checks": [],
+      "downstream_consequence": "",
+      "permission_scope": [],
+      "budget": {},
+      "reviewer_ref": null,
+      "status": "draft"
+    },
+    "RegenerationPlan/v1": {
+      "schema_version": "RegenerationPlan/v1",
+      "issue_id": "",
+      "prior_baseline_id": "",
+      "branch_id": "",
+      "changed_revision_ids": [],
+      "affected_closure": [],
+      "unaffected_reuse": [],
+      "ordered_tasks": [],
+      "approval_refs": [],
+      "remaining_budget": {},
+      "promotion_state": "blocked"
     }
   },
   "license": {
@@ -716,5 +907,32 @@
   "review_rounds": [],
   "execution_manifests": [],
   "performance_observations": [],
-  "capability_registry": []
+  "capability_registry": [],
+  "knowledge_layout": {
+    "version": "1.0",
+    "layers": {
+      "raw": "protected source snapshots",
+      "wiki": "curated linked knowledge",
+      "output": "versioned deliverables",
+      "ctx": "checkpoints and receipts",
+      "mem": "approved private preferences"
+    },
+    "index_first": true,
+    "append_only_log": "wiki/log.md",
+    "review_checks": [
+      "contradictions",
+      "stale_claims",
+      "missing_links",
+      "orphan_pages"
+    ],
+    "semantic_review": "human or independent reviewer required"
+  },
+  "artifact_chain": {
+    "version": "1.0",
+    "artifact_descriptors": [],
+    "correction_requests": [],
+    "regeneration_plans": [],
+    "current_baseline": null,
+    "principle": "Immutable revisions, typed dependencies and independent promotion"
+  }
 }

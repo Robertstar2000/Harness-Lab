@@ -1,5 +1,9 @@
 # Runtime assurance, risk-based autonomy, and reproducible execution
 
+Acceptance is observable: PASS requires evidence, FAIL records a contradicted criterion, BLOCKED names a preventing dependency and UNVERIFIED marks insufficient evidence. Persist receipts and checkpoints before repair; retries share the original time, token and cost caps.
+
+Expanded procedure: [13-Observable-Tool-Receipts.md](13-Observable-Tool-Receipts.md).
+
 SPDX-License-Identifier: Apache-2.0
 
 ## Inputs

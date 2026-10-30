@@ -1,0 +1,20 @@
+{
+  "schema_version": "mars-policy/1",
+  "version": "5.3",
+  "default": "deny",
+  "mode": "read_only",
+  "max_turns": 30,
+  "max_tokens": 100000,
+  "max_cost_usd": 5.0,
+  "wall_seconds": 900,
+  "max_format_errors": 3,
+  "max_depth": 3,
+  "max_workers": 3,
+  "max_observation_bytes": 16384,
+  "allow_tools": [],
+  "deny_tools": [],
+  "network": "deny",
+  "generated_code": "requires_os_isolation",
+  "bypass": false,
+  "rule_id": "MARS-DEFAULT-DENY-1"
+}

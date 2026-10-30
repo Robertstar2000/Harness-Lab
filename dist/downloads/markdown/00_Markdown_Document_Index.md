@@ -35,3 +35,9 @@ All files are separate, non-zipped Markdown documents.
 ## Corrected knowledge spine
 
 Mission learning rate → durable harness architecture → evidence control → engineering baseline → completion loop → verification and memory → modeled MOXIE scenario → science → engineering → project execution → integrated result → disciplinary conclusions → portable skills → adoption and closing.
+
+- [Knowledge and Workflow Integration](22_Knowledge_Workflows_Integration.md)
+
+- [Updated presentation transcripts and notes](23_Updated_Presentation_Transcripts.md)
+
+- [Shared artifact chain and correction](24_Shared_Artifact_Chain_and_Correction.md)

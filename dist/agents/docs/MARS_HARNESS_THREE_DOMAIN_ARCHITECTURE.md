@@ -225,3 +225,13 @@ Promotion statuses are `approved`, `conditional`, or `blocked`. “Mostly comple
 ## 9. Deployment principle
 
 The LLM may propose, synthesize, calculate, code, and coordinate. It does not gain the authority to declare scientific truth, technical qualification, project acceptance, or human risk tolerance. The harness makes that boundary executable.
+
+
+## Conformance addendum 5.3 — 29 October 2026
+
+The shared skills/docs/conformance package is normative for new runs. It defines all 97 requirement dispositions, policy, model-interface seam, hook vocabulary, isolation boundary, metering, replay, compaction, trust/import and host acceptance. Existing architecture and app features remain distinct from these new design contracts. ACP, A2A, MDM and live cross-app API are explicitly deferred. Host capabilities require evidence; no new runtime conformance grade is asserted.
+
+
+## Shared artifact chain and backward correction
+
+Read skills/operational-methods/15-Shared-Artifact-Chain-and-Correction.md (method 15 in the methods folder). Each harness consumes exact approved revisions, publishes a transactional output manifest, and routes blockers through CorrectionRequest/v1. Preserve the previous baseline, mark dependent artifacts stale, independently review upstream revisions and regenerate the minimal affected closure before promotion. The workflow revisits stages while each pinned revision graph remains acyclic.

@@ -1,9 +1,9 @@
 {
   "filename": "Mars_Harness_Lab_V5_Standalone.html",
-  "bytes": 92784015,
-  "sha256": "e901ca2be19eda2cfa1d53e193dc11e42c8d95794d1e03f0b8479e6c71df1ba4",
-  "files": 200,
-  "downloads": 94,
+  "bytes": 138627984,
+  "sha256": "f16f8f8740dbe36a59ef227f619009f727787685809d381944830b9cfcdc6576",
+  "files": 254,
+  "downloads": 101,
   "parts": [
     {
       "url": "offline/part-000.bin",
@@ -51,7 +51,27 @@
     },
     {
       "url": "offline/part-011.bin",
-      "size": 509327
+      "size": 8388608
+    },
+    {
+      "url": "offline/part-012.bin",
+      "size": 8388608
+    },
+    {
+      "url": "offline/part-013.bin",
+      "size": 8388608
+    },
+    {
+      "url": "offline/part-014.bin",
+      "size": 8388608
+    },
+    {
+      "url": "offline/part-015.bin",
+      "size": 8388608
+    },
+    {
+      "url": "offline/part-016.bin",
+      "size": 4410256
     }
   ]
 }

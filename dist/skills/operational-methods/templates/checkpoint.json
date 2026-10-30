@@ -1,0 +1,12 @@
+{
+  "schema_version": "WorkCheckpoint/v1",
+  "task_ref": "tasks/todo.md",
+  "completed": [],
+  "next_action": "",
+  "open_questions": [],
+  "artifact_refs": [],
+  "receipt_refs": [],
+  "remaining_budget": {},
+  "policy_ref": "",
+  "updated_utc": null
+}

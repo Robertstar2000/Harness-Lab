@@ -12,3 +12,8 @@ Read the method linked by each skill before execution. The methods cover bounded
 Recommended sequence: `mars-harness-orchestrator` → `ethical-specialist-agent-network` → appropriate specialist skill(s) → `ground-truth-gatekeeper` → `pm-accelerator-harness` → `mission-memory-steward`.
 
 Each skill is a procedure, not a claim of native platform equivalence. Install or adapt the folder according to the target runtime, map tools explicitly, and preserve approval boundaries.
+
+
+## Conformance addendum 5.3 — 29 October 2026
+
+The shared skills/docs/conformance package is normative for new runs. It defines all 97 requirement dispositions, policy, model-interface seam, hook vocabulary, isolation boundary, metering, replay, compaction, trust/import and host acceptance. Existing architecture and app features remain distinct from these new design contracts. ACP, A2A, MDM and live cross-app API are explicitly deferred. Host capabilities require evidence; no new runtime conformance grade is asserted.

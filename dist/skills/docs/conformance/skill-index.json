@@ -1,0 +1,116 @@
+{
+  "version": "5.3",
+  "date": "2026-10-29",
+  "skills": [
+    {
+      "name": "ethical-specialist-agent-network",
+      "path": "skills/ethical-specialist-agent-network/SKILL.md",
+      "sha256": "9c74199e4b51c25159d537e611b75832cc25bf9909ab2237fd1442a784a381b8",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    },
+    {
+      "name": "ground-truth-gatekeeper",
+      "path": "skills/ground-truth-gatekeeper/SKILL.md",
+      "sha256": "2fafda452e4bc826b9fb514998ef6c7919745cf1f2db2a240918ed8c3105f8ef",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    },
+    {
+      "name": "hypatia-science-harness",
+      "path": "skills/hypatia-science-harness/SKILL.md",
+      "sha256": "66723f7c3937424dcfb3bcfcbde7538ceac02e471e531d4747d3a8b96b75647d",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    },
+    {
+      "name": "hyperia-research-synthesis",
+      "path": "skills/hyperia-research-synthesis/SKILL.md",
+      "sha256": "2f744781ddd54114788387f3a045f02270c099907a6dea455bf60ababa2678e0",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    },
+    {
+      "name": "intelligent-engineer-harness",
+      "path": "skills/intelligent-engineer-harness/SKILL.md",
+      "sha256": "96844f71df76092e549ef509a2d554a3734676c6a757e579e52c83bc434e29b0",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    },
+    {
+      "name": "mars-3d-modeling-harness",
+      "path": "skills/mars-3d-modeling-harness/SKILL.md",
+      "sha256": "2826a615d491cfb57d18af05de2c00e309003e9837f2771a60221753c365420b",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    },
+    {
+      "name": "mars-harness-orchestrator",
+      "path": "skills/mars-harness-orchestrator/SKILL.md",
+      "sha256": "c16599df0118c242739d68bf940b90fe76ab87a78d7387e811b63d881e129904",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    },
+    {
+      "name": "mission-memory-steward",
+      "path": "skills/mission-memory-steward/SKILL.md",
+      "sha256": "67fa7eb99838d83a1c3b72d8d185be9b614701b49188cda095b5121849fc875e",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    },
+    {
+      "name": "paired-schematic-parts-harness",
+      "path": "skills/paired-schematic-parts-harness/SKILL.md",
+      "sha256": "89763586522c78e1436715d9fd1835e5cb7270097925ac74cacc79518fa16a76",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    },
+    {
+      "name": "pm-accelerator-harness",
+      "path": "skills/pm-accelerator-harness/SKILL.md",
+      "sha256": "e75ecc0eb51a7c508ce8d9a8a0393269db6095c7656eb165f4160924e56dfc1c",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    },
+    {
+      "name": "vibe-engineering-collaboration",
+      "path": "skills/vibe-engineering-collaboration/SKILL.md",
+      "sha256": "08f973a72f13f39dbfb64a8b9abad1fcf8538c95ad36787790bdb9f1baf7a37c",
+      "license": "Apache-2.0",
+      "provenance": "Mars Harness Lab controlled Site source",
+      "trust_tier": "first_party_review_required",
+      "dependencies": "Host capabilities listed in skill and PLATFORM_ADAPTERS.md; installation must inventory actual tools/MCP endpoints",
+      "runtime_validation": "not certified"
+    }
+  ]
+}

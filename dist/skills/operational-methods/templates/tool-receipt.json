@@ -1,0 +1,16 @@
+{
+  "schema_version": "ToolReceipt/v1",
+  "id": "",
+  "run_trace_ref": "",
+  "call_id": "",
+  "input_refs": [],
+  "expected_result": "",
+  "tool_status": "not_run",
+  "output_paths": [],
+  "observations": [],
+  "error": null,
+  "acceptance_checks": [],
+  "policy_rule_ids": [],
+  "usage": {},
+  "timestamp": null
+}

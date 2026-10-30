@@ -28,14 +28,30 @@ This pack turns the lab's differentiators into procedures, role assignments, tem
 | [09 — Specialist roles](09-Specialist-Roles.md) | Select bounded roles and prevent self-approval | Network Governor |
 | [10 — Measurement and improvement](10-Measurement-and-Improvement.md) | Measure quality, cycle time, effort, and rework | PM director |
 
+## Additional integrated methods
+
+- [Rebuild from first principles](11-First-Principles-Rebuild.md)
+- [Build a governed second brain](12-Layered-Wiki-Memory.md)
+- [Deliver through observable working loops](13-Observable-Tool-Receipts.md)
+- [Plan, verify and learn without adding needless work](14-Task-and-Lesson-Continuity.md)
+
+These procedures extend the existing ten methods. They do not change the 46-capability inventory or claim additional deployed services.
+
 ## What runs, and what still needs integration
 
 `tools/harness_checks.py` provides local graph retrieval, downstream impact traversal, candidate ranking, paired-parts reconciliation, document-contract checks, declared-policy checks, handoff checks, and file-hash verification. These are deterministic checks of supplied records. Candidate ranking does not call an LLM or generate a reasoning tree. Graph traversal is not a deployed GraphRAG service. A JSON gate check does not authenticate reviewers, verify physical facts, or enforce operating-system permissions.
 
-The ten methods are agent-executable procedures. Real CAD/EDA validation, scientific simulation, fabrication, live digital twins, model routing, secure runtime enforcement, and authenticated cross-application handoffs require their actual tools and project-specific tests. Never substitute a mock result for an unavailable capability. See `CAPABILITY_COVERAGE.json` for precise readiness and ownership.
+The fifteen methods are agent-executable procedures. Real CAD/EDA validation, scientific simulation, fabrication, live digital twins, model routing, secure runtime enforcement, and authenticated cross-application handoffs require their actual tools and project-specific tests. Never substitute a mock result for an unavailable capability. See `CAPABILITY_COVERAGE.json` for precise readiness and ownership.
 
 The tests use synthetic fixtures. They validate utility behavior, not a Mars design, flight readiness, a performance claim, or the three SaaS applications. Physical, regulated, production, financial, publication, and hazardous actions still require explicit human authority.
 
 ## Packaging and licensing
 
 Keep this directory together. Individual skill ZIPs include it as a sibling of the skill folder. Complete suites place it under `skills/operational-methods/`. Agent and setup packages include it too. Open the method from your extracted package; do not rely on hidden chat memory. The complete Apache 2.0 license and NOTICE accompany the ZIPs. Third-party tools and sources retain their own licenses.
+
+
+## Shared artifact chain and backward correction
+
+Read skills/operational-methods/15-Shared-Artifact-Chain-and-Correction.md (method 15 in the methods folder). Each harness consumes exact approved revisions, publishes a transactional output manifest, and routes blockers through CorrectionRequest/v1. Preserve the previous baseline, mark dependent artifacts stale, independently review upstream revisions and regenerate the minimal affected closure before promotion. The workflow revisits stages while each pinned revision graph remains acyclic.
+
+- [Shared artifact chain and correction](15-Shared-Artifact-Chain-and-Correction.md)

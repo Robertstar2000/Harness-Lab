@@ -1,0 +1,22 @@
+{
+  "schema_version": "CorrectionRequest/v1",
+  "id": "",
+  "detector_run_ref": "",
+  "baseline_id": "",
+  "affected_revision_ids": [],
+  "symptom": "",
+  "reproduction_steps": [],
+  "expected_result": "",
+  "failing_criterion": "",
+  "evidence_refs": [],
+  "severity": "untriaged",
+  "root_cause_hypothesis": null,
+  "requested_owner": "",
+  "requested_deliverable": "",
+  "acceptance_checks": [],
+  "downstream_consequence": "",
+  "permission_scope": [],
+  "budget": {},
+  "reviewer_ref": null,
+  "status": "draft"
+}

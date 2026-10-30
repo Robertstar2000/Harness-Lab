@@ -54,3 +54,18 @@ Stop for missing decision ownership, inaccessible primary evidence, unverified d
 ## Output
 
 Return a science brief and machine-readable packet containing the research charter, claims, evidence ledger, hypotheses, methods, data manifest, results, uncertainty, assumptions, unknowns, reproducibility record, peer review, approvals, open research, next action, and memory write.
+
+
+## Conformance controls 5.3
+
+Load [mandatory shared controls](../../skills/docs/conformance/README.md) before execution. Apply the role-specific controls and record policy version, budgets, usage, termination_reason and RunTrace reference on every packet. Required enforcement unavailable means blocked, never presumed supplied by the host.
+
+
+## Evidence, memory and continuity
+
+Apply the shared first-principles, layered wiki, observable receipt and task/lesson procedures in skills/operational-methods/11 through 14. Start from the active task and relevant approved lessons. Keep raw sources separate from validated claims, verify acceptance evidence and preserve the checkpoint before repair. Delegation and permissions remain bounded by the existing contract.
+
+
+## Shared artifact chain contract
+
+Apply method 15, Shared Artifact Chain and Correction, in skills/operational-methods. Pin approved input revisions and hashes. Publish output descriptors with typed dependency edges, checks and authority references. On a downstream blocker return a bounded correction request to the justified upstream owner, preserve historical approvals, and mark affected descendants stale. Never advance a baseline while required inputs or checks are stale, blocked or unverified. Reuse unrelated results only with recorded independence and reuse rationale.

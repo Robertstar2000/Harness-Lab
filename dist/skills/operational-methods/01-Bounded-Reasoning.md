@@ -1,5 +1,9 @@
 # Bounded reasoning: Tree of Thoughts, hypotheses, and design trades
 
+Start with governing constraints, not the familiar solution. Separate measured facts from assumptions, derive source-backed bounds and compare a bold redesign with a conservative option before ranking candidate branches. A low-cost score does not compensate for an unmet safety or evidence gate.
+
+Expanded procedure: [11-First-Principles-Rebuild.md](11-First-Principles-Rebuild.md).
+
 SPDX-License-Identifier: Apache-2.0
 
 ## Trigger and inputs
